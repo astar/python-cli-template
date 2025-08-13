@@ -57,7 +57,7 @@ your-project/
    # Download and install the script
    curl -o ~/.local/bin/new-python-cli https://raw.githubusercontent.com/astar/python-cli-template/main/scripts/new-python-cli
    chmod +x ~/.local/bin/new-python-cli
-   
+
    # Make sure ~/.local/bin is in your PATH
    export PATH="$HOME/.local/bin:$PATH"
    ```
@@ -66,7 +66,7 @@ your-project/
    ```bash
    # Create private repository (default)
    new-python-cli my-awesome-cli
-   
+
    # Create public repository
    new-python-cli my-public-tool --public
    ```
@@ -112,10 +112,10 @@ make setup
    ```bash
    # Install UV (if not already installed)
    curl -LsSf https://astral.sh/uv/install.sh | sh
-   
+
    # Install dependencies and set up pre-commit hooks
    make setup
-   
+
    # Run all quality checks
    make check
    ```

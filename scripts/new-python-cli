@@ -49,25 +49,25 @@ print_error() {
 
 validate_project_name() {
     local name="$1"
-    
+
     # Check if name is empty
     if [[ -z "$name" ]]; then
         print_error "Project name cannot be empty"
         return 1
     fi
-    
+
     # Check if name contains only valid characters (lowercase letters, numbers, hyphens)
     if [[ ! "$name" =~ ^[a-z0-9-]+$ ]]; then
         print_error "Project name can only contain lowercase letters, numbers, and hyphens"
         return 1
     fi
-    
+
     # Check if name starts/ends with hyphen
     if [[ "$name" =~ ^- ]] || [[ "$name" =~ -$ ]]; then
         print_error "Project name cannot start or end with a hyphen"
         return 1
     fi
-    
+
     return 0
 }
 
@@ -78,14 +78,14 @@ check_requirements() {
         echo "Install it with: brew install gh"
         exit 1
     fi
-    
+
     # Check if gh is authenticated
     if ! gh auth status &> /dev/null; then
         print_error "GitHub CLI is not authenticated"
         echo "Run: gh auth login"
         exit 1
     fi
-    
+
     # Check if uv is installed
     if ! command -v uv &> /dev/null; then
         print_warning "UV is not installed. Install it with: curl -LsSf https://astral.sh/uv/install.sh | sh"
@@ -96,7 +96,7 @@ check_requirements() {
 main() {
     local project_name=""
     local visibility="--private"
-    
+
     # Parse arguments
     while [[ $# -gt 0 ]]; do
         case $1 in
@@ -125,39 +125,39 @@ main() {
                 ;;
         esac
     done
-    
+
     # Check if project name is provided
     if [[ -z "$project_name" ]]; then
         print_error "Project name is required"
         print_usage
         exit 1
     fi
-    
+
     # Validate project name
     if ! validate_project_name "$project_name"; then
         exit 1
     fi
-    
+
     # Check requirements
     check_requirements
-    
+
     # Create project directory if it doesn't exist
     if [[ ! -d "$DEFAULT_PROJECT_DIR" ]]; then
         print_step "Creating project directory: $DEFAULT_PROJECT_DIR"
         mkdir -p "$DEFAULT_PROJECT_DIR"
     fi
-    
+
     # Change to project directory
     cd "$DEFAULT_PROJECT_DIR"
-    
+
     # Check if project already exists
     if [[ -d "$project_name" ]]; then
         print_error "Directory $DEFAULT_PROJECT_DIR/$project_name already exists"
         exit 1
     fi
-    
+
     print_step "Creating new Python CLI project: $project_name"
-    
+
     # Create repository from template
     if gh repo create "$project_name" --template "$TEMPLATE_REPO" "$visibility" --clone; then
         print_success "Repository created successfully"
@@ -165,12 +165,12 @@ main() {
         print_error "Failed to create repository"
         exit 1
     fi
-    
+
     # Change to project directory
     cd "$project_name"
-    
+
     print_step "Customizing project template..."
-    
+
     # Run the customization script
     if [[ -f "scripts/customize-template" ]]; then
         if bash scripts/customize-template "$project_name"; then
@@ -182,9 +182,9 @@ main() {
     else
         print_warning "Customization script not found, manual setup required"
     fi
-    
+
     print_step "Setting up development environment..."
-    
+
     # Initialize UV and install dependencies if uv is available
     if command -v uv &> /dev/null; then
         if make setup; then
@@ -195,7 +195,7 @@ main() {
     else
         print_warning "UV not available, skipping automatic setup"
     fi
-    
+
     echo ""
     print_success "Project created successfully!"
     echo ""

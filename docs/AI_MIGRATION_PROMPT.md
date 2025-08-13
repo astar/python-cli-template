@@ -193,7 +193,7 @@ I need help modernizing my Python project. Here's the template I want to use:
 After migration, verify:
 
 - [ ] `make check` passes without errors
-- [ ] `uv build` creates package successfully  
+- [ ] `uv build` creates package successfully
 - [ ] All existing functionality still works
 - [ ] Tests pass with good coverage
 - [ ] CI/CD pipeline is green

@@ -121,7 +121,7 @@ console.print("Hello", style="bold red")
 class Settings(BaseSettings):
     api_key: str | None = None
     debug: bool = False
-    
+
     model_config = SettingsConfigDict(
         env_prefix="MYAPP_",
         env_file=".env"
@@ -412,10 +412,10 @@ class TestProcessingRequest:
         """Test creating valid request."""
         # Arrange
         request_data = {...}
-        
+
         # Act
         request = ProcessingRequest(**request_data)
-        
+
         # Assert
         assert request.is_valid
 ```
