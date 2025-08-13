@@ -1,0 +1,237 @@
+#!/bin/bash
+
+# customize-template - Customize the Python CLI template with project name
+# Usage: customize-template <project-name>
+
+set -e
+
+# Colors for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+NC='\033[0m' # No Color
+
+# Functions
+print_step() {
+    echo -e "${BLUE}==>${NC} $1"
+}
+
+print_success() {
+    echo -e "${GREEN}✓${NC} $1"
+}
+
+print_error() {
+    echo -e "${RED}✗${NC} $1" >&2
+}
+
+# Validate project name
+validate_project_name() {
+    local name="$1"
+    
+    if [[ -z "$name" ]]; then
+        print_error "Project name cannot be empty"
+        return 1
+    fi
+    
+    if [[ ! "$name" =~ ^[a-z0-9-]+$ ]]; then
+        print_error "Project name can only contain lowercase letters, numbers, and hyphens"
+        return 1
+    fi
+    
+    return 0
+}
+
+# Convert project name to package name (replace hyphens with underscores)
+to_package_name() {
+    echo "$1" | tr '-' '_'
+}
+
+# Convert package name to class name (PascalCase)
+to_class_name() {
+    local package_name="$1"
+    echo "$package_name" | sed 's/_\([a-z]\)/\U\1/g' | sed 's/^\([a-z]\)/\U\1/'
+}
+
+# Main customization function
+customize_template() {
+    local project_name="$1"
+    local package_name
+    local class_name
+    local current_user
+    
+    package_name=$(to_package_name "$project_name")
+    class_name=$(to_class_name "$package_name")
+    
+    # Get current git user for author info
+    current_user=$(git config user.name 2>/dev/null || echo "Your Name")
+    current_email=$(git config user.email 2>/dev/null || echo "your.email@company.com")
+    
+    print_step "Customizing template for project: $project_name"
+    print_step "Package name: $package_name"
+    print_step "Class name: $class_name"
+    
+    # 1. Rename the package directory
+    if [[ -d "src/your_package" ]]; then
+        print_step "Renaming package directory: your_package -> $package_name"
+        mv "src/your_package" "src/$package_name"
+        print_success "Package directory renamed"
+    fi
+    
+    # 2. Update pyproject.toml
+    if [[ -f "pyproject.toml" ]]; then
+        print_step "Updating pyproject.toml"
+        
+        # Create a backup
+        cp pyproject.toml pyproject.toml.bak
+        
+        # Replace project name, package references, and author info
+        sed -i.tmp \
+            -e "s/name = \"your-cli-tool\"/name = \"$project_name\"/" \
+            -e "s/description = \"Your CLI tool description\"/description = \"$project_name - Modern CLI application\"/" \
+            -e "s/Your Name/$current_user/" \
+            -e "s/your.email@company.com/$current_email/" \
+            -e "s/your-cli = \"your_package\.__main__:main\"/$project_name = \"$package_name.__main__:main\"/" \
+            -e "s/your_package/$package_name/g" \
+            -e "s/\"your-org\/your-cli-tool\"/\"$(gh api user --jq .login)\/$project_name\"/" \
+            -e "s/your-cli-tool\.readthedocs\.io/$project_name.readthedocs.io/" \
+            -e "s/YOUR_CLI_/${package_name^^}_/" \
+            pyproject.toml
+        
+        # Clean up temporary file
+        rm -f pyproject.toml.tmp pyproject.toml.bak
+        print_success "pyproject.toml updated"
+    fi
+    
+    # 3. Update ruff.toml
+    if [[ -f "ruff.toml" ]]; then
+        print_step "Updating ruff.toml"
+        sed -i.tmp "s/known-first-party = \[\"your_package\"\]/known-first-party = [\"$package_name\"]/" ruff.toml
+        rm -f ruff.toml.tmp
+        print_success "ruff.toml updated"
+    fi
+    
+    # 4. Update Makefile
+    if [[ -f "Makefile" ]]; then
+        print_step "Updating Makefile"
+        sed -i.tmp "s/PACKAGE_NAME = your_package/PACKAGE_NAME = $package_name/" Makefile
+        rm -f Makefile.tmp
+        print_success "Makefile updated"
+    fi
+    
+    # 5. Update Dockerfile
+    if [[ -f "Dockerfile" ]]; then
+        print_step "Updating Dockerfile"
+        sed -i.tmp \
+            -e "s/your-cli/$project_name/g" \
+            -e "s/\$(PACKAGE_NAME)/$package_name/g" \
+            Dockerfile
+        rm -f Dockerfile.tmp
+        print_success "Dockerfile updated"
+    fi
+    
+    # 6. Update GitHub Actions workflow
+    if [[ -f ".github/workflows/ci.yml" ]]; then
+        print_step "Updating GitHub Actions workflow"
+        sed -i.tmp "s/your_package/$package_name/g" .github/workflows/ci.yml
+        rm -f .github/workflows/ci.yml.tmp
+        print_success "GitHub Actions workflow updated"
+    fi
+    
+    # 7. Update GitLab CI
+    if [[ -f ".gitlab-ci.yml" ]]; then
+        print_step "Updating GitLab CI configuration"
+        sed -i.tmp "s/your_package/$package_name/g" .gitlab-ci.yml
+        rm -f .gitlab-ci.yml.tmp
+        print_success "GitLab CI configuration updated"
+    fi
+    
+    # 8. Update Python source files
+    print_step "Updating Python source files"
+    
+    # Update imports in all Python files
+    find src tests -name "*.py" -type f -exec sed -i.tmp "s/your_package/$package_name/g" {} \;
+    find src tests -name "*.py.tmp" -delete
+    
+    # Update specific files with project-specific content
+    if [[ -f "src/$package_name/__main__.py" ]]; then
+        sed -i.tmp "s/Your CLI tool description/$project_name - Modern CLI application/" "src/$package_name/__main__.py"
+        rm -f "src/$package_name/__main__.py.tmp"
+    fi
+    
+    if [[ -f "src/$package_name/settings.py" ]]; then
+        sed -i.tmp \
+            -e "s/app_name: str = \"your-cli-tool\"/app_name: str = \"$project_name\"/" \
+            -e "s/\"your-cli-tool\"/\"$project_name\"/g" \
+            -e "s/YOUR_CLI_/${package_name^^}_/" \
+            "src/$package_name/settings.py"
+        rm -f "src/$package_name/settings.py.tmp"
+    fi
+    
+    print_success "Python source files updated"
+    
+    # 9. Update README.md
+    if [[ -f "README.md" ]]; then
+        print_step "Updating README.md"
+        sed -i.tmp \
+            -e "s/# Python CLI Template/# $class_name/" \
+            -e "s/your-org\/python-cli-template/$(gh api user --jq .login)\/$project_name/g" \
+            -e "s/your-cli-tool/$project_name/g" \
+            -e "s/your_package/$package_name/g" \
+            -e "s/my-cli-tool/$project_name/" \
+            README.md
+        rm -f README.md.tmp
+        print_success "README.md updated"
+    fi
+    
+    # 10. Update test files
+    if [[ -f "tests/test_cli.py" ]]; then
+        print_step "Updating test files"
+        sed -i.tmp "s/Your CLI tool description/$project_name - Modern CLI application/" "tests/test_cli.py"
+        rm -f "tests/test_cli.py.tmp"
+        print_success "Test files updated"
+    fi
+    
+    # 11. Clean up template-specific files
+    print_step "Cleaning up template files"
+    
+    # Remove template creation scripts from the new project
+    rm -f "scripts/new-python-cli"
+    rm -f "scripts/customize-template"
+    
+    # Remove empty scripts directory if it exists and is empty
+    if [[ -d "scripts" ]] && [[ -z "$(ls -A scripts)" ]]; then
+        rmdir "scripts"
+    fi
+    
+    print_success "Template files cleaned up"
+    
+    print_success "Template customization completed!"
+    
+    echo ""
+    echo -e "${YELLOW}Summary of changes:${NC}"
+    echo "  • Project name: $project_name"
+    echo "  • Package name: $package_name"
+    echo "  • CLI command: $project_name"
+    echo "  • Author: $current_user <$current_email>"
+    echo ""
+}
+
+# Main function
+main() {
+    local project_name="$1"
+    
+    if [[ -z "$project_name" ]]; then
+        print_error "Usage: $0 <project-name>"
+        exit 1
+    fi
+    
+    if ! validate_project_name "$project_name"; then
+        exit 1
+    fi
+    
+    customize_template "$project_name"
+}
+
+# Run main function with all arguments
+main "$@"
