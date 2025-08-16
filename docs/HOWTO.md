@@ -381,6 +381,23 @@ except ProcessingError as e:
 - **Memory-efficient** data processing
 - **Configurable concurrency**
 
+#### **Logging Best Practices**
+- **Singleton pattern** to prevent duplicate log messages
+- **Rich formatting** for beautiful console output
+- **Structured logging** with proper levels
+- **No duplicate handlers** using @lru_cache
+
+```python
+from your_package.logging import get_logger
+
+# This creates logger only once per module
+logger = get_logger(__name__)
+logger.info("This message appears only once!")
+
+# Multiple calls return same configured logger
+logger2 = get_logger(__name__)  # Same instance
+```
+
 ## 🧪 Testing Strategy
 
 ### Test Categories
