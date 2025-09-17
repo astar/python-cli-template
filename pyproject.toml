@@ -25,6 +25,7 @@ dependencies = [
     "scipy>=1.10.0",              # Scientific computing
     "mutagen>=1.47.0",            # Audio metadata
     "configparser>=5.3.0",        # INI file parsing
+    "pygame>=2.5.0",              # Real-time visualization
 ]
 
 [project.scripts]
