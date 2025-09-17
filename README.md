@@ -1,219 +1,263 @@
-# Python CLI Template
+# DMX Music Analyzer
 
-> Modern Python CLI Application Template - Production-ready template with best practices
+> Intelligent DMX lighting control system with music analysis for sauna environments
 
-[![CI](https://github.com/your-org/python-cli-template/workflows/CI/badge.svg)](https://github.com/your-org/python-cli-template/actions)
-[![Coverage](https://codecov.io/gh/your-org/python-cli-template/branch/main/graph/badge.svg)](https://codecov.io/gh/your-org/python-cli-template)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A comprehensive template for building modern, production-ready Python CLI applications with best practices for code quality, testing, and deployment.
+An advanced tool that analyzes music tracks and automatically generates synchronized DMX lighting timelines for sauna lighting systems. Creates immersive lighting experiences that respond to musical features like beats, energy, and mood.
 
-## 🚀 Features
+## 🎵 Features
 
-- **Modern Python packaging** with `pyproject.toml` and UV
-- **Comprehensive code quality** with Ruff, mypy, and pre-commit hooks
-- **Robust CLI framework** with Click and Rich for beautiful output
-- **Data validation** with Pydantic models and settings
-- **Complete testing setup** with pytest and coverage reporting
-- **CI/CD pipelines** for GitHub Actions and GitLab CI
-- **Docker support** with multi-stage builds
-- **Security scanning** with bandit and safety
-- **Documentation** ready with Sphinx
+- **Audio Analysis**: Extract beats, tempo, energy, and musical features from audio files
+- **DMX Timeline Generation**: Automatically create .tml timeline files compatible with lighting controllers
+- **Sauna-Optimized**: Designed for sauna environments with appropriate fixture mappings
+- **Music Synchronization**: Beat-aligned lighting effects that respond to music
+- **Energy-Based Lighting**: Color and intensity changes based on musical energy
+- **Configurable Fixtures**: Support for various DMX fixture types (RGBW spots, LED strips, moving heads)
+- **Professional Output**: Generates timeline files in standard DMX controller format
 
-## 📦 Project Structure
+## 🏗 System Architecture
+
+The system works with your existing sauna DMX lighting setup:
 
 ```
-your-project/
-├── src/
-│   └── your_package/
-│       ├── __init__.py          # Version from importlib.metadata
-│       ├── __main__.py          # CLI entry point with Click
-│       ├── models.py            # Pydantic models
-│       ├── settings.py          # Pydantic settings
-│       └── ...
-├── tests/
+Audio File → Music Analysis → Feature Extraction → DMX Timeline → Lighting Controller
+   (.wav)         ↓               ↓                  (.tml)           ↓
+                 BPM         Energy/Valence                    Synchronized
+                Beats        Color Mapping                    Light Show
+               Onsets        Effect Timing
+```
+
+## 🚀 Quick Start
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/jarda/dmx-music-analyzer.git
+cd dmx-music-analyzer
+
+# Install dependencies
+uv install
+
+# Or using pip
+pip install -e .
+```
+
+### Basic Usage
+
+```bash
+# Analyze a music file and generate DMX timeline
+dmx-analyzer analyze path/to/music.wav
+
+# Specify output location
+dmx-analyzer analyze music.wav -o custom_timeline.tml
+
+# Use custom DMX fixtures configuration
+dmx-analyzer analyze music.wav --dmx-config fixtures.ini
+
+# Override BPM detection
+dmx-analyzer analyze music.wav --bpm 128.0
+
+# Dry run to preview what would be generated
+dmx-analyzer analyze music.wav --dry-run
+```
+
+## 📁 Supported Fixture Types
+
+Based on your sauna DMX setup:
+
+- **Ceiling Spots (Bodovky)**: 12x RGBW ceiling-mounted spots
+- **Wall Spots (Spot_stěna)**: 8x RGBW wall-mounted spots
+- **LED Bench Strips (LED_lavice)**: 11x LED strips along benches
+- **LED Stove (LED_kamna)**: 2x LED strips by the stove
+- **Moving Heads**: 5x Intimidator Spot 375Z IRC with pan/tilt/color/gobo
+- **UV Lights**: UV effect fixtures
+- **DMX Outlets**: 7x DMX-controlled power outlets
+
+## 🎛 Timeline Generation Features
+
+### Beat Synchronization
+- Automatic BPM detection from audio
+- Strong beat emphasis (every 4th beat)
+- Moving head choreography on beats
+- Flash effects synchronized to rhythm
+
+### Energy-Based Effects
+- High energy moments trigger wall LED flashes
+- Medium energy creates individual fixture effects
+- Low energy maintains ambient lighting
+- Color selection based on musical intensity
+
+### Ambient Lighting
+- Background lighting based on mood (valence)
+- Gentle fades for atmosphere
+- Stove lighting for warmth in happy songs
+- Ceiling spots for general illumination
+
+### Smart Color Mapping
+- **High Energy**: Red, Orange, Yellow
+- **Medium Energy**: Green, Cool White, Warm White
+- **Low Energy**: Blue, Azure, Purple
+- Musical key influences color selection
+
+## 🔧 Configuration
+
+### DMX Fixtures Configuration
+
+The system reads your existing `fixtures.ini` file:
+
+```ini
+[Fixture1]
+address = 1
+name = Spot_(stěna)
+model = Spot_RGBW (stěna)
+group = b
+
+[Fixture2]
+address = 33
+name = Bodovka_(strop)
+model = Bodovka_RGBW_(strop)
+group = a
+```
+
+### Generation Configuration
+
+Customize timeline generation behavior:
+
+```python
+from dmx_analyzer.models import GenerationConfig
+
+config = GenerationConfig(
+    min_event_duration=0.5,      # Minimum effect duration
+    max_event_duration=5.0,      # Maximum effect duration
+    energy_threshold=0.5,        # Energy level for triggering effects
+    beat_sync=True,              # Sync to detected beats
+    color_intensity_mapping=True  # Map audio features to colors
+)
+```
+
+## 🎯 Example Output
+
+Generated timeline files are compatible with your lighting controller:
+
+```ini
+[Params]
+Version = 0.2
+LightTimeLines = 10
+MediaTimeLines = 1
+ShowWaveForm = 1
+MaxTime = 0:30:00
+
+[Event_0]
+TimeLineIndex = 2
+StartTime = 0:00:00.0
+Path = Music/your_song.wav
+Length = 0:04:32.5
+
+[Event_1]
+TimeLineIndex = 3
+StartTime = 0:00:02.7
+Path = LED_walls/Walls_single/Walls_1/Walls_1_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+```
+
+## 📊 Audio Analysis
+
+The system extracts comprehensive musical features:
+
+- **BPM**: Beats per minute and tempo stability
+- **Energy**: Musical intensity and dynamics
+- **Valence**: Mood/positivity of the track
+- **Spectral Features**: Brightness and tone characteristics
+- **Beat Times**: Precise timing of musical beats
+- **Onset Detection**: Note attack times for sharp effects
+- **Key Detection**: Musical key estimation
+
+## 🛠 Development
+
+### Project Structure
+
+```
+dmx-music-analyzer/
+├── src/dmx_analyzer/
 │   ├── __init__.py
-│   ├── conftest.py             # Pytest configuration
-│   └── test_*.py
-├── docs/                       # Sphinx documentation
-├── data/                       # Static data files
-├── pyproject.toml             # Modern Python packaging
-├── ruff.toml                  # Code quality configuration
-├── Makefile                   # Development commands
-├── Dockerfile                 # Containerization
-├── .github/workflows/         # GitHub Actions CI/CD
-└── README.md                  # Documentation
+│   ├── __main__.py           # CLI interface
+│   ├── models.py             # Data models
+│   ├── music_analyzer.py     # Audio analysis
+│   ├── timeline_generator.py # Timeline creation
+│   └── logging.py           # Logging utilities
+├── tests/                   # Test suite
+├── data/                   # Sample data
+└── pyproject.toml          # Dependencies
 ```
 
-## 🛠 Quick Start
-
-### Method 1: Automated Setup (Recommended)
-
-#### Option A: Using the automation script
-
-1. **Copy the creation script to your PATH:**
-   ```bash
-   # Download and install the script
-   curl -o ~/.local/bin/new-python-cli https://raw.githubusercontent.com/astar/python-cli-template/main/scripts/new-python-cli
-   chmod +x ~/.local/bin/new-python-cli
-
-   # Make sure ~/.local/bin is in your PATH
-   export PATH="$HOME/.local/bin:$PATH"
-   ```
-
-2. **Create a new project:**
-   ```bash
-   # Create private repository (default)
-   new-python-cli my-awesome-cli
-
-   # Create public repository
-   new-python-cli my-public-tool --public
-   ```
-
-3. **Done!** The script will:
-   - Create a new GitHub repository from this template
-   - Clone it to `~/project/my-awesome-cli`
-   - Automatically customize all files with your project name
-   - Set up the development environment
-   - You're ready to start coding!
-
-#### Option B: Manual repository creation with automation
+### Running Tests
 
 ```bash
-# 1. Create repository from template
-gh repo create my-awesome-cli --template astar/python-cli-template --private --clone
+# Run all tests
+make test
 
-# 2. Enter the project directory
-cd my-awesome-cli
+# Run with coverage
+make test-coverage
 
-# 3. Run the customization script
-bash scripts/customize-template my-awesome-cli
-
-# 4. Set up development environment
-make setup
-```
-
-### Method 2: Manual Setup
-
-1. **Use this template on GitHub:**
-   - Click "Use this template" button on GitHub, or:
-   ```bash
-   gh repo create my-cli-tool --template astar/python-cli-template --private --clone
-   cd my-cli-tool
-   ```
-
-2. **Customize the template manually:**
-   - Replace `your_package` with your actual package name
-   - Update `pyproject.toml` with your project details
-   - Update configuration files (see customization guide below)
-
-3. **Set up development environment:**
-   ```bash
-   # Install UV (if not already installed)
-   curl -LsSf https://astral.sh/uv/install.sh | sh
-
-   # Install dependencies and set up pre-commit hooks
-   make setup
-
-   # Run all quality checks
-   make check
-   ```
-
-### Manual Customization Guide
-
-If you choose manual setup, replace the following:
-
-1. **Package directory:** `src/your_package/` → `src/your_project_name/`
-2. **In `pyproject.toml`:**
-   - `name = "your-cli-tool"` → `name = "your-project-name"`
-   - `your-cli = "your_package.__main__:main"` → `your-project = "your_package.__main__:main"`
-   - Update `authors`, `description`, URLs
-3. **In `ruff.toml`:** `known-first-party = ["your_package"]`
-4. **In `Makefile`:** `PACKAGE_NAME = your_package`
-5. **In `Dockerfile`:** `your-cli` → `your-project-name`
-
-## 📚 Documentation
-
-- **[📖 Complete HOWTO Guide](docs/HOWTO.md)** - Comprehensive technical documentation covering all technologies, approaches, and best practices used in this template
-- **[🤖 AI Migration Assistant](docs/AI_MIGRATION_PROMPT.md)** - Copy-paste prompt for Claude/Gemini to help migrate existing projects to this template
-
-## 🔧 Development
-
-### Available Commands
-
-**Quick Start**: Just run `make` - it executes all quality checks by default!
-
-```bash
-make                     # Run all quality checks (default target)
-make help                # Show all available commands
-make setup               # Install development environment
-make check               # Run all checks (lint, type, test) - same as 'make'
-make format              # Format and fix code
-make test                # Run tests with coverage
-make test-fast           # Run tests without coverage
-make test-quick          # Run tests without slow tests
-make security            # Run security checks
-make build               # Build wheel and source distribution
-make clean               # Clean cache and build artifacts
+# Run specific tests
+pytest tests/test_music_analyzer.py
 ```
 
 ### Code Quality
 
-This template includes comprehensive code quality tools:
-
-- **Ruff**: Ultra-fast Python linter and formatter
-- **mypy**: Static type checking
-- **pre-commit**: Git hooks for code quality
-- **bandit**: Security vulnerability scanner
-- **safety**: Dependency vulnerability scanner
-
-### Testing
-
-- **pytest**: Modern testing framework
-- **pytest-cov**: Coverage reporting
-- **pytest-mock**: Mocking utilities
-- **pytest-asyncio**: Async testing support
-
-## 🐳 Docker
-
 ```bash
-# Build Docker image
-make docker-build
+# Format code
+make format
 
-# Run Docker container
-make docker-run
+# Run linting
+make lint
+
+# Type checking
+make type-check
+
+# All quality checks
+make check
 ```
 
-## 📊 CI/CD
+## 🎨 Advanced Usage
 
-The template includes CI/CD configurations for:
+### Custom Scene Mapping
 
-- **GitHub Actions** (`.github/workflows/ci.yml`)
-- **GitLab CI** (`.gitlab-ci.yml`)
+Map audio features to specific lighting scenes:
 
-Both include:
-- Code quality checks (lint, format, type checking)
-- Security scanning
-- Test execution with coverage
-- Package building
-- Docker image building and publishing
+```python
+from dmx_analyzer import MusicAnalyzer, TimelineGenerator
 
-## 🚀 Deployment
+analyzer = MusicAnalyzer()
+analysis = analyzer.analyze_file("song.wav")
 
-### PyPI
+generator = TimelineGenerator()
+generator.load_fixtures("path/to/fixtures.ini")
 
-```bash
-# Test deployment
-make publish-test
+# Customize color mappings
+generator.energy_colors['high'] = ['red', 'orange', 'yellow']
+generator.energy_colors['low'] = ['blue', 'purple']
 
-# Production deployment
-make publish
+timeline = generator.generate_timeline(analysis)
 ```
 
-### Docker
+### Integration with Lighting Controllers
 
-Docker images are automatically built and published to GitHub Container Registry on pushes to main branch and tags.
+The generated `.tml` files work directly with:
+- **Infinit Maximus** lighting controllers
+- **TheeLightingController** software
+- Most DMX timeline-based systems
+
+## 🔗 Related Projects
+
+- [Audio Analysis with librosa](https://librosa.org/)
+- [DMX Protocol Documentation](https://en.wikipedia.org/wiki/DMX512)
+- [Lighting Controller Integration](docs/controller_integration.md)
 
 ## 📝 License
 
@@ -222,15 +266,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Make your changes
-4. Run the test suite: `make check`
-5. Submit a pull request
+4. Add tests for new functionality
+5. Run the test suite (`make check`)
+6. Commit your changes (`git commit -m 'Add amazing feature'`)
+7. Push to the branch (`git push origin feature/amazing-feature`)
+8. Create a Pull Request
 
-## 🔗 Links
+## 🆘 Support
 
-- [UV Documentation](https://docs.astral.sh/uv/)
-- [Ruff Documentation](https://docs.astral.sh/ruff/)
-- [Click Documentation](https://click.palletsprojects.com/)
-- [Pydantic Documentation](https://docs.pydantic.dev/)
-- [pytest Documentation](https://docs.pytest.org/)
+- 📖 [Documentation](docs/)
+- 🐛 [Issue Tracker](https://github.com/jarda/dmx-music-analyzer/issues)
+- 💬 [Discussions](https://github.com/jarda/dmx-music-analyzer/discussions)
+
+---
+
+*Transform your sauna into an immersive musical lighting experience!* 🎵💡

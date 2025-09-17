@@ -33,7 +33,7 @@ def get_logger(
 
     Example:
         ```python
-        from your_package.logging import get_logger
+        from dmx_analyzer.logging import get_logger
 
         logger = get_logger(__name__)
         logger.info("This will only appear once!")

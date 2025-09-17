@@ -5,8 +5,8 @@ from pathlib import Path
 
 import click
 
-from your_package import __version__
-from your_package.logging import get_logger
+from dmx_analyzer import __version__
+from dmx_analyzer.logging import get_logger
 
 # Get logger for this module - will be created only once
 logger = get_logger(__name__)
@@ -22,7 +22,7 @@ logger = get_logger(__name__)
 )
 @click.pass_context
 def cli(ctx: click.Context, *, verbose: bool, config: Path | None) -> None:
-    """Your CLI tool description."""
+    """DMX lighting control system with music analysis for sauna environments."""
     ctx.ensure_object(dict)
 
     # Set up logging based on verbosity
@@ -37,37 +37,36 @@ def cli(ctx: click.Context, *, verbose: bool, config: Path | None) -> None:
 
 
 @cli.command()
-@click.argument("input_file", type=click.Path(exists=True, path_type=Path))
+@click.argument("audio_file", type=click.Path(exists=True, path_type=Path))
 @click.option(
-    "--output", "-o", type=click.Path(path_type=Path), help="Output file path"
+    "--output", "-o", type=click.Path(path_type=Path), help="Output timeline file path"
 )
 @click.option(
-    "--format",
-    "-f",
-    "output_format",
-    type=click.Choice(["json", "yaml", "csv"]),
-    default="json",
-    help="Output format",
+    "--dmx-config",
+    type=click.Path(exists=True, path_type=Path),
+    help="DMX fixtures configuration file",
 )
+@click.option("--bpm", type=float, help="Override detected BPM")
 @click.option(
     "--dry-run", is_flag=True, help="Show what would be done without making changes"
 )
-def process(
-    input_file: Path,
+def analyze(
+    audio_file: Path,
     output: Path | None,
-    output_format: str,
+    dmx_config: Path | None,
+    bpm: float | None,
     *,
     dry_run: bool,
 ) -> None:
-    """Process input file and generate output."""
+    """Analyze audio file and generate DMX timeline."""
     if dry_run:
-        click.echo(f"Would process {input_file} -> {output} ({output_format})")
-        logger.info("Dry run mode: %s -> %s", input_file, output)
+        click.echo(f"Would analyze {audio_file} -> {output or 'auto-generated'}")
+        logger.info("Dry run mode: analyzing %s", audio_file)
         return
 
     # Implementation here
-    click.echo(f"Processing {input_file}...")
-    logger.info("Processing file: %s", input_file)
+    click.echo(f"Analyzing audio file: {audio_file}...")
+    logger.info("Starting music analysis: %s", audio_file)
 
 
 def main() -> None:
