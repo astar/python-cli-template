@@ -35,7 +35,7 @@ Systém pro řízení DMX světel v saune na základě analýzy hudby. Projekt v
 ### Frekvenční Pásma → Světelné Skupiny
 ```
 Sub-bass (20-60Hz)    → LED Kamna (hluboký bass)
-Bass (60-250Hz)       → LED Walls + Bodovky 
+Bass (60-250Hz)       → LED Walls + Bodovky
 Low-mid (250-500Hz)   → Moving Heads
 Mid (500-2kHz)        → Moving Heads (rychlejší)
 High-mid (2-4kHz)     → Bodovky (jasné)
@@ -66,7 +66,7 @@ dmx-analyzer visualize amazing_show.tml song.wav
 ## 🎨 Vizualizátor Ovládání
 
 - **SPACE**: Play/Pause přehrávání
-- **R**: Restart od začátku  
+- **R**: Restart od začátku
 - **←/→**: Seek 5s zpět/vpřed
 - **ESC**: Ukončit aplikaci
 
@@ -128,7 +128,7 @@ Special_efects/Walls_flashing_snake/   → Speciální efekty
 ```python
 {
     'red': (255, 50, 50),      # Vysoká energie
-    'blue': (50, 50, 255),     # Nízká energie  
+    'blue': (50, 50, 255),     # Nízká energie
     'yellow': (255, 255, 50),  # Pozitivní nálada
     'green': (50, 255, 50),    # Střední části
     'purple': (255, 50, 255),  # Emocionální momenty
@@ -179,7 +179,7 @@ PYTHONPATH=. python -m dmx_analyzer.visualizer.visualizer_app timeline.tml song.
 
 Kompletní systém pro tvorbu spektakulárních světelných show v saune s:
 - ✅ Pokročilou hudební analýzou
-- ✅ Real-time vizualizací 
+- ✅ Real-time vizualizací
 - ✅ Intuitivním ovládáním
 - ✅ Professional výstupem pro lighting controller
 

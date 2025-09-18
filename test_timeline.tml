@@ -1,0 +1,268 @@
+[Params]
+Version = 0.2
+CommentTimeLine = 0
+LightTimeLines = 10
+MediaTimeLines = 1
+ShowWaveForm = 1
+MaxTime = 0:05:00
+Zoom = 0
+TimeLine_1 = V I D E O   P I C T U R E   T I M E L I N E
+TimeLine_2 = A U D I O   T I M E L I N E
+TimeLine_3 = L I G H T   S C E N E   T I M E L I N E   #   1
+TimeLine_4 = L I G H T   S C E N E   T I M E L I N E   #   2
+TimeLine_5 = L I G H T   S C E N E   T I M E L I N E   #   3
+TimeLine_6 = L I G H T   S C E N E   T I M E L I N E   #   4
+TimeLine_7 = L I G H T   S C E N E   T I M E L I N E   #   5
+TimeLine_8 = L I G H T   S C E N E   T I M E L I N E   #   6
+TimeLine_9 = L I G H T   S C E N E   T I M E L I N E   #   7
+TimeLine_10 = L I G H T   S C E N E   T I M E L I N E   #   8
+TimeLine_11 = L I G H T   S C E N E   T I M E L I N E   #   9
+TimeLine_12 = L I G H T   S C E N E   T I M E L I N E   #   10
+
+[Event_0]
+TimeLineIndex = 2
+StartTime = 0:00:00.0
+Path = Music/placatá.mp3
+Length = 0:02:00.0
+
+[Event_1]
+TimeLineIndex = 3
+StartTime = 0:00:02.0
+Path = Bodovky/Bodovky_all/Bodovka_red.scex
+Length = 0:00:03.0
+Speed = 100
+SpeedType = 2
+
+[Event_2]
+TimeLineIndex = 4
+StartTime = 0:00:05.0
+Path = LED_Walls/Walls_all/Walls_green.scex
+Length = 0:00:03.0
+Speed = 100
+SpeedType = 2
+
+[Event_3]
+TimeLineIndex = 5
+StartTime = 0:00:08.0
+Path = LED_Walls/Walls_single/Walls_1/Walls_1_blue.scex
+Length = 0:00:02.0
+Speed = 100
+SpeedType = 2
+
+[Event_4]
+TimeLineIndex = 6
+StartTime = 0:00:10.0
+Path = LED_Walls/Walls_single/Walls_2/Walls_2_yellow.scex
+Length = 0:00:02.0
+Speed = 100
+SpeedType = 2
+
+[Event_5]
+TimeLineIndex = 7
+StartTime = 0:00:12.0
+Path = LED_Walls/Walls_single/Walls_3/Walls_3_purple.scex
+Length = 0:00:02.0
+Speed = 100
+SpeedType = 2
+
+[Event_6]
+TimeLineIndex = 8
+StartTime = 0:00:14.0
+Path = LED_Walls/Walls_single/Walls_4/Walls_4_white - studená.scex
+Length = 0:00:02.0
+Speed = 100
+SpeedType = 2
+
+[Event_7]
+TimeLineIndex = 9
+StartTime = 0:00:16.0
+Path = LED_Walls/Walls_single/Walls_5/Walls_5_white - teplá.scex
+Length = 0:00:02.0
+Speed = 100
+SpeedType = 2
+
+[Event_8]
+TimeLineIndex = 3
+StartTime = 0:00:18.0
+Path = Bodovky/Bodovky_single/Bodovka_1/Bodovka_1_strobe_red.scex
+Length = 0:00:03.0
+Speed = 100
+SpeedType = 2
+
+[Event_9]
+TimeLineIndex = 4
+StartTime = 0:00:21.0
+Path = Bodovky/Bodovky_single/Bodovka_2/Bodovka_2_pulse_green.scex
+Length = 0:00:3.0
+Speed = 100
+SpeedType = 2
+
+[Event_10]
+TimeLineIndex = 5
+StartTime = 0:00:24.0
+Path = Moving_heads/MH_all/MH_all_blue.scex
+Length = 0:00:4.0
+Speed = 100
+SpeedType = 2
+
+[Event_11]
+TimeLineIndex = 6
+StartTime = 0:00:28.0
+Path = Moving_heads/MH_single/MH_1/MH_1_strobe_yellow.scex
+Length = 0:00:3.0
+Speed = 100
+SpeedType = 2
+
+[Event_12]
+TimeLineIndex = 7
+StartTime = 0:00:31.0
+Path = LED_lavice/Lavice_all/Lavice_all_red.scex
+Length = 0:00:4.0
+Speed = 100
+SpeedType = 2
+
+[Event_13]
+TimeLineIndex = 8
+StartTime = 0:00:35.0
+Path = LED_lavice/Lavice_single/Lavice_1/Lavice_1_pulse_green.scex
+Length = 0:00:3.0
+Speed = 100
+SpeedType = 2
+
+[Event_14]
+TimeLineIndex = 9
+StartTime = 0:00:38.0
+Path = LED_kamna/Kamna_all/Kamna_all_orange.scex
+Length = 0:00:4.0
+Speed = 100
+SpeedType = 2
+
+[Event_15]
+TimeLineIndex = 10
+StartTime = 0:00:42.0
+Path = UV/UV_all/UV_all_purple.scex
+Length = 0:00:4.0
+Speed = 100
+SpeedType = 2
+
+[Event_16]
+TimeLineIndex = 3
+StartTime = 0:00:46.0
+Path = LED_Walls/Walls_all/Walls_flash_white.scex
+Length = 0:00:3.0
+Speed = 100
+SpeedType = 2
+
+[Event_17]
+TimeLineIndex = 4
+StartTime = 0:00:49.0
+Path = Bodovky/Bodovky_all/Bodovka_fade_blue.scex
+Length = 0:00:4.0
+Speed = 100
+SpeedType = 2
+
+[Event_18]
+TimeLineIndex = 5
+StartTime = 0:00:53.0
+Path = ALL/All_lights/All_strobe_rainbow.scex
+Length = 0:00:5.0
+Speed = 100
+SpeedType = 2
+
+[Event_19]
+TimeLineIndex = 6
+StartTime = 0:00:58.0
+Path = LED_Walls/Walls_single/Walls_6/Walls_6_red.scex
+Length = 0:00:2.0
+Speed = 100
+SpeedType = 2
+
+[Event_20]
+TimeLineIndex = 7
+StartTime = 0:01:00.0
+Path = LED_Walls/Walls_single/Walls_7/Walls_7_green.scex
+Length = 0:00:2.0
+Speed = 100
+SpeedType = 2
+
+[Event_21]
+TimeLineIndex = 8
+StartTime = 0:01:02.0
+Path = LED_Walls/Walls_single/Walls_8/Walls_8_blue.scex
+Length = 0:00:2.0
+Speed = 100
+SpeedType = 2
+
+[Event_22]
+TimeLineIndex = 3
+StartTime = 0:01:04.0
+Path = Bodovky/Bodovky_single/Bodovka_3/Bodovka_3_yellow.scex
+Length = 0:00:2.0
+Speed = 100
+SpeedType = 2
+
+[Event_23]
+TimeLineIndex = 4
+StartTime = 0:01:06.0
+Path = Bodovky/Bodovky_single/Bodovka_4/Bodovka_4_purple.scex
+Length = 0:00:2.0
+Speed = 100
+SpeedType = 2
+
+[Event_24]
+TimeLineIndex = 5
+StartTime = 0:01:08.0
+Path = Bodovky/Bodovky_single/Bodovka_5/Bodovka_5_white.scex
+Length = 0:00:2.0
+Speed = 100
+SpeedType = 2
+
+[Event_25]
+TimeLineIndex = 6
+StartTime = 0:01:10.0
+Path = Moving_heads/MH_single/MH_2/MH_2_red.scex
+Length = 0:00:2.0
+Speed = 100
+SpeedType = 2
+
+[Event_26]
+TimeLineIndex = 7
+StartTime = 0:01:12.0
+Path = Moving_heads/MH_single/MH_3/MH_3_green.scex
+Length = 0:00:2.0
+Speed = 100
+SpeedType = 2
+
+[Event_27]
+TimeLineIndex = 8
+StartTime = 0:01:14.0
+Path = Moving_heads/MH_single/MH_4/MH_4_blue.scex
+Length = 0:00:2.0
+Speed = 100
+SpeedType = 2
+
+[Event_28]
+TimeLineIndex = 9
+StartTime = 0:01:16.0
+Path = Moving_heads/MH_single/MH_5/MH_5_yellow.scex
+Length = 0:00:2.0
+Speed = 100
+SpeedType = 2
+
+[Event_29]
+TimeLineIndex = 3
+StartTime = 0:01:18.0
+Path = ALL/All_lights/All_fade_red.scex
+Length = 0:00:8.0
+FadeIn = 1000
+FadeOut = 1000
+Speed = 100
+SpeedType = 2
+
+[Event_30]
+TimeLineIndex = 4
+StartTime = 0:01:26.0
+Path = ALL/All_lights/All_pulse_green.scex
+Length = 0:00:8.0
+Speed = 100
+SpeedType = 2

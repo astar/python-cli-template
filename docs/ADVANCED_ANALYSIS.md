@@ -108,7 +108,7 @@ for (fixture_group in [Bodovky, SPOTS, LED_walls, LED_Oven]) {
 }
 ```
 
-#### Chorus Exploze  
+#### Chorus Exploze
 ```cpp
 // Všechna světla najednou s maximální intenzitou
 moving_heads.activate(fast_movement, primary_color)
@@ -186,7 +186,7 @@ during_sustain(duration, energy_level) {
 ```cpp
 on_chord_change(harmonic_distance) {
     new_color = harmony_to_color(current_chord)
-    
+
     if (harmonic_distance > major_change_threshold) {
         // Dramatická změna
         all_walls.crossfade_to(new_color, 500ms)
@@ -218,7 +218,7 @@ analysis = analyze_for_lighting("song.wav")
 
 # Přístup k detailním datům
 frequency_bands = analysis['frequency_bands']
-rhythm = analysis['rhythm'] 
+rhythm = analysis['rhythm']
 emotional_content = analysis['emotional_content']
 
 # Vytvoření spektakulárního timeline
@@ -271,7 +271,7 @@ config = {
 
 ### Audio Processing
 - **Sample Rate**: 44.1 kHz (vysoká kvalita)
-- **Hop Length**: 256 samples (vysoké časové rozlišení)  
+- **Hop Length**: 256 samples (vysoké časové rozlišení)
 - **FFT Size**: 4096 (vysoké frekvenční rozlišení)
 - **Window**: Hann window s překryvem
 
@@ -292,7 +292,7 @@ config = {
 Pokročilý analyzátor vytváří **magnificentní světelné show**, která:
 
 ✨ **Reaguje na každý hudební detail**
-🎵 **Synchronizuje s rytmem i harmonií**  
+🎵 **Synchronizuje s rytmem i harmonií**
 🌈 **Používá emocionálně přiměřené barvy**
 ⚡ **Vytváří dramatické efekty v klíčových momentech**
 🏗️ **Strukturuje show podle částí skladby**

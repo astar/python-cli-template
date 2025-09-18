@@ -1,0 +1,352 @@
+[Params]
+Version = 0.2
+CommentTimeLine = 0
+LightTimeLines = 10
+MediaTimeLines = 1
+ShowWaveForm = 1
+MaxTime = 0:30:00
+Zoom = 0
+TimeLine_1 = V I D E O   P I C T U R E   T I M E L I N E
+TimeLine_2 = A U D I O   T I M E L I N E
+TimeLine_3 = L I G H T   S C E N E   T I M E L I N E   #   1
+TimeLine_4 = L I G H T   S C E N E   T I M E L I N E   #   2
+TimeLine_5 = L I G H T   S C E N E   T I M E L I N E   #   3
+TimeLine_6 = L I G H T   S C E N E   T I M E L I N E   #   4
+TimeLine_7 = L I G H T   S C E N E   T I M E L I N E   #   5
+TimeLine_8 = L I G H T   S C E N E   T I M E L I N E   #   6
+TimeLine_9 = L I G H T   S C E N E   T I M E L I N E   #   7
+TimeLine_10 = L I G H T   S C E N E   T I M E L I N E   #   8
+TimeLine_11 = L I G H T   S C E N E   T I M E L I N E   #   9
+TimeLine_12 = L I G H T   S C E N E   T I M E L I N E   #   10
+[Event_0]
+TimeLineIndex = 2
+StartTime = 0:00:00.0
+Path = Music/placatá.mp3
+Length = 0:05:45.9
+[Event_1]
+TimeLineIndex = 6
+StartTime = 0:00:01.9
+Path = LED_Walls/Walls_single/Walls_11/Walls_11_white - studená.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_2]
+TimeLineIndex = 6
+StartTime = 0:00:04.2
+Path = LED_Walls/Walls_single/Walls_9/Walls_9_green.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_3]
+TimeLineIndex = 5
+StartTime = 0:00:04.7
+Path = LED_Walls/Walls_all/Walls_red.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_4]
+TimeLineIndex = 6
+StartTime = 0:00:06.1
+Path = LED_Walls/Walls_single/Walls_2/Walls_2_green.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_5]
+TimeLineIndex = 6
+StartTime = 0:00:08.1
+Path = LED_Walls/Walls_single/Walls_8/Walls_8_green.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_6]
+TimeLineIndex = 6
+StartTime = 0:00:09.3
+Path = LED_Walls/Walls_single/Walls_4/Walls_4_white - teplá.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_7]
+TimeLineIndex = 7
+StartTime = 0:00:10.0
+Path = Bodovky/Bodovky_all/Bodovka_blue.scex
+Length = 0:05:25.9
+FadeIn = 2000
+FadeOut = 2000
+Speed = 50
+SpeedType = 2
+[Event_8]
+TimeLineIndex = 5
+StartTime = 0:00:11.6
+Path = LED_Walls/Walls_all/Walls_red.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_9]
+TimeLineIndex = 6
+StartTime = 0:00:13.6
+Path = LED_Walls/Walls_single/Walls_3/Walls_3_green.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_10]
+TimeLineIndex = 6
+StartTime = 0:00:17.4
+Path = LED_Walls/Walls_single/Walls_7/Walls_7_white - teplá.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_11]
+TimeLineIndex = 5
+StartTime = 0:00:19.5
+Path = LED_Walls/Walls_all/Walls_orange.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_12]
+TimeLineIndex = 5
+StartTime = 0:00:20.7
+Path = LED_Walls/Walls_all/Walls_orange.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_13]
+TimeLineIndex = 6
+StartTime = 0:00:23.1
+Path = LED_Walls/Walls_single/Walls_5/Walls_5_white - teplá.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_14]
+TimeLineIndex = 6
+StartTime = 0:00:26.0
+Path = LED_Walls/Walls_single/Walls_7/Walls_7_green.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_15]
+TimeLineIndex = 6
+StartTime = 0:00:29.0
+Path = LED_Walls/Walls_single/Walls_6/Walls_6_white - studená.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_16]
+TimeLineIndex = 6
+StartTime = 0:00:31.1
+Path = LED_Walls/Walls_single/Walls_11/Walls_11_white - studená.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_17]
+TimeLineIndex = 5
+StartTime = 0:00:31.9
+Path = LED_Walls/Walls_all/Walls_yellow.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_18]
+TimeLineIndex = 6
+StartTime = 0:01:03.2
+Path = LED_Walls/Walls_single/Walls_9/Walls_9_white - teplá.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_19]
+TimeLineIndex = 5
+StartTime = 0:01:03.8
+Path = LED_Walls/Walls_all/Walls_orange.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_20]
+TimeLineIndex = 6
+StartTime = 0:01:05.8
+Path = LED_Walls/Walls_single/Walls_7/Walls_7_white - teplá.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_21]
+TimeLineIndex = 5
+StartTime = 0:01:51.1
+Path = LED_Walls/Walls_all/Walls_red.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_22]
+TimeLineIndex = 6
+StartTime = 0:01:53.8
+Path = LED_Walls/Walls_single/Walls_4/Walls_4_white - studená.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_23]
+TimeLineIndex = 5
+StartTime = 0:02:29.0
+Path = LED_Walls/Walls_all/Walls_red.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_24]
+TimeLineIndex = 6
+StartTime = 0:02:50.8
+Path = LED_Walls/Walls_single/Walls_5/Walls_5_white - teplá.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_25]
+TimeLineIndex = 6
+StartTime = 0:03:06.2
+Path = LED_Walls/Walls_single/Walls_4/Walls_4_green.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_26]
+TimeLineIndex = 6
+StartTime = 0:03:17.7
+Path = LED_Walls/Walls_single/Walls_1/Walls_1_white - teplá.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_27]
+TimeLineIndex = 6
+StartTime = 0:03:38.6
+Path = LED_Walls/Walls_single/Walls_4/Walls_4_white - teplá.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_28]
+TimeLineIndex = 6
+StartTime = 0:03:46.1
+Path = LED_Walls/Walls_single/Walls_9/Walls_9_white - studená.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_29]
+TimeLineIndex = 6
+StartTime = 0:03:46.7
+Path = LED_Walls/Walls_single/Walls_6/Walls_6_white - teplá.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_30]
+TimeLineIndex = 6
+StartTime = 0:03:50.9
+Path = LED_Walls/Walls_single/Walls_8/Walls_8_white - teplá.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_31]
+TimeLineIndex = 6
+StartTime = 0:03:51.9
+Path = LED_Walls/Walls_single/Walls_11/Walls_11_green.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_32]
+TimeLineIndex = 5
+StartTime = 0:03:56.9
+Path = LED_Walls/Walls_all/Walls_orange.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_33]
+TimeLineIndex = 5
+StartTime = 0:03:58.2
+Path = LED_Walls/Walls_all/Walls_orange.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_34]
+TimeLineIndex = 6
+StartTime = 0:04:00.5
+Path = LED_Walls/Walls_single/Walls_9/Walls_9_white - studená.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_35]
+TimeLineIndex = 6
+StartTime = 0:04:02.4
+Path = LED_Walls/Walls_single/Walls_4/Walls_4_white - studená.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_36]
+TimeLineIndex = 6
+StartTime = 0:04:04.4
+Path = LED_Walls/Walls_single/Walls_6/Walls_6_green.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_37]
+TimeLineIndex = 6
+StartTime = 0:04:28.2
+Path = LED_Walls/Walls_single/Walls_6/Walls_6_white - teplá.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_38]
+TimeLineIndex = 5
+StartTime = 0:04:59.3
+Path = LED_Walls/Walls_all/Walls_yellow.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_39]
+TimeLineIndex = 6
+StartTime = 0:05:03.9
+Path = LED_Walls/Walls_single/Walls_8/Walls_8_green.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_40]
+TimeLineIndex = 6
+StartTime = 0:05:05.5
+Path = LED_Walls/Walls_single/Walls_5/Walls_5_white - studená.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_41]
+TimeLineIndex = 5
+StartTime = 0:05:26.9
+Path = LED_Walls/Walls_all/Walls_red.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_42]
+TimeLineIndex = 6
+StartTime = 0:05:29.0
+Path = LED_Walls/Walls_single/Walls_6/Walls_6_white - teplá.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2
+[Event_43]
+TimeLineIndex = 6
+StartTime = 0:05:31.0
+Path = LED_Walls/Walls_single/Walls_5/Walls_5_green.scex
+Length = 0:00:01.0
+Speed = 100
+SpeedType = 2

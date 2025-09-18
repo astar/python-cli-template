@@ -64,7 +64,7 @@ dmx-analyzer visualize amazing_show.tml song.wav
 
 ### Typy Světel a Symboly
 - **🔴 Bodovky (Ceiling Spots)**: Kruhové ikony ve stropu
-- **🔸 Wall Spots**: Čtvercové ikony na stěnách  
+- **🔸 Wall Spots**: Čtvercové ikony na stěnách
 - **🟦 LED Lavice**: Obdélníkové LED pásky na lavicích
 - **🔶 Moving Heads**: Diamantové ikony (pohyblivé)
 - **🏠 LED Kamna**: Kruhové ikony u kamen
@@ -137,7 +137,7 @@ dmx-analyzer visualize amazing_show.tml song.wav
 🎵 Audio Playback (pygame.mixer)
          ↓
 📊 Timeline Parser (.tml files)
-         ↓  
+         ↓
 ⏰ Time Synchronization (60 FPS)
          ↓
 💡 Light State Engine
@@ -172,7 +172,7 @@ Vizualizátor automaticky rozpoznává scene paths:
 ```python
 # Mapování scene paths na skupiny světel
 "LED_walls/Walls_all/Walls_red.scex"     → Všechny wall spoty červené
-"Bodovky/Bodovky_all/Bodovka_blue.scex"  → Všechny bodovky modré  
+"Bodovky/Bodovky_all/Bodovka_blue.scex"  → Všechny bodovky modré
 "Moving_heads/MH_oven_yellow.scex"       → Moving heads žluté
 "UV/UV.scex"                             → UV světla aktivní
 "Special_efects/Walls_flashing_snake/"   → Speciální efekty
@@ -191,7 +191,7 @@ Vizualizátor automaticky rozpoznává scene paths:
 ```python
 color_map = {
     'red': (255, 50, 50),
-    'green': (50, 255, 50), 
+    'green': (50, 255, 50),
     'blue': (50, 50, 255),
     'yellow': (255, 255, 50),
     'orange': (255, 150, 50),
@@ -269,7 +269,7 @@ PYTHONPATH=. python -m dmx_analyzer.visualizer.visualizer_app timeline.tml song.
 
 ### Optimální Workflow
 1. **Analyze** → Vytvoř basic timeline
-2. **Spectacular** → Vylepši pokročilou analýzou  
+2. **Spectacular** → Vylepši pokročilou analýzou
 3. **Visualize** → Zkontroluj výsledek
 4. **Edit** → Uprav problematické části
 5. **Re-visualize** → Ověř změny
@@ -298,10 +298,10 @@ done
 
 Real-time vizualizátor poskytuje:
 
-✅ **Okamžitou zpětnou vazbu** při vytváření show  
-✅ **Perfektní synchronizaci** audio a světel  
-✅ **Intuitivní ovládání** pro rychlé testování  
-✅ **Detailní informace** o stavu všech světel  
-✅ **Professional náhled** finálního výsledku  
+✅ **Okamžitou zpětnou vazbu** při vytváření show
+✅ **Perfektní synchronizaci** audio a světel
+✅ **Intuitivní ovládání** pro rychlé testování
+✅ **Detailní informace** o stavu všech světel
+✅ **Professional náhled** finálního výsledku
 
 Díky vizualizátoru můžete **perfektně naladit** každou světelnou show ještě před jejím nasazením v reálné saune! 🎵💡✨
