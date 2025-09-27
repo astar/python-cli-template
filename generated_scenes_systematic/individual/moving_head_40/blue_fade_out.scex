@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1753953040" name="Moving Head #4" model="Intimidator Spot 375Z IRC (15CH)" />
+  </Fixtures>
+  <Steps>
+    <Step length="100">
+      <Fixture id="1753953040">
+        <Channel index="4" name="color" value="51" />
+        <Channel index="8" name="dimmer" value="255" />
+      </Fixture>
+    </Step>
+    <Step length="2000">
+      <Fixture id="1753953040">
+        <Channel index="4" name="color" value="51" fade="1" />
+        <Channel index="8" name="dimmer" value="0" />
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

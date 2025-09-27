@@ -1,0 +1,277 @@
+[Params]
+version = 0.2
+commenttimeline = 0
+lighttimelines = 5
+mediatimelines = 1
+showwaveform = 1
+maxtime = 0:30:00
+zoom = 0
+timeline_1 = I N T E L L I G E N T   S T O R Y T E L L I N G
+timeline_2 = A U D I O   T I M E L I N E
+timeline_3 = M O V I N G   H E A D S   C H O R E O G R A P H Y
+timeline_4 = E M O T I O N A L   L I G H T I N G
+timeline_5 = D Y N A M I C   E F F E C T S
+timeline_6 = S Y S T E M A T I C   S C E N E S
+
+[Event_0]
+timelineindex = 2
+starttime = 0:00:00.0
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\Music\test_short\test_short.mp3
+length = 0:05:45.9
+
+[Event_1]
+timelineindex = 6
+starttime = 0:00:01.8
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_fade_in.scex
+length = 0:00:10.2
+speed = 100
+speedtype = 2
+
+[Event_2]
+timelineindex = 6
+starttime = 0:00:12.1
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_fade_in.scex
+length = 0:00:10.6
+speed = 100
+speedtype = 2
+
+[Event_3]
+timelineindex = 6
+starttime = 0:00:22.7
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.0
+speed = 100
+speedtype = 2
+
+[Event_4]
+timelineindex = 6
+starttime = 0:00:32.7
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.4
+speed = 100
+speedtype = 2
+
+[Event_5]
+timelineindex = 6
+starttime = 0:00:43.1
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_6]
+timelineindex = 6
+starttime = 0:00:53.5
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_7]
+timelineindex = 6
+starttime = 0:01:03.9
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_8]
+timelineindex = 6
+starttime = 0:01:14.3
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_9]
+timelineindex = 6
+starttime = 0:01:24.6
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_10]
+timelineindex = 6
+starttime = 0:01:35.0
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_11]
+timelineindex = 6
+starttime = 0:01:45.4
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_12]
+timelineindex = 6
+starttime = 0:01:55.8
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_13]
+timelineindex = 6
+starttime = 0:02:06.2
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_14]
+timelineindex = 6
+starttime = 0:02:16.5
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_15]
+timelineindex = 6
+starttime = 0:02:26.9
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_16]
+timelineindex = 6
+starttime = 0:02:37.3
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_17]
+timelineindex = 6
+starttime = 0:02:47.7
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_18]
+timelineindex = 6
+starttime = 0:02:58.0
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_strobe_slow.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_19]
+timelineindex = 6
+starttime = 0:03:08.4
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_strobe_slow.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_20]
+timelineindex = 6
+starttime = 0:03:18.8
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_21]
+timelineindex = 6
+starttime = 0:03:29.2
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_strobe_slow.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_22]
+timelineindex = 6
+starttime = 0:03:39.6
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.0
+speed = 100
+speedtype = 2
+
+[Event_23]
+timelineindex = 6
+starttime = 0:03:49.6
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:10.0
+speed = 100
+speedtype = 2
+
+[Event_24]
+timelineindex = 6
+starttime = 0:03:59.6
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_strobe_slow.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_25]
+timelineindex = 6
+starttime = 0:04:10.0
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_strobe_slow.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_26]
+timelineindex = 6
+starttime = 0:04:20.4
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_strobe_slow.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_27]
+timelineindex = 6
+starttime = 0:04:30.8
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_strobe_slow.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_28]
+timelineindex = 6
+starttime = 0:04:41.2
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_strobe_slow.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_29]
+timelineindex = 6
+starttime = 0:04:51.6
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_strobe_slow.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_30]
+timelineindex = 6
+starttime = 0:05:01.9
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_strobe_slow.scex
+length = 0:00:10.4
+speed = 100
+speedtype = 2
+
+[Event_31]
+timelineindex = 6
+starttime = 0:05:12.3
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\yellow_strobe_slow.scex
+length = 0:00:10.3
+speed = 100
+speedtype = 2
+
+[Event_32]
+timelineindex = 6
+starttime = 0:05:22.7
+path = C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\generated_scenes_systematic\individual\ceiling_spot_00\orange_pulse.scex
+length = 0:00:11.0
+speed = 100
+speedtype = 2
+

@@ -113,39 +113,49 @@ class VisualizerApp:
     def _handle_keyboard(self) -> None:
         """Zpracuje klávesové vstupy."""
         import time
+
         current_time = time.time()
         keys = pygame.key.get_pressed()
 
         # Spacebar: play/pause (single press)
-        if keys[pygame.K_SPACE] and current_time - self.last_key_time.get('space', 0) > 0.3:
+        if (
+            keys[pygame.K_SPACE]
+            and current_time - self.last_key_time.get("space", 0) > 0.3
+        ):
             if self.player.is_playing:
                 self.player.pause()
             else:
                 self.player.resume()
-            self.last_key_time['space'] = current_time
+            self.last_key_time["space"] = current_time
 
         # Escape: quit
         if keys[pygame.K_ESCAPE]:
             self.running = False
 
         # R: restart (single press)
-        if keys[pygame.K_r] and current_time - self.last_key_time.get('r', 0) > 0.3:
+        if keys[pygame.K_r] and current_time - self.last_key_time.get("r", 0) > 0.3:
             self.player.seek(0.0)
             if not self.player.is_playing:
                 self.player.resume()
-            self.last_key_time['r'] = current_time
+            self.last_key_time["r"] = current_time
 
         # Left arrow: seek backward (rate limited)
-        if keys[pygame.K_LEFT] and current_time - self.last_key_time.get('left', 0) > 0.1:
+        if (
+            keys[pygame.K_LEFT]
+            and current_time - self.last_key_time.get("left", 0) > 0.1
+        ):
             new_time = max(0, self.player.current_time - 5.0)
             self.player.seek(new_time)
-            self.last_key_time['left'] = current_time
+            self.last_key_time["left"] = current_time
 
         # Right arrow: seek forward (rate limited)
-        if keys[pygame.K_RIGHT] and current_time - self.last_key_time.get('right', 0) > 0.1:
+        if (
+            keys[pygame.K_RIGHT]
+            and current_time - self.last_key_time.get("right", 0) > 0.1
+        ):
             new_time = min(self.player.duration, self.player.current_time + 5.0)
             self.player.seek(new_time)
-            self.last_key_time['right'] = current_time
+            self.last_key_time["right"] = current_time
 
     def _cleanup(self) -> None:
         """Uklidí resources."""

@@ -78,13 +78,17 @@ class LightFixture:
             # Pulse effect - pomalé pulzování
             pulse_rate = 3  # Hz
             self.effect_progress = (current_time * pulse_rate) % 1.0
-            self.intensity = 0.3 + 0.7 * abs(math.sin(self.effect_progress * 2 * math.pi))
+            self.intensity = 0.3 + 0.7 * abs(
+                math.sin(self.effect_progress * 2 * math.pi)
+            )
 
         elif self.effect == "fade" and self.is_on:
             # Fade effect - pozvolné změny
             fade_rate = 1  # Hz
             self.effect_progress = (current_time * fade_rate) % 1.0
-            self.intensity = 0.2 + 0.8 * (math.sin(self.effect_progress * 2 * math.pi) + 1) / 2
+            self.intensity = (
+                0.2 + 0.8 * (math.sin(self.effect_progress * 2 * math.pi) + 1) / 2
+            )
 
         # Pro světla bez efektů, ale zapnutá, ujisti se že mají plnou intenzitu
         elif self.is_on and not self.effect:
@@ -154,83 +158,118 @@ class SaunaRenderer:
         }
 
     def _create_sauna_fixtures(self) -> None:
-        """Vytvoří světelná zařízení podle layoutu sauny."""
-        # Ceiling spots (Bodovky) - 12 světel ve stropě
-        ceiling_y = self.sauna_rect.top + 30
-        ceiling_spacing = self.sauna_rect.width // 4
-        for i in range(12):
-            row = i // 4
-            col = i % 4
-            x = self.sauna_rect.left + ceiling_spacing // 2 + col * ceiling_spacing
-            y = ceiling_y + row * 40
+        """Vytvoří světelná zařízení podle reálného 3D modelu sauny."""
+        # Reálné rozměry sauny: 8.5m x 7.6m x 3.1m
+        # 3D souřadnice: X(-4.25 až +4.25), Z(-3.8 až +3.8), Y(0 až 3.1)
 
-            self.fixtures[f"bodovka_{i + 1}"] = LightFixture(
-                f"Bodovka {i + 1}", (x, y), "ceiling_spot", size=25
-            )
+        # Scaling pro 2D zobrazení
+        scale_x = self.sauna_rect.width / 8.5   # pixels per meter X
+        scale_z = self.sauna_rect.height / 7.6  # pixels per meter Z
+        center_x = self.sauna_rect.centerx
+        center_z = self.sauna_rect.centery
 
-        # Wall spots (8 světel na stěnách)
-        wall_spots_positions = [
-            # Levá stěna
-            (self.sauna_rect.left + 20, self.sauna_rect.top + 100),
-            (self.sauna_rect.left + 20, self.sauna_rect.top + 200),
-            # Pravá stěna
-            (self.sauna_rect.right - 20, self.sauna_rect.top + 100),
-            (self.sauna_rect.right - 20, self.sauna_rect.top + 200),
-            # Zadní stěna
-            (self.sauna_rect.left + 100, self.sauna_rect.top + 20),
-            (self.sauna_rect.left + 200, self.sauna_rect.top + 20),
-            (self.sauna_rect.left + 300, self.sauna_rect.top + 20),
-            (self.sauna_rect.left + 400, self.sauna_rect.top + 20),
+        def real_3d_to_2d(x_3d: float, z_3d: float) -> tuple[int, int]:
+            """Převede reálné 3D pozice na 2D obrazovku."""
+            x_2d = center_x + (x_3d * scale_x)
+            z_2d = center_z - (z_3d * scale_z)  # Inverted Z for screen coordinates
+            return (int(x_2d), int(z_2d))
+
+        # Wall Spots (8 kusů) - přesné pozice z 3D modelu
+        wall_spots_3d = [
+            (-3.21, -2.60),  # Spot_(stěna) #1
+            (-3.23, -0.73),  # Spot_(stěna) #2
+            (-3.23, 0.80),   # Spot_(stěna) #3
+            (-2.58, 3.33),   # Spot_(stěna) #4
+            (2.58, 3.33),    # Spot_(stěna) #5
+            (3.23, 0.78),    # Spot_(stěna) #6
+            (3.23, -0.73),   # Spot_(stěna) #7
+            (3.23, -2.60),   # Spot_(stěna) #8
         ]
 
-        for i, pos in enumerate(wall_spots_positions):
+        for i, (x_3d, z_3d) in enumerate(wall_spots_3d):
+            pos = real_3d_to_2d(x_3d, z_3d)
             self.fixtures[f"wall_spot_{i + 1}"] = LightFixture(
                 f"Wall Spot {i + 1}", pos, "wall_spot", size=20
             )
 
-        # LED strips na lavicích (11 segmentů)
-        bench_y = self.sauna_rect.bottom - 80
-        bench_spacing = self.sauna_rect.width // 11
-        for i in range(11):
-            x = self.sauna_rect.left + bench_spacing // 2 + i * bench_spacing
-            self.fixtures[f"led_lavice_{i + 1}"] = LightFixture(
-                f"LED Lavice {i + 1}", (x, bench_y), "led_strip", size=30
-            )
-
-        # LED kamna (2 světla u kamen)
-        stove_x = self.sauna_rect.right - 100
-        stove_y = self.sauna_rect.bottom - 120
-        for i in range(2):
-            self.fixtures[f"led_kamna_{i + 1}"] = LightFixture(
-                f"LED Kamna {i + 1}", (stove_x + i * 30, stove_y), "led_oven", size=25
-            )
-
-        # Moving heads (5 světel)
-        moving_positions = [
-            (self.sauna_rect.centerx - 100, self.sauna_rect.top + 60),
-            (self.sauna_rect.centerx + 100, self.sauna_rect.top + 60),
-            (self.sauna_rect.centerx, self.sauna_rect.top + 80),
-            (self.sauna_rect.left + 80, self.sauna_rect.centery),
-            (self.sauna_rect.right - 80, self.sauna_rect.centery),
+        # Bodovky (12 kusů) - přesné pozice z 3D modelu
+        bodovky_3d = [
+            (-1.07, -3.05),  # Bodovka_(strop) #1
+            (-1.07, -1.85),  # Bodovka_(strop) #2
+            (-1.07, -0.75),  # Bodovka_(strop) #3
+            (-1.07, 0.35),   # Bodovka_(strop) #4
+            (-1.07, 1.35),   # Bodovka_(strop) #5
+            (0.00, 1.35),    # Bodovka_(strop) #6
+            (1.07, 1.35),    # Bodovka_(strop) #7
+            (1.07, 0.35),    # Bodovka_(strop) #8
+            (1.07, -0.75),   # Bodovka_(strop) #9
+            (1.07, -1.85),   # Bodovka_(strop) #10
+            (1.07, -2.90),   # Bodovka_(strop) #11
+            (0.00, -3.67),   # Bodovka_(strop) #12
         ]
 
-        for i, pos in enumerate(moving_positions):
+        for i, (x_3d, z_3d) in enumerate(bodovky_3d):
+            pos = real_3d_to_2d(x_3d, z_3d)
+            self.fixtures[f"bodovka_{i + 1}"] = LightFixture(
+                f"Bodovka {i + 1}", pos, "ceiling_spot", size=25
+            )
+
+        # LED pásky lavice (11 kusů) - přesné pozice z 3D modelu
+        led_lavice_3d = [
+            (-2.53, -3.36),  # LED_pásek_(lavice) #1
+            (-3.80, -1.64),  # LED_pásek_(lavice) #2
+            (-3.80, 0.22),   # LED_pásek_(lavice) #3
+            (-3.80, 2.00),   # LED_pásek_(lavice) #4
+            (-2.84, 3.66),   # LED_pásek_(lavice) #5
+            (0.17, 4.25),    # LED_pásek_(lavice) #6
+            (3.03, 3.54),    # LED_pásek_(lavice) #7
+            (3.80, 2.00),    # LED_pásek_(lavice) #8
+            (3.80, 0.22),    # LED_pásek_(lavice) #9
+            (3.80, -1.64),   # LED_pásek_(lavice) #10
+            (2.53, -3.33),   # LED_pásek_(lavice) #11
+        ]
+
+        for i, (x_3d, z_3d) in enumerate(led_lavice_3d):
+            pos = real_3d_to_2d(x_3d, z_3d)
+            self.fixtures[f"led_lavice_{i + 1}"] = LightFixture(
+                f"LED Lavice {i + 1}", pos, "led_strip", size=30
+            )
+
+        # Moving Heads (5 kusů) - přesné pozice z 3D modelu
+        moving_heads_3d = [
+            (-2.37, -1.65),  # Intimidator Spot 375Z #1
+            (-2.37, 0.69),   # Intimidator Spot 375Z #2
+            (-0.16, 1.90),   # Intimidator Spot 375Z #3
+            (2.21, 0.13),    # Intimidator Spot 375Z #4
+            (2.21, -0.54),   # Intimidator Spot 375Z #5
+        ]
+
+        for i, (x_3d, z_3d) in enumerate(moving_heads_3d):
+            pos = real_3d_to_2d(x_3d, z_3d)
             self.fixtures[f"moving_head_{i + 1}"] = LightFixture(
                 f"Moving Head {i + 1}", pos, "moving_head", size=18
             )
 
-        # UV světla (2 světla)
-        uv_positions = [
-            (self.sauna_rect.left + 50, self.sauna_rect.bottom - 50),
-            (self.sauna_rect.right - 50, self.sauna_rect.bottom - 50),
+        # LED kamna (2 světla) - přesné pozice z 3D modelu
+        led_kamna_3d = [
+            (-0.68, -1.32),  # LED_pásek_(kamna) #1
+            (0.66, -1.28),   # LED_pásek_(kamna) #2
         ]
 
-        for i, pos in enumerate(uv_positions):
-            self.fixtures[f"uv_{i + 1}"] = LightFixture(
-                f"UV {i + 1}", pos, "uv", size=15
+        for i, (x_3d, z_3d) in enumerate(led_kamna_3d):
+            pos = real_3d_to_2d(x_3d, z_3d)
+            self.fixtures[f"led_kamna_{i + 1}"] = LightFixture(
+                f"LED Kamna {i + 1}", pos, "led_oven", size=25
             )
 
-        logger.info(f"Created {len(self.fixtures)} light fixtures")
+        # UV světla (1 kus) - přesná pozice z 3D modelu
+        uv_3d = (-0.02, -1.58)  # UV_světla
+        pos = real_3d_to_2d(uv_3d[0], uv_3d[1])
+        self.fixtures["uv_1"] = LightFixture(
+            "UV Light 1", pos, "uv_light", size=15
+        )
+
+        logger.info(f"Created {len(self.fixtures)} light fixtures (real 3D layout)")
 
     def update_lights(self, light_changes: dict, current_time: float) -> None:
         """Aktualizuje světla na základě timeline změn."""
@@ -329,24 +368,27 @@ class SaunaRenderer:
         elif "single" in event.path.lower():
             # Pro single světla použij pulse efekt
             effect = "pulse"
-        elif "fade" in event.path.lower():
+        elif "fade" in event.path.lower() or (
+            event.length and ("0:00:01" in event.length or "0:00:02" in event.length)
+        ):
             effect = "fade"
-        else:
-            # Pro krátké události (< 2s) použij fade efekt
-            if event.length and ("0:00:01" in event.length or "0:00:02" in event.length):
-                effect = "fade"
 
         # Map groups to fixtures
         fixture_keys = self._get_fixtures_for_group(group)
 
-        logger.debug(f"Activating group '{group}' with color '{color}' -> {len(fixture_keys)} fixtures: {fixture_keys}")
+        logger.debug(
+            f"Activating group '{group}' with color '{color}' -> {len(fixture_keys)} fixtures: {fixture_keys}"
+        )
 
         for key in fixture_keys:
             if key in self.fixtures:
                 self.fixtures[key].set_color(rgb_color, intensity, effect)
-                logger.info(f"🔴 Activated fixture {key} with color {rgb_color}, intensity {intensity}, effect {effect}")
-                logger.info(f"🔴 Fixture {key} is_on: {self.fixtures[key].is_on}, color: {self.fixtures[key].color}")
-
+                logger.info(
+                    f"🔴 Activated fixture {key} with color {rgb_color}, intensity {intensity}, effect {effect}"
+                )
+                logger.info(
+                    f"🔴 Fixture {key} is_on: {self.fixtures[key].is_on}, color: {self.fixtures[key].color}"
+                )
 
     def _deactivate_fixture_group(self, group: str) -> None:
         """Deaktivuje skupinu světel."""
@@ -376,21 +418,21 @@ class SaunaRenderer:
         # Základní skupiny
         if group_lower in ["bodovky", "bodovka", "ceiling"]:
             return [k for k in self.fixtures.keys() if k.startswith("bodovka_")]
-        elif group_lower in ["led_walls", "walls", "led_wall"]:
+        if group_lower in ["led_walls", "walls", "led_wall"]:
             return [k for k in self.fixtures.keys() if k.startswith("wall_spot_")]
-        elif group_lower in ["led_lavice", "lavice", "bench"]:
+        if group_lower in ["led_lavice", "lavice", "bench"]:
             return [k for k in self.fixtures.keys() if k.startswith("led_lavice_")]
-        elif group_lower in ["led_kamna", "led_oven", "oven", "kamna"]:
+        if group_lower in ["led_kamna", "led_oven", "oven", "kamna"]:
             return [k for k in self.fixtures.keys() if k.startswith("led_kamna_")]
-        elif group_lower in ["moving_heads", "moving"]:
+        if group_lower in ["moving_heads", "moving"]:
             return [k for k in self.fixtures.keys() if k.startswith("moving_head_")]
-        elif group_lower in ["uv", "uv_lights"]:
+        if group_lower in ["uv", "uv_lights"]:
             return [k for k in self.fixtures.keys() if k.startswith("uv_")]
-        elif group_lower == "all":
+        if group_lower == "all":
             return list(self.fixtures.keys())
 
         # Jednotlivé světla
-        elif "walls_" in group_lower:
+        if "walls_" in group_lower:
             # Parse wall number - mapuj na dostupné wall spoty (1-8)
             try:
                 wall_num = int(group_lower.split("_")[-1])
@@ -399,8 +441,7 @@ class SaunaRenderer:
                 fixture_key = f"wall_spot_{mapped_num}"
                 if fixture_key in self.fixtures:
                     return [fixture_key]
-                else:
-                    return [k for k in self.fixtures.keys() if k.startswith("wall_spot_")]
+                return [k for k in self.fixtures.keys() if k.startswith("wall_spot_")]
             except:
                 return [k for k in self.fixtures.keys() if k.startswith("wall_spot_")]
 
@@ -462,31 +503,69 @@ class SaunaRenderer:
         pygame.display.flip()
 
     def _draw_sauna_structure(self) -> None:
-        """Vykreslí strukturu sauny."""
-        # Sauna walls
-        pygame.draw.rect(self.screen, self.sauna_wall_color, self.sauna_rect, 3)
+        """Vykreslí realistickou strukturu sauny podle 3D modelu."""
+        # Sauna walls - reálné rozměry 8.5m x 7.6m
+        pygame.draw.rect(self.screen, self.sauna_wall_color, self.sauna_rect, 4)
 
-        # Benches
-        bench_rect = pygame.Rect(
-            self.sauna_rect.left + 20,
-            self.sauna_rect.bottom - 100,
-            self.sauna_rect.width - 40,
-            20,
-        )
-        pygame.draw.rect(self.screen, self.sauna_bench_color, bench_rect)
+        # Scaling pro 2D zobrazení (stejný jako v _create_sauna_fixtures)
+        scale_x = self.sauna_rect.width / 8.5
+        scale_z = self.sauna_rect.height / 7.6
+        center_x = self.sauna_rect.centerx
+        center_z = self.sauna_rect.centery
 
-        # Stove area
-        stove_rect = pygame.Rect(
-            self.sauna_rect.right - 120, self.sauna_rect.bottom - 140, 80, 60
-        )
+        def real_3d_to_2d_structure(x_3d: float, z_3d: float) -> tuple[int, int]:
+            """Převede reálné 3D pozice na 2D obrazovku."""
+            x_2d = center_x + (x_3d * scale_x)
+            z_2d = center_z - (z_3d * scale_z)
+            return (int(x_2d), int(z_2d))
+
+        # Vykreslení hlavních lavic podle reálných pozic
+        bench_color = (160, 82, 45)
+        main_benches = [
+            # Levá strana
+            (-2.48, -0.63, 120, 40),
+            (-2.48, 2.00, 80, 30),
+            # Pravá strana
+            (2.48, -0.64, 120, 40),
+            (2.48, 2.00, 80, 30),
+            # Zadní strana
+            (0.00, 2.94, 140, 35),
+        ]
+
+        for x_3d, z_3d, width, height in main_benches:
+            pos = real_3d_to_2d_structure(x_3d, z_3d)
+            bench_rect = pygame.Rect(
+                pos[0] - width//2, pos[1] - height//2, width, height
+            )
+            pygame.draw.rect(self.screen, bench_color, bench_rect)
+
+        # Kamna oblast (podle reálné pozice)
+        stove_pos = real_3d_to_2d_structure(0.0, -1.25)
+        stove_rect = pygame.Rect(stove_pos[0] - 50, stove_pos[1] - 40, 100, 80)
         pygame.draw.rect(self.screen, (100, 50, 50), stove_rect)
 
-        # Labels
-        stove_text = self.font_small.render("KAMNA", True, self.text_color)
-        self.screen.blit(stove_text, (stove_rect.x + 20, stove_rect.y + 25))
+        # Plasma screen (podle reálné pozice)
+        screen_pos = real_3d_to_2d_structure(0.00, -4.22)
+        screen_rect = pygame.Rect(screen_pos[0] - 40, screen_pos[1] - 15, 80, 30)
+        pygame.draw.rect(self.screen, (32, 32, 32), screen_rect)
 
-        bench_text = self.font_small.render("LAVICE", True, self.text_color)
-        self.screen.blit(bench_text, (bench_rect.x + 10, bench_rect.y - 25))
+        # Labels s reálnými rozměry
+        title_text = self.font_medium.render("REÁLNÁ SAUNA (8.5m × 7.6m)", True, self.text_color)
+        self.screen.blit(title_text, (self.sauna_rect.x, self.sauna_rect.y - 25))
+
+        # Kamna label
+        stove_text = self.font_small.render("KAMNA", True, self.text_color)
+        self.screen.blit(stove_text, (stove_rect.x + 30, stove_rect.y + 35))
+
+        # Screen label
+        screen_text = self.font_small.render("TV", True, self.text_color)
+        self.screen.blit(screen_text, (screen_rect.x + 30, screen_rect.y + 8))
+
+        # Orientace kompas
+        compass_x = self.sauna_rect.right - 80
+        compass_y = self.sauna_rect.top + 15
+        compass_text = self.font_small.render("N↑", True, (150, 150, 150))
+        self.screen.blit(compass_text, (compass_x, compass_y))
 
     def _draw_light_fixtures(self) -> None:
         """Vykreslí světelná zařízení."""
@@ -568,7 +647,7 @@ class SaunaRenderer:
                 self.screen.blit(glow_surf, glow_pos, special_flags=pygame.BLEND_ADD)
 
         # Debug log each few frames
-        if hasattr(self, '_frame_count'):
+        if hasattr(self, "_frame_count"):
             self._frame_count += 1
         else:
             self._frame_count = 0

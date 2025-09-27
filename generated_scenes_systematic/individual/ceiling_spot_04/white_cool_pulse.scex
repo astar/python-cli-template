@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1753821004" name="Ceiling Spot #5" model="Bodovka_RGB" />
+  </Fixtures>
+  <Steps>
+    <Step length="100">
+      <Fixture id="1753821004">
+        <Channel index="0" name="red" value="200" />
+        <Channel index="1" name="green" value="220" />
+        <Channel index="2" name="blue" value="255" />
+        <Channel index="3" name="dimmer" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="800">
+      <Fixture id="1753821004">
+        <Channel index="0" name="red" value="200" fade="1" />
+        <Channel index="1" name="green" value="220" fade="1" />
+        <Channel index="2" name="blue" value="255" fade="1" />
+        <Channel index="3" name="dimmer" value="255" />
+      </Fixture>
+    </Step>
+    <Step length="800">
+      <Fixture id="1753821004">
+        <Channel index="0" name="red" value="200" fade="1" />
+        <Channel index="1" name="green" value="220" fade="1" />
+        <Channel index="2" name="blue" value="255" fade="1" />
+        <Channel index="3" name="dimmer" value="100" />
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

@@ -170,6 +170,71 @@ def visualize(timeline_file: Path, audio_file: Path) -> None:
         sys.exit(1)
 
 
+@cli.command()
+@click.argument("audio_file", type=click.Path(exists=True, path_type=Path))
+def music_director(audio_file: Path) -> None:
+    """Advanced Music Director Visualizer with intelligent zone mapping."""
+    try:
+        from .visualizer.music_director_visualizer import run_music_director
+
+        click.echo("🎼 Starting Music Director Visualizer...")
+        click.echo("🎹 Advanced spectral analysis and intelligent light mapping")
+        click.echo(f"   Audio: {audio_file}")
+
+        run_music_director(audio_file)
+
+    except ImportError as e:
+        click.echo("❌ Music Director requires pygame and librosa: pip install pygame librosa", err=True)
+        click.echo(f"   Error: {e}", err=True)
+        sys.exit(1)
+    except Exception as e:
+        click.echo(f"❌ Music Director error: {e}", err=True)
+        logger.error("Music Director failed: %s", e)
+        sys.exit(1)
+
+
+@cli.command()
+@click.argument("audio_file", type=click.Path(exists=True, path_type=Path))
+@click.option(
+    "--output", "-o", type=click.Path(path_type=Path), help="Output timeline file path"
+)
+def dynamic(
+    audio_file: Path,
+    output: Path | None,
+) -> None:
+    """Generate EXPLOSIVE dynamic timeline with beat-responsive effects."""
+    from .dynamic_spectacular_generator import create_dynamic_spectacular_timeline
+
+    try:
+        click.echo("💥 Creating DYNAMIC explosive lighting show...")
+        click.echo("🎯 Beat detection + Strobe effects + Circular waves + Bass explosions")
+        click.echo(f"🎵 Audio: {audio_file}")
+
+        # Generate output path if not provided
+        if not output:
+            output = audio_file.with_stem(f"{audio_file.stem}_DYNAMIC").with_suffix(".tml")
+
+        # Create dynamic spectacular timeline
+        timeline = create_dynamic_spectacular_timeline(audio_file, output)
+
+        click.echo(f"💥 EXPLOSIVE timeline created with {len(timeline.events)} dynamic effects!")
+        click.echo(f"💾 Saved to: {output}")
+
+        # Show effects summary
+        click.echo("\n🎪 Dynamic Effects Applied:")
+        click.echo("   ⚡ Beat-responsive flashes every 4th beat")
+        click.echo("   🌪️  Stroboscopic effects on high frequencies")
+        click.echo("   🌊 Circular waves across ceiling")
+        click.echo("   🎭 Alternating up/down effects")
+        click.echo("   💥 Bass explosions on strong low frequencies")
+        click.echo("   🏃 Moving head chase sequences")
+
+    except Exception as e:
+        click.echo(f"❌ Error creating dynamic show: {e}", err=True)
+        logger.error("Dynamic generation failed: %s", e)
+        sys.exit(1)
+
+
 def main() -> None:
     """Main entry point."""
     try:

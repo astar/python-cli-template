@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1753841" name="UV Light #1" model="UV_Light" />
+    <Fixture id="1753842" name="UV Light #2" model="UV_Light" />
+  </Fixtures>
+  <Steps>
+    <Step length="100">
+      <Fixture id="1753841">
+        <Channel index="0" name="dimmer" value="255" />
+        <Channel index="0" name="dimmer" value="0" />
+      </Fixture>
+      <Fixture id="1753842">
+        <Channel index="0" name="dimmer" value="255" />
+        <Channel index="0" name="dimmer" value="0" />
+      </Fixture>
+    </Step>
+    <Step length="2000">
+      <Fixture id="1753841">
+        <Channel index="0" name="dimmer" value="255" fade="1" />
+        <Channel index="0" name="dimmer" value="255" />
+      </Fixture>
+      <Fixture id="1753842">
+        <Channel index="0" name="dimmer" value="255" fade="1" />
+        <Channel index="0" name="dimmer" value="255" />
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

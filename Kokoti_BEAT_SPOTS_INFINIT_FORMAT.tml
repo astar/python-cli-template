@@ -1,0 +1,7892 @@
+[Params]
+Version = 0.2
+CommentTimeLine = 0
+LightTimeLines = 10
+MediaTimeLines = 1
+ShowWaveForm = 1
+MaxTime = 0:30:00
+Zoom = 0
+TimeLine_1 = V I D E O   P I C T U R E   T I M E L I N E
+TimeLine_2 = A U D I O   T I M E L I N E
+TimeLine_3 = L I G H T   S C E N E   T I M E L I N E   #   1
+TimeLine_4 = L I G H T   S C E N E   T I M E L I N E   #   2
+TimeLine_5 = L I G H T   S C E N E   T I M E L I N E   #   3
+TimeLine_6 = L I G H T   S C E N E   T I M E L I N E   #   4
+TimeLine_7 = L I G H T   S C E N E   T I M E L I N E   #   5
+TimeLine_8 = L I G H T   S C E N E   T I M E L I N E   #   6
+TimeLine_9 = L I G H T   S C E N E   T I M E L I N E   #   7
+TimeLine_10 = L I G H T   S C E N E   T I M E L I N E   #   8
+TimeLine_11 = L I G H T   S C E N E   T I M E L I N E   #   9
+TimeLine_12 = L I G H T   S C E N E   T I M E L I N E   #   10
+
+[Event_0]
+TimeLineIndex = 2
+StartTime = 0:00:00.0
+Path = Music/Kraviny-ze-sauny/Kokoti.mp3
+Length = 0:04:13.6
+
+[Event_1]
+TimeLineIndex = 3
+StartTime = 0:00:00.0
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_2]
+TimeLineIndex = 3
+StartTime = 0:00:00.3
+Path = OFF
+
+[Event_3]
+TimeLineIndex = 3
+StartTime = 0:00:00.4
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_4]
+TimeLineIndex = 3
+StartTime = 0:00:00.7
+Path = OFF
+
+[Event_5]
+TimeLineIndex = 3
+StartTime = 0:00:00.8
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_6]
+TimeLineIndex = 3
+StartTime = 0:00:01.1
+Path = OFF
+
+[Event_7]
+TimeLineIndex = 3
+StartTime = 0:00:01.3
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_8]
+TimeLineIndex = 3
+StartTime = 0:00:01.6
+Path = OFF
+
+[Event_9]
+TimeLineIndex = 3
+StartTime = 0:00:01.7
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_10]
+TimeLineIndex = 3
+StartTime = 0:00:02.0
+Path = OFF
+
+[Event_11]
+TimeLineIndex = 3
+StartTime = 0:00:02.1
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_12]
+TimeLineIndex = 3
+StartTime = 0:00:02.4
+Path = OFF
+
+[Event_13]
+TimeLineIndex = 3
+StartTime = 0:00:02.5
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_14]
+TimeLineIndex = 3
+StartTime = 0:00:02.8
+Path = OFF
+
+[Event_15]
+TimeLineIndex = 3
+StartTime = 0:00:02.9
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_16]
+TimeLineIndex = 3
+StartTime = 0:00:03.2
+Path = OFF
+
+[Event_17]
+TimeLineIndex = 3
+StartTime = 0:00:03.3
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_18]
+TimeLineIndex = 3
+StartTime = 0:00:03.6
+Path = OFF
+
+[Event_19]
+TimeLineIndex = 3
+StartTime = 0:00:03.8
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_20]
+TimeLineIndex = 3
+StartTime = 0:00:04.1
+Path = OFF
+
+[Event_21]
+TimeLineIndex = 3
+StartTime = 0:00:04.2
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_22]
+TimeLineIndex = 3
+StartTime = 0:00:04.5
+Path = OFF
+
+[Event_23]
+TimeLineIndex = 3
+StartTime = 0:00:04.6
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_24]
+TimeLineIndex = 3
+StartTime = 0:00:04.9
+Path = OFF
+
+[Event_25]
+TimeLineIndex = 3
+StartTime = 0:00:05.0
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_26]
+TimeLineIndex = 3
+StartTime = 0:00:05.3
+Path = OFF
+
+[Event_27]
+TimeLineIndex = 3
+StartTime = 0:00:05.4
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_28]
+TimeLineIndex = 3
+StartTime = 0:00:05.7
+Path = OFF
+
+[Event_29]
+TimeLineIndex = 3
+StartTime = 0:00:05.8
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_30]
+TimeLineIndex = 3
+StartTime = 0:00:06.1
+Path = OFF
+
+[Event_31]
+TimeLineIndex = 3
+StartTime = 0:00:06.3
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_32]
+TimeLineIndex = 3
+StartTime = 0:00:06.6
+Path = OFF
+
+[Event_33]
+TimeLineIndex = 3
+StartTime = 0:00:06.7
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_34]
+TimeLineIndex = 3
+StartTime = 0:00:07.0
+Path = OFF
+
+[Event_35]
+TimeLineIndex = 3
+StartTime = 0:00:07.1
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_36]
+TimeLineIndex = 3
+StartTime = 0:00:07.4
+Path = OFF
+
+[Event_37]
+TimeLineIndex = 3
+StartTime = 0:00:07.5
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_38]
+TimeLineIndex = 3
+StartTime = 0:00:07.8
+Path = OFF
+
+[Event_39]
+TimeLineIndex = 3
+StartTime = 0:00:07.9
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_40]
+TimeLineIndex = 3
+StartTime = 0:00:08.2
+Path = OFF
+
+[Event_41]
+TimeLineIndex = 3
+StartTime = 0:00:08.4
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_42]
+TimeLineIndex = 3
+StartTime = 0:00:08.7
+Path = OFF
+
+[Event_43]
+TimeLineIndex = 3
+StartTime = 0:00:08.8
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_44]
+TimeLineIndex = 3
+StartTime = 0:00:09.1
+Path = OFF
+
+[Event_45]
+TimeLineIndex = 3
+StartTime = 0:00:09.2
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_46]
+TimeLineIndex = 3
+StartTime = 0:00:09.5
+Path = OFF
+
+[Event_47]
+TimeLineIndex = 3
+StartTime = 0:00:09.6
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_48]
+TimeLineIndex = 3
+StartTime = 0:00:09.9
+Path = OFF
+
+[Event_49]
+TimeLineIndex = 3
+StartTime = 0:00:10.0
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_50]
+TimeLineIndex = 3
+StartTime = 0:00:10.3
+Path = OFF
+
+[Event_51]
+TimeLineIndex = 3
+StartTime = 0:00:10.4
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_52]
+TimeLineIndex = 3
+StartTime = 0:00:10.7
+Path = OFF
+
+[Event_53]
+TimeLineIndex = 3
+StartTime = 0:00:10.9
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_54]
+TimeLineIndex = 3
+StartTime = 0:00:11.2
+Path = OFF
+
+[Event_55]
+TimeLineIndex = 3
+StartTime = 0:00:11.3
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_56]
+TimeLineIndex = 3
+StartTime = 0:00:11.6
+Path = OFF
+
+[Event_57]
+TimeLineIndex = 3
+StartTime = 0:00:11.7
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_58]
+TimeLineIndex = 3
+StartTime = 0:00:12.0
+Path = OFF
+
+[Event_59]
+TimeLineIndex = 3
+StartTime = 0:00:12.1
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_60]
+TimeLineIndex = 3
+StartTime = 0:00:12.4
+Path = OFF
+
+[Event_61]
+TimeLineIndex = 3
+StartTime = 0:00:12.5
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_62]
+TimeLineIndex = 3
+StartTime = 0:00:12.8
+Path = OFF
+
+[Event_63]
+TimeLineIndex = 3
+StartTime = 0:00:13.0
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_64]
+TimeLineIndex = 3
+StartTime = 0:00:13.3
+Path = OFF
+
+[Event_65]
+TimeLineIndex = 3
+StartTime = 0:00:13.4
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_66]
+TimeLineIndex = 3
+StartTime = 0:00:13.7
+Path = OFF
+
+[Event_67]
+TimeLineIndex = 3
+StartTime = 0:00:13.8
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_68]
+TimeLineIndex = 3
+StartTime = 0:00:14.1
+Path = OFF
+
+[Event_69]
+TimeLineIndex = 3
+StartTime = 0:00:14.2
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_70]
+TimeLineIndex = 3
+StartTime = 0:00:14.5
+Path = OFF
+
+[Event_71]
+TimeLineIndex = 3
+StartTime = 0:00:14.6
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_72]
+TimeLineIndex = 3
+StartTime = 0:00:14.9
+Path = OFF
+
+[Event_73]
+TimeLineIndex = 3
+StartTime = 0:00:15.0
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_74]
+TimeLineIndex = 3
+StartTime = 0:00:15.3
+Path = OFF
+
+[Event_75]
+TimeLineIndex = 3
+StartTime = 0:00:15.5
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_76]
+TimeLineIndex = 3
+StartTime = 0:00:15.8
+Path = OFF
+
+[Event_77]
+TimeLineIndex = 3
+StartTime = 0:00:15.9
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_78]
+TimeLineIndex = 3
+StartTime = 0:00:16.2
+Path = OFF
+
+[Event_79]
+TimeLineIndex = 3
+StartTime = 0:00:16.3
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_80]
+TimeLineIndex = 3
+StartTime = 0:00:16.6
+Path = OFF
+
+[Event_81]
+TimeLineIndex = 3
+StartTime = 0:00:16.7
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_82]
+TimeLineIndex = 3
+StartTime = 0:00:17.0
+Path = OFF
+
+[Event_83]
+TimeLineIndex = 3
+StartTime = 0:00:17.1
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_84]
+TimeLineIndex = 3
+StartTime = 0:00:17.4
+Path = OFF
+
+[Event_85]
+TimeLineIndex = 3
+StartTime = 0:00:17.5
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_86]
+TimeLineIndex = 3
+StartTime = 0:00:17.8
+Path = OFF
+
+[Event_87]
+TimeLineIndex = 3
+StartTime = 0:00:18.0
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_88]
+TimeLineIndex = 3
+StartTime = 0:00:18.3
+Path = OFF
+
+[Event_89]
+TimeLineIndex = 3
+StartTime = 0:00:18.4
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_90]
+TimeLineIndex = 3
+StartTime = 0:00:18.7
+Path = OFF
+
+[Event_91]
+TimeLineIndex = 3
+StartTime = 0:00:18.8
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_92]
+TimeLineIndex = 3
+StartTime = 0:00:19.1
+Path = OFF
+
+[Event_93]
+TimeLineIndex = 3
+StartTime = 0:00:19.2
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_94]
+TimeLineIndex = 3
+StartTime = 0:00:19.5
+Path = OFF
+
+[Event_95]
+TimeLineIndex = 3
+StartTime = 0:00:19.6
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_96]
+TimeLineIndex = 3
+StartTime = 0:00:19.9
+Path = OFF
+
+[Event_97]
+TimeLineIndex = 3
+StartTime = 0:00:20.1
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_98]
+TimeLineIndex = 3
+StartTime = 0:00:20.4
+Path = OFF
+
+[Event_99]
+TimeLineIndex = 3
+StartTime = 0:00:20.5
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_100]
+TimeLineIndex = 3
+StartTime = 0:00:20.8
+Path = OFF
+
+[Event_101]
+TimeLineIndex = 3
+StartTime = 0:00:20.9
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_102]
+TimeLineIndex = 3
+StartTime = 0:00:21.2
+Path = OFF
+
+[Event_103]
+TimeLineIndex = 3
+StartTime = 0:00:21.3
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_104]
+TimeLineIndex = 3
+StartTime = 0:00:21.6
+Path = OFF
+
+[Event_105]
+TimeLineIndex = 3
+StartTime = 0:00:21.7
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_106]
+TimeLineIndex = 3
+StartTime = 0:00:22.0
+Path = OFF
+
+[Event_107]
+TimeLineIndex = 3
+StartTime = 0:00:22.1
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_108]
+TimeLineIndex = 3
+StartTime = 0:00:22.4
+Path = OFF
+
+[Event_109]
+TimeLineIndex = 3
+StartTime = 0:00:22.6
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_110]
+TimeLineIndex = 3
+StartTime = 0:00:22.9
+Path = OFF
+
+[Event_111]
+TimeLineIndex = 3
+StartTime = 0:00:23.0
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_112]
+TimeLineIndex = 3
+StartTime = 0:00:23.3
+Path = OFF
+
+[Event_113]
+TimeLineIndex = 3
+StartTime = 0:00:23.4
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_114]
+TimeLineIndex = 3
+StartTime = 0:00:23.7
+Path = OFF
+
+[Event_115]
+TimeLineIndex = 3
+StartTime = 0:00:23.8
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_116]
+TimeLineIndex = 3
+StartTime = 0:00:24.1
+Path = OFF
+
+[Event_117]
+TimeLineIndex = 3
+StartTime = 0:00:24.2
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_118]
+TimeLineIndex = 3
+StartTime = 0:00:24.5
+Path = OFF
+
+[Event_119]
+TimeLineIndex = 3
+StartTime = 0:00:24.7
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_120]
+TimeLineIndex = 3
+StartTime = 0:00:25.0
+Path = OFF
+
+[Event_121]
+TimeLineIndex = 3
+StartTime = 0:00:25.1
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_122]
+TimeLineIndex = 3
+StartTime = 0:00:25.4
+Path = OFF
+
+[Event_123]
+TimeLineIndex = 3
+StartTime = 0:00:25.5
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_124]
+TimeLineIndex = 3
+StartTime = 0:00:25.8
+Path = OFF
+
+[Event_125]
+TimeLineIndex = 3
+StartTime = 0:00:25.9
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_126]
+TimeLineIndex = 3
+StartTime = 0:00:26.2
+Path = OFF
+
+[Event_127]
+TimeLineIndex = 3
+StartTime = 0:00:26.3
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_128]
+TimeLineIndex = 3
+StartTime = 0:00:26.6
+Path = OFF
+
+[Event_129]
+TimeLineIndex = 3
+StartTime = 0:00:26.7
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_130]
+TimeLineIndex = 3
+StartTime = 0:00:27.0
+Path = OFF
+
+[Event_131]
+TimeLineIndex = 3
+StartTime = 0:00:27.2
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_132]
+TimeLineIndex = 3
+StartTime = 0:00:27.5
+Path = OFF
+
+[Event_133]
+TimeLineIndex = 3
+StartTime = 0:00:27.6
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_134]
+TimeLineIndex = 3
+StartTime = 0:00:27.9
+Path = OFF
+
+[Event_135]
+TimeLineIndex = 3
+StartTime = 0:00:28.0
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_136]
+TimeLineIndex = 3
+StartTime = 0:00:28.3
+Path = OFF
+
+[Event_137]
+TimeLineIndex = 3
+StartTime = 0:00:28.4
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_138]
+TimeLineIndex = 3
+StartTime = 0:00:28.7
+Path = OFF
+
+[Event_139]
+TimeLineIndex = 3
+StartTime = 0:00:28.8
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_140]
+TimeLineIndex = 3
+StartTime = 0:00:29.1
+Path = OFF
+
+[Event_141]
+TimeLineIndex = 3
+StartTime = 0:00:29.2
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_142]
+TimeLineIndex = 3
+StartTime = 0:00:29.5
+Path = OFF
+
+[Event_143]
+TimeLineIndex = 3
+StartTime = 0:00:29.7
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_144]
+TimeLineIndex = 3
+StartTime = 0:00:30.0
+Path = OFF
+
+[Event_145]
+TimeLineIndex = 3
+StartTime = 0:00:30.1
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_146]
+TimeLineIndex = 3
+StartTime = 0:00:30.4
+Path = OFF
+
+[Event_147]
+TimeLineIndex = 3
+StartTime = 0:00:30.5
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_148]
+TimeLineIndex = 3
+StartTime = 0:00:30.8
+Path = OFF
+
+[Event_149]
+TimeLineIndex = 3
+StartTime = 0:00:30.9
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_150]
+TimeLineIndex = 3
+StartTime = 0:00:31.2
+Path = OFF
+
+[Event_151]
+TimeLineIndex = 3
+StartTime = 0:00:31.3
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_152]
+TimeLineIndex = 3
+StartTime = 0:00:31.6
+Path = OFF
+
+[Event_153]
+TimeLineIndex = 3
+StartTime = 0:00:31.8
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_154]
+TimeLineIndex = 3
+StartTime = 0:00:32.1
+Path = OFF
+
+[Event_155]
+TimeLineIndex = 3
+StartTime = 0:00:32.2
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_156]
+TimeLineIndex = 3
+StartTime = 0:00:32.5
+Path = OFF
+
+[Event_157]
+TimeLineIndex = 3
+StartTime = 0:00:32.6
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_158]
+TimeLineIndex = 3
+StartTime = 0:00:32.9
+Path = OFF
+
+[Event_159]
+TimeLineIndex = 3
+StartTime = 0:00:33.0
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_160]
+TimeLineIndex = 3
+StartTime = 0:00:33.3
+Path = OFF
+
+[Event_161]
+TimeLineIndex = 3
+StartTime = 0:00:33.4
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_162]
+TimeLineIndex = 3
+StartTime = 0:00:33.7
+Path = OFF
+
+[Event_163]
+TimeLineIndex = 3
+StartTime = 0:00:33.8
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_164]
+TimeLineIndex = 3
+StartTime = 0:00:34.1
+Path = OFF
+
+[Event_165]
+TimeLineIndex = 3
+StartTime = 0:00:34.3
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_166]
+TimeLineIndex = 3
+StartTime = 0:00:34.6
+Path = OFF
+
+[Event_167]
+TimeLineIndex = 3
+StartTime = 0:00:34.7
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_168]
+TimeLineIndex = 3
+StartTime = 0:00:35.0
+Path = OFF
+
+[Event_169]
+TimeLineIndex = 3
+StartTime = 0:00:35.1
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_170]
+TimeLineIndex = 3
+StartTime = 0:00:35.4
+Path = OFF
+
+[Event_171]
+TimeLineIndex = 3
+StartTime = 0:00:35.5
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_172]
+TimeLineIndex = 3
+StartTime = 0:00:35.8
+Path = OFF
+
+[Event_173]
+TimeLineIndex = 3
+StartTime = 0:00:35.9
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_174]
+TimeLineIndex = 3
+StartTime = 0:00:36.2
+Path = OFF
+
+[Event_175]
+TimeLineIndex = 3
+StartTime = 0:00:36.4
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_176]
+TimeLineIndex = 3
+StartTime = 0:00:36.7
+Path = OFF
+
+[Event_177]
+TimeLineIndex = 3
+StartTime = 0:00:36.8
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_178]
+TimeLineIndex = 3
+StartTime = 0:00:37.1
+Path = OFF
+
+[Event_179]
+TimeLineIndex = 3
+StartTime = 0:00:37.2
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_180]
+TimeLineIndex = 3
+StartTime = 0:00:37.5
+Path = OFF
+
+[Event_181]
+TimeLineIndex = 3
+StartTime = 0:00:37.6
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_182]
+TimeLineIndex = 3
+StartTime = 0:00:37.9
+Path = OFF
+
+[Event_183]
+TimeLineIndex = 3
+StartTime = 0:00:38.0
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_184]
+TimeLineIndex = 3
+StartTime = 0:00:38.3
+Path = OFF
+
+[Event_185]
+TimeLineIndex = 3
+StartTime = 0:00:38.4
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_186]
+TimeLineIndex = 3
+StartTime = 0:00:38.7
+Path = OFF
+
+[Event_187]
+TimeLineIndex = 3
+StartTime = 0:00:38.9
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_188]
+TimeLineIndex = 3
+StartTime = 0:00:39.2
+Path = OFF
+
+[Event_189]
+TimeLineIndex = 3
+StartTime = 0:00:39.3
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_190]
+TimeLineIndex = 3
+StartTime = 0:00:39.6
+Path = OFF
+
+[Event_191]
+TimeLineIndex = 3
+StartTime = 0:00:39.7
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_192]
+TimeLineIndex = 3
+StartTime = 0:00:40.0
+Path = OFF
+
+[Event_193]
+TimeLineIndex = 3
+StartTime = 0:00:40.1
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_194]
+TimeLineIndex = 3
+StartTime = 0:00:40.4
+Path = OFF
+
+[Event_195]
+TimeLineIndex = 3
+StartTime = 0:00:40.5
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_196]
+TimeLineIndex = 3
+StartTime = 0:00:40.8
+Path = OFF
+
+[Event_197]
+TimeLineIndex = 3
+StartTime = 0:00:40.9
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_198]
+TimeLineIndex = 3
+StartTime = 0:00:41.2
+Path = OFF
+
+[Event_199]
+TimeLineIndex = 3
+StartTime = 0:00:41.4
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_200]
+TimeLineIndex = 3
+StartTime = 0:00:41.7
+Path = OFF
+
+[Event_201]
+TimeLineIndex = 3
+StartTime = 0:00:41.8
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_202]
+TimeLineIndex = 3
+StartTime = 0:00:42.1
+Path = OFF
+
+[Event_203]
+TimeLineIndex = 3
+StartTime = 0:00:42.2
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_204]
+TimeLineIndex = 3
+StartTime = 0:00:42.5
+Path = OFF
+
+[Event_205]
+TimeLineIndex = 3
+StartTime = 0:00:42.6
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_206]
+TimeLineIndex = 3
+StartTime = 0:00:42.9
+Path = OFF
+
+[Event_207]
+TimeLineIndex = 3
+StartTime = 0:00:43.0
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_208]
+TimeLineIndex = 3
+StartTime = 0:00:43.3
+Path = OFF
+
+[Event_209]
+TimeLineIndex = 3
+StartTime = 0:00:43.5
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_210]
+TimeLineIndex = 3
+StartTime = 0:00:43.8
+Path = OFF
+
+[Event_211]
+TimeLineIndex = 3
+StartTime = 0:00:43.9
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_212]
+TimeLineIndex = 3
+StartTime = 0:00:44.2
+Path = OFF
+
+[Event_213]
+TimeLineIndex = 3
+StartTime = 0:00:44.3
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_214]
+TimeLineIndex = 3
+StartTime = 0:00:44.6
+Path = OFF
+
+[Event_215]
+TimeLineIndex = 3
+StartTime = 0:00:44.7
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_216]
+TimeLineIndex = 3
+StartTime = 0:00:45.0
+Path = OFF
+
+[Event_217]
+TimeLineIndex = 3
+StartTime = 0:00:45.1
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_218]
+TimeLineIndex = 3
+StartTime = 0:00:45.4
+Path = OFF
+
+[Event_219]
+TimeLineIndex = 3
+StartTime = 0:00:45.5
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_220]
+TimeLineIndex = 3
+StartTime = 0:00:45.8
+Path = OFF
+
+[Event_221]
+TimeLineIndex = 3
+StartTime = 0:00:46.0
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_222]
+TimeLineIndex = 3
+StartTime = 0:00:46.3
+Path = OFF
+
+[Event_223]
+TimeLineIndex = 3
+StartTime = 0:00:46.4
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_224]
+TimeLineIndex = 3
+StartTime = 0:00:46.7
+Path = OFF
+
+[Event_225]
+TimeLineIndex = 3
+StartTime = 0:00:46.8
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_226]
+TimeLineIndex = 3
+StartTime = 0:00:47.1
+Path = OFF
+
+[Event_227]
+TimeLineIndex = 3
+StartTime = 0:00:47.2
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_228]
+TimeLineIndex = 3
+StartTime = 0:00:47.5
+Path = OFF
+
+[Event_229]
+TimeLineIndex = 3
+StartTime = 0:00:47.6
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_230]
+TimeLineIndex = 3
+StartTime = 0:00:47.9
+Path = OFF
+
+[Event_231]
+TimeLineIndex = 3
+StartTime = 0:00:48.1
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_232]
+TimeLineIndex = 3
+StartTime = 0:00:48.4
+Path = OFF
+
+[Event_233]
+TimeLineIndex = 3
+StartTime = 0:00:48.5
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_234]
+TimeLineIndex = 3
+StartTime = 0:00:48.8
+Path = OFF
+
+[Event_235]
+TimeLineIndex = 3
+StartTime = 0:00:48.9
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_236]
+TimeLineIndex = 3
+StartTime = 0:00:49.2
+Path = OFF
+
+[Event_237]
+TimeLineIndex = 3
+StartTime = 0:00:49.3
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_238]
+TimeLineIndex = 3
+StartTime = 0:00:49.6
+Path = OFF
+
+[Event_239]
+TimeLineIndex = 3
+StartTime = 0:00:49.7
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_240]
+TimeLineIndex = 3
+StartTime = 0:00:50.0
+Path = OFF
+
+[Event_241]
+TimeLineIndex = 3
+StartTime = 0:00:50.1
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_242]
+TimeLineIndex = 3
+StartTime = 0:00:50.4
+Path = OFF
+
+[Event_243]
+TimeLineIndex = 3
+StartTime = 0:00:50.6
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_244]
+TimeLineIndex = 3
+StartTime = 0:00:50.9
+Path = OFF
+
+[Event_245]
+TimeLineIndex = 3
+StartTime = 0:00:51.0
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_246]
+TimeLineIndex = 3
+StartTime = 0:00:51.3
+Path = OFF
+
+[Event_247]
+TimeLineIndex = 3
+StartTime = 0:00:51.4
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_248]
+TimeLineIndex = 3
+StartTime = 0:00:51.7
+Path = OFF
+
+[Event_249]
+TimeLineIndex = 3
+StartTime = 0:00:51.8
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_250]
+TimeLineIndex = 3
+StartTime = 0:00:52.1
+Path = OFF
+
+[Event_251]
+TimeLineIndex = 3
+StartTime = 0:00:52.2
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_252]
+TimeLineIndex = 3
+StartTime = 0:00:52.5
+Path = OFF
+
+[Event_253]
+TimeLineIndex = 3
+StartTime = 0:00:52.6
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_254]
+TimeLineIndex = 3
+StartTime = 0:00:52.9
+Path = OFF
+
+[Event_255]
+TimeLineIndex = 3
+StartTime = 0:00:53.1
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_256]
+TimeLineIndex = 3
+StartTime = 0:00:53.4
+Path = OFF
+
+[Event_257]
+TimeLineIndex = 3
+StartTime = 0:00:53.5
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_258]
+TimeLineIndex = 3
+StartTime = 0:00:53.8
+Path = OFF
+
+[Event_259]
+TimeLineIndex = 3
+StartTime = 0:00:53.9
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_260]
+TimeLineIndex = 3
+StartTime = 0:00:54.2
+Path = OFF
+
+[Event_261]
+TimeLineIndex = 3
+StartTime = 0:00:54.3
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_262]
+TimeLineIndex = 3
+StartTime = 0:00:54.6
+Path = OFF
+
+[Event_263]
+TimeLineIndex = 3
+StartTime = 0:00:54.7
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_264]
+TimeLineIndex = 3
+StartTime = 0:00:55.0
+Path = OFF
+
+[Event_265]
+TimeLineIndex = 3
+StartTime = 0:00:55.2
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_266]
+TimeLineIndex = 3
+StartTime = 0:00:55.5
+Path = OFF
+
+[Event_267]
+TimeLineIndex = 3
+StartTime = 0:00:55.6
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_268]
+TimeLineIndex = 3
+StartTime = 0:00:55.9
+Path = OFF
+
+[Event_269]
+TimeLineIndex = 3
+StartTime = 0:00:56.0
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_270]
+TimeLineIndex = 3
+StartTime = 0:00:56.3
+Path = OFF
+
+[Event_271]
+TimeLineIndex = 3
+StartTime = 0:00:56.4
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_272]
+TimeLineIndex = 3
+StartTime = 0:00:56.7
+Path = OFF
+
+[Event_273]
+TimeLineIndex = 3
+StartTime = 0:00:56.8
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_274]
+TimeLineIndex = 3
+StartTime = 0:00:57.1
+Path = OFF
+
+[Event_275]
+TimeLineIndex = 3
+StartTime = 0:00:57.2
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_276]
+TimeLineIndex = 3
+StartTime = 0:00:57.5
+Path = OFF
+
+[Event_277]
+TimeLineIndex = 3
+StartTime = 0:00:57.7
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_278]
+TimeLineIndex = 3
+StartTime = 0:00:58.0
+Path = OFF
+
+[Event_279]
+TimeLineIndex = 3
+StartTime = 0:00:58.1
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_280]
+TimeLineIndex = 3
+StartTime = 0:00:58.4
+Path = OFF
+
+[Event_281]
+TimeLineIndex = 3
+StartTime = 0:00:58.5
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_282]
+TimeLineIndex = 3
+StartTime = 0:00:58.8
+Path = OFF
+
+[Event_283]
+TimeLineIndex = 3
+StartTime = 0:00:58.9
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_284]
+TimeLineIndex = 3
+StartTime = 0:00:59.2
+Path = OFF
+
+[Event_285]
+TimeLineIndex = 3
+StartTime = 0:00:59.3
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_286]
+TimeLineIndex = 3
+StartTime = 0:00:59.6
+Path = OFF
+
+[Event_287]
+TimeLineIndex = 3
+StartTime = 0:00:59.7
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_288]
+TimeLineIndex = 3
+StartTime = 0:01:00.0
+Path = OFF
+
+[Event_289]
+TimeLineIndex = 3
+StartTime = 0:01:00.2
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_290]
+TimeLineIndex = 3
+StartTime = 0:01:00.5
+Path = OFF
+
+[Event_291]
+TimeLineIndex = 3
+StartTime = 0:01:00.6
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_292]
+TimeLineIndex = 3
+StartTime = 0:01:00.9
+Path = OFF
+
+[Event_293]
+TimeLineIndex = 3
+StartTime = 0:01:01.0
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_294]
+TimeLineIndex = 3
+StartTime = 0:01:01.3
+Path = OFF
+
+[Event_295]
+TimeLineIndex = 3
+StartTime = 0:01:01.4
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_296]
+TimeLineIndex = 3
+StartTime = 0:01:01.7
+Path = OFF
+
+[Event_297]
+TimeLineIndex = 3
+StartTime = 0:01:01.8
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_298]
+TimeLineIndex = 3
+StartTime = 0:01:02.1
+Path = OFF
+
+[Event_299]
+TimeLineIndex = 3
+StartTime = 0:01:02.3
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_300]
+TimeLineIndex = 3
+StartTime = 0:01:02.6
+Path = OFF
+
+[Event_301]
+TimeLineIndex = 3
+StartTime = 0:01:02.7
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_302]
+TimeLineIndex = 3
+StartTime = 0:01:03.0
+Path = OFF
+
+[Event_303]
+TimeLineIndex = 3
+StartTime = 0:01:03.1
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_304]
+TimeLineIndex = 3
+StartTime = 0:01:03.4
+Path = OFF
+
+[Event_305]
+TimeLineIndex = 3
+StartTime = 0:01:03.5
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_306]
+TimeLineIndex = 3
+StartTime = 0:01:03.8
+Path = OFF
+
+[Event_307]
+TimeLineIndex = 3
+StartTime = 0:01:03.9
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_308]
+TimeLineIndex = 3
+StartTime = 0:01:04.2
+Path = OFF
+
+[Event_309]
+TimeLineIndex = 3
+StartTime = 0:01:04.3
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_310]
+TimeLineIndex = 3
+StartTime = 0:01:04.6
+Path = OFF
+
+[Event_311]
+TimeLineIndex = 3
+StartTime = 0:01:04.8
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_312]
+TimeLineIndex = 3
+StartTime = 0:01:05.1
+Path = OFF
+
+[Event_313]
+TimeLineIndex = 3
+StartTime = 0:01:05.2
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_314]
+TimeLineIndex = 3
+StartTime = 0:01:05.5
+Path = OFF
+
+[Event_315]
+TimeLineIndex = 3
+StartTime = 0:01:05.6
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_316]
+TimeLineIndex = 3
+StartTime = 0:01:05.9
+Path = OFF
+
+[Event_317]
+TimeLineIndex = 3
+StartTime = 0:01:06.0
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_318]
+TimeLineIndex = 3
+StartTime = 0:01:06.3
+Path = OFF
+
+[Event_319]
+TimeLineIndex = 3
+StartTime = 0:01:06.4
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_320]
+TimeLineIndex = 3
+StartTime = 0:01:06.7
+Path = OFF
+
+[Event_321]
+TimeLineIndex = 3
+StartTime = 0:01:06.9
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_322]
+TimeLineIndex = 3
+StartTime = 0:01:07.2
+Path = OFF
+
+[Event_323]
+TimeLineIndex = 3
+StartTime = 0:01:07.3
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_324]
+TimeLineIndex = 3
+StartTime = 0:01:07.6
+Path = OFF
+
+[Event_325]
+TimeLineIndex = 3
+StartTime = 0:01:07.7
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_326]
+TimeLineIndex = 3
+StartTime = 0:01:08.0
+Path = OFF
+
+[Event_327]
+TimeLineIndex = 3
+StartTime = 0:01:08.1
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_328]
+TimeLineIndex = 3
+StartTime = 0:01:08.4
+Path = OFF
+
+[Event_329]
+TimeLineIndex = 3
+StartTime = 0:01:08.5
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_330]
+TimeLineIndex = 3
+StartTime = 0:01:08.8
+Path = OFF
+
+[Event_331]
+TimeLineIndex = 3
+StartTime = 0:01:08.9
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_332]
+TimeLineIndex = 3
+StartTime = 0:01:09.2
+Path = OFF
+
+[Event_333]
+TimeLineIndex = 3
+StartTime = 0:01:09.4
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_334]
+TimeLineIndex = 3
+StartTime = 0:01:09.7
+Path = OFF
+
+[Event_335]
+TimeLineIndex = 3
+StartTime = 0:01:09.8
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_336]
+TimeLineIndex = 3
+StartTime = 0:01:10.1
+Path = OFF
+
+[Event_337]
+TimeLineIndex = 3
+StartTime = 0:01:10.2
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_338]
+TimeLineIndex = 3
+StartTime = 0:01:10.5
+Path = OFF
+
+[Event_339]
+TimeLineIndex = 3
+StartTime = 0:01:10.6
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_340]
+TimeLineIndex = 3
+StartTime = 0:01:10.9
+Path = OFF
+
+[Event_341]
+TimeLineIndex = 3
+StartTime = 0:01:11.0
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_342]
+TimeLineIndex = 3
+StartTime = 0:01:11.3
+Path = OFF
+
+[Event_343]
+TimeLineIndex = 3
+StartTime = 0:01:11.4
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_344]
+TimeLineIndex = 3
+StartTime = 0:01:11.7
+Path = OFF
+
+[Event_345]
+TimeLineIndex = 3
+StartTime = 0:01:11.9
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_346]
+TimeLineIndex = 3
+StartTime = 0:01:12.2
+Path = OFF
+
+[Event_347]
+TimeLineIndex = 3
+StartTime = 0:01:12.3
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_348]
+TimeLineIndex = 3
+StartTime = 0:01:12.6
+Path = OFF
+
+[Event_349]
+TimeLineIndex = 3
+StartTime = 0:01:12.7
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_350]
+TimeLineIndex = 3
+StartTime = 0:01:13.0
+Path = OFF
+
+[Event_351]
+TimeLineIndex = 3
+StartTime = 0:01:13.1
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_352]
+TimeLineIndex = 3
+StartTime = 0:01:13.4
+Path = OFF
+
+[Event_353]
+TimeLineIndex = 3
+StartTime = 0:01:13.5
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_354]
+TimeLineIndex = 3
+StartTime = 0:01:13.8
+Path = OFF
+
+[Event_355]
+TimeLineIndex = 3
+StartTime = 0:01:14.0
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_356]
+TimeLineIndex = 3
+StartTime = 0:01:14.3
+Path = OFF
+
+[Event_357]
+TimeLineIndex = 3
+StartTime = 0:01:14.4
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_358]
+TimeLineIndex = 3
+StartTime = 0:01:14.7
+Path = OFF
+
+[Event_359]
+TimeLineIndex = 3
+StartTime = 0:01:14.8
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_360]
+TimeLineIndex = 3
+StartTime = 0:01:15.1
+Path = OFF
+
+[Event_361]
+TimeLineIndex = 3
+StartTime = 0:01:15.2
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_362]
+TimeLineIndex = 3
+StartTime = 0:01:15.5
+Path = OFF
+
+[Event_363]
+TimeLineIndex = 3
+StartTime = 0:01:15.6
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_364]
+TimeLineIndex = 3
+StartTime = 0:01:15.9
+Path = OFF
+
+[Event_365]
+TimeLineIndex = 3
+StartTime = 0:01:16.0
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_366]
+TimeLineIndex = 3
+StartTime = 0:01:16.3
+Path = OFF
+
+[Event_367]
+TimeLineIndex = 3
+StartTime = 0:01:16.5
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_368]
+TimeLineIndex = 3
+StartTime = 0:01:16.8
+Path = OFF
+
+[Event_369]
+TimeLineIndex = 3
+StartTime = 0:01:16.9
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_370]
+TimeLineIndex = 3
+StartTime = 0:01:17.2
+Path = OFF
+
+[Event_371]
+TimeLineIndex = 3
+StartTime = 0:01:17.3
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_372]
+TimeLineIndex = 3
+StartTime = 0:01:17.6
+Path = OFF
+
+[Event_373]
+TimeLineIndex = 3
+StartTime = 0:01:17.7
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_374]
+TimeLineIndex = 3
+StartTime = 0:01:18.0
+Path = OFF
+
+[Event_375]
+TimeLineIndex = 3
+StartTime = 0:01:18.1
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_376]
+TimeLineIndex = 3
+StartTime = 0:01:18.4
+Path = OFF
+
+[Event_377]
+TimeLineIndex = 3
+StartTime = 0:01:18.6
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_378]
+TimeLineIndex = 3
+StartTime = 0:01:18.9
+Path = OFF
+
+[Event_379]
+TimeLineIndex = 3
+StartTime = 0:01:19.0
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_380]
+TimeLineIndex = 3
+StartTime = 0:01:19.3
+Path = OFF
+
+[Event_381]
+TimeLineIndex = 3
+StartTime = 0:01:19.4
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_382]
+TimeLineIndex = 3
+StartTime = 0:01:19.7
+Path = OFF
+
+[Event_383]
+TimeLineIndex = 3
+StartTime = 0:01:19.8
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_384]
+TimeLineIndex = 3
+StartTime = 0:01:20.1
+Path = OFF
+
+[Event_385]
+TimeLineIndex = 3
+StartTime = 0:01:20.2
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_386]
+TimeLineIndex = 3
+StartTime = 0:01:20.5
+Path = OFF
+
+[Event_387]
+TimeLineIndex = 3
+StartTime = 0:01:20.6
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_388]
+TimeLineIndex = 3
+StartTime = 0:01:20.9
+Path = OFF
+
+[Event_389]
+TimeLineIndex = 3
+StartTime = 0:01:21.1
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_390]
+TimeLineIndex = 3
+StartTime = 0:01:21.4
+Path = OFF
+
+[Event_391]
+TimeLineIndex = 3
+StartTime = 0:01:21.5
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_392]
+TimeLineIndex = 3
+StartTime = 0:01:21.8
+Path = OFF
+
+[Event_393]
+TimeLineIndex = 3
+StartTime = 0:01:21.9
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_394]
+TimeLineIndex = 3
+StartTime = 0:01:22.2
+Path = OFF
+
+[Event_395]
+TimeLineIndex = 3
+StartTime = 0:01:22.3
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_396]
+TimeLineIndex = 3
+StartTime = 0:01:22.6
+Path = OFF
+
+[Event_397]
+TimeLineIndex = 3
+StartTime = 0:01:22.7
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_398]
+TimeLineIndex = 3
+StartTime = 0:01:23.0
+Path = OFF
+
+[Event_399]
+TimeLineIndex = 3
+StartTime = 0:01:23.1
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_400]
+TimeLineIndex = 3
+StartTime = 0:01:23.4
+Path = OFF
+
+[Event_401]
+TimeLineIndex = 3
+StartTime = 0:01:23.6
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_402]
+TimeLineIndex = 3
+StartTime = 0:01:23.9
+Path = OFF
+
+[Event_403]
+TimeLineIndex = 3
+StartTime = 0:01:24.0
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_404]
+TimeLineIndex = 3
+StartTime = 0:01:24.3
+Path = OFF
+
+[Event_405]
+TimeLineIndex = 3
+StartTime = 0:01:24.4
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_406]
+TimeLineIndex = 3
+StartTime = 0:01:24.7
+Path = OFF
+
+[Event_407]
+TimeLineIndex = 3
+StartTime = 0:01:24.8
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_408]
+TimeLineIndex = 3
+StartTime = 0:01:25.1
+Path = OFF
+
+[Event_409]
+TimeLineIndex = 3
+StartTime = 0:01:25.2
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_410]
+TimeLineIndex = 3
+StartTime = 0:01:25.5
+Path = OFF
+
+[Event_411]
+TimeLineIndex = 3
+StartTime = 0:01:25.7
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_412]
+TimeLineIndex = 3
+StartTime = 0:01:26.0
+Path = OFF
+
+[Event_413]
+TimeLineIndex = 3
+StartTime = 0:01:26.1
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_414]
+TimeLineIndex = 3
+StartTime = 0:01:26.4
+Path = OFF
+
+[Event_415]
+TimeLineIndex = 3
+StartTime = 0:01:26.5
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_416]
+TimeLineIndex = 3
+StartTime = 0:01:26.8
+Path = OFF
+
+[Event_417]
+TimeLineIndex = 3
+StartTime = 0:01:26.9
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_418]
+TimeLineIndex = 3
+StartTime = 0:01:27.2
+Path = OFF
+
+[Event_419]
+TimeLineIndex = 3
+StartTime = 0:01:27.3
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_420]
+TimeLineIndex = 3
+StartTime = 0:01:27.6
+Path = OFF
+
+[Event_421]
+TimeLineIndex = 3
+StartTime = 0:01:27.7
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_422]
+TimeLineIndex = 3
+StartTime = 0:01:28.0
+Path = OFF
+
+[Event_423]
+TimeLineIndex = 3
+StartTime = 0:01:28.2
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_424]
+TimeLineIndex = 3
+StartTime = 0:01:28.5
+Path = OFF
+
+[Event_425]
+TimeLineIndex = 3
+StartTime = 0:01:28.6
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_426]
+TimeLineIndex = 3
+StartTime = 0:01:28.9
+Path = OFF
+
+[Event_427]
+TimeLineIndex = 3
+StartTime = 0:01:29.0
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_428]
+TimeLineIndex = 3
+StartTime = 0:01:29.3
+Path = OFF
+
+[Event_429]
+TimeLineIndex = 3
+StartTime = 0:01:29.4
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_430]
+TimeLineIndex = 3
+StartTime = 0:01:29.7
+Path = OFF
+
+[Event_431]
+TimeLineIndex = 3
+StartTime = 0:01:29.8
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_432]
+TimeLineIndex = 3
+StartTime = 0:01:30.1
+Path = OFF
+
+[Event_433]
+TimeLineIndex = 3
+StartTime = 0:01:30.3
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_434]
+TimeLineIndex = 3
+StartTime = 0:01:30.6
+Path = OFF
+
+[Event_435]
+TimeLineIndex = 3
+StartTime = 0:01:30.7
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_436]
+TimeLineIndex = 3
+StartTime = 0:01:31.0
+Path = OFF
+
+[Event_437]
+TimeLineIndex = 3
+StartTime = 0:01:31.1
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_438]
+TimeLineIndex = 3
+StartTime = 0:01:31.4
+Path = OFF
+
+[Event_439]
+TimeLineIndex = 3
+StartTime = 0:01:31.5
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_440]
+TimeLineIndex = 3
+StartTime = 0:01:31.8
+Path = OFF
+
+[Event_441]
+TimeLineIndex = 3
+StartTime = 0:01:31.9
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_442]
+TimeLineIndex = 3
+StartTime = 0:01:32.2
+Path = OFF
+
+[Event_443]
+TimeLineIndex = 3
+StartTime = 0:01:32.3
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_444]
+TimeLineIndex = 3
+StartTime = 0:01:32.6
+Path = OFF
+
+[Event_445]
+TimeLineIndex = 3
+StartTime = 0:01:32.8
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_446]
+TimeLineIndex = 3
+StartTime = 0:01:33.1
+Path = OFF
+
+[Event_447]
+TimeLineIndex = 3
+StartTime = 0:01:33.2
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_448]
+TimeLineIndex = 3
+StartTime = 0:01:33.5
+Path = OFF
+
+[Event_449]
+TimeLineIndex = 3
+StartTime = 0:01:33.6
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_450]
+TimeLineIndex = 3
+StartTime = 0:01:33.9
+Path = OFF
+
+[Event_451]
+TimeLineIndex = 3
+StartTime = 0:01:34.0
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_452]
+TimeLineIndex = 3
+StartTime = 0:01:34.3
+Path = OFF
+
+[Event_453]
+TimeLineIndex = 3
+StartTime = 0:01:34.4
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_454]
+TimeLineIndex = 3
+StartTime = 0:01:34.7
+Path = OFF
+
+[Event_455]
+TimeLineIndex = 3
+StartTime = 0:01:34.8
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_456]
+TimeLineIndex = 3
+StartTime = 0:01:35.1
+Path = OFF
+
+[Event_457]
+TimeLineIndex = 3
+StartTime = 0:01:35.3
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_458]
+TimeLineIndex = 3
+StartTime = 0:01:35.6
+Path = OFF
+
+[Event_459]
+TimeLineIndex = 3
+StartTime = 0:01:35.7
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_460]
+TimeLineIndex = 3
+StartTime = 0:01:36.0
+Path = OFF
+
+[Event_461]
+TimeLineIndex = 3
+StartTime = 0:01:36.1
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_462]
+TimeLineIndex = 3
+StartTime = 0:01:36.4
+Path = OFF
+
+[Event_463]
+TimeLineIndex = 3
+StartTime = 0:01:36.5
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_464]
+TimeLineIndex = 3
+StartTime = 0:01:36.8
+Path = OFF
+
+[Event_465]
+TimeLineIndex = 3
+StartTime = 0:01:36.9
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_466]
+TimeLineIndex = 3
+StartTime = 0:01:37.2
+Path = OFF
+
+[Event_467]
+TimeLineIndex = 3
+StartTime = 0:01:37.4
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_468]
+TimeLineIndex = 3
+StartTime = 0:01:37.7
+Path = OFF
+
+[Event_469]
+TimeLineIndex = 3
+StartTime = 0:01:37.8
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_470]
+TimeLineIndex = 3
+StartTime = 0:01:38.1
+Path = OFF
+
+[Event_471]
+TimeLineIndex = 3
+StartTime = 0:01:38.2
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_472]
+TimeLineIndex = 3
+StartTime = 0:01:38.5
+Path = OFF
+
+[Event_473]
+TimeLineIndex = 3
+StartTime = 0:01:38.6
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_474]
+TimeLineIndex = 3
+StartTime = 0:01:38.9
+Path = OFF
+
+[Event_475]
+TimeLineIndex = 3
+StartTime = 0:01:39.0
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_476]
+TimeLineIndex = 3
+StartTime = 0:01:39.3
+Path = OFF
+
+[Event_477]
+TimeLineIndex = 3
+StartTime = 0:01:39.4
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_478]
+TimeLineIndex = 3
+StartTime = 0:01:39.7
+Path = OFF
+
+[Event_479]
+TimeLineIndex = 3
+StartTime = 0:01:39.9
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_480]
+TimeLineIndex = 3
+StartTime = 0:01:40.2
+Path = OFF
+
+[Event_481]
+TimeLineIndex = 3
+StartTime = 0:01:40.3
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_482]
+TimeLineIndex = 3
+StartTime = 0:01:40.6
+Path = OFF
+
+[Event_483]
+TimeLineIndex = 3
+StartTime = 0:01:40.7
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_484]
+TimeLineIndex = 3
+StartTime = 0:01:41.0
+Path = OFF
+
+[Event_485]
+TimeLineIndex = 3
+StartTime = 0:01:41.1
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_486]
+TimeLineIndex = 3
+StartTime = 0:01:41.4
+Path = OFF
+
+[Event_487]
+TimeLineIndex = 3
+StartTime = 0:01:41.5
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_488]
+TimeLineIndex = 3
+StartTime = 0:01:41.8
+Path = OFF
+
+[Event_489]
+TimeLineIndex = 3
+StartTime = 0:01:41.9
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_490]
+TimeLineIndex = 3
+StartTime = 0:01:42.2
+Path = OFF
+
+[Event_491]
+TimeLineIndex = 3
+StartTime = 0:01:42.4
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_492]
+TimeLineIndex = 3
+StartTime = 0:01:42.7
+Path = OFF
+
+[Event_493]
+TimeLineIndex = 3
+StartTime = 0:01:42.8
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_494]
+TimeLineIndex = 3
+StartTime = 0:01:43.1
+Path = OFF
+
+[Event_495]
+TimeLineIndex = 3
+StartTime = 0:01:43.2
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_496]
+TimeLineIndex = 3
+StartTime = 0:01:43.5
+Path = OFF
+
+[Event_497]
+TimeLineIndex = 3
+StartTime = 0:01:43.6
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_498]
+TimeLineIndex = 3
+StartTime = 0:01:43.9
+Path = OFF
+
+[Event_499]
+TimeLineIndex = 3
+StartTime = 0:01:44.0
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_500]
+TimeLineIndex = 3
+StartTime = 0:01:44.3
+Path = OFF
+
+[Event_501]
+TimeLineIndex = 3
+StartTime = 0:01:44.5
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_502]
+TimeLineIndex = 3
+StartTime = 0:01:44.8
+Path = OFF
+
+[Event_503]
+TimeLineIndex = 3
+StartTime = 0:01:44.9
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_504]
+TimeLineIndex = 3
+StartTime = 0:01:45.2
+Path = OFF
+
+[Event_505]
+TimeLineIndex = 3
+StartTime = 0:01:45.3
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_506]
+TimeLineIndex = 3
+StartTime = 0:01:45.6
+Path = OFF
+
+[Event_507]
+TimeLineIndex = 3
+StartTime = 0:01:45.7
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_508]
+TimeLineIndex = 3
+StartTime = 0:01:46.0
+Path = OFF
+
+[Event_509]
+TimeLineIndex = 3
+StartTime = 0:01:46.1
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_510]
+TimeLineIndex = 3
+StartTime = 0:01:46.4
+Path = OFF
+
+[Event_511]
+TimeLineIndex = 3
+StartTime = 0:01:46.5
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_512]
+TimeLineIndex = 3
+StartTime = 0:01:46.8
+Path = OFF
+
+[Event_513]
+TimeLineIndex = 3
+StartTime = 0:01:47.0
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_514]
+TimeLineIndex = 3
+StartTime = 0:01:47.3
+Path = OFF
+
+[Event_515]
+TimeLineIndex = 3
+StartTime = 0:01:47.4
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_516]
+TimeLineIndex = 3
+StartTime = 0:01:47.7
+Path = OFF
+
+[Event_517]
+TimeLineIndex = 3
+StartTime = 0:01:47.8
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_518]
+TimeLineIndex = 3
+StartTime = 0:01:48.1
+Path = OFF
+
+[Event_519]
+TimeLineIndex = 3
+StartTime = 0:01:48.2
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_520]
+TimeLineIndex = 3
+StartTime = 0:01:48.5
+Path = OFF
+
+[Event_521]
+TimeLineIndex = 3
+StartTime = 0:01:48.6
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_522]
+TimeLineIndex = 3
+StartTime = 0:01:48.9
+Path = OFF
+
+[Event_523]
+TimeLineIndex = 3
+StartTime = 0:01:49.1
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_524]
+TimeLineIndex = 3
+StartTime = 0:01:49.4
+Path = OFF
+
+[Event_525]
+TimeLineIndex = 3
+StartTime = 0:01:49.5
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_526]
+TimeLineIndex = 3
+StartTime = 0:01:49.8
+Path = OFF
+
+[Event_527]
+TimeLineIndex = 3
+StartTime = 0:01:49.9
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_528]
+TimeLineIndex = 3
+StartTime = 0:01:50.2
+Path = OFF
+
+[Event_529]
+TimeLineIndex = 3
+StartTime = 0:01:50.3
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_530]
+TimeLineIndex = 3
+StartTime = 0:01:50.6
+Path = OFF
+
+[Event_531]
+TimeLineIndex = 3
+StartTime = 0:01:50.7
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_532]
+TimeLineIndex = 3
+StartTime = 0:01:51.0
+Path = OFF
+
+[Event_533]
+TimeLineIndex = 3
+StartTime = 0:01:51.1
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_534]
+TimeLineIndex = 3
+StartTime = 0:01:51.4
+Path = OFF
+
+[Event_535]
+TimeLineIndex = 3
+StartTime = 0:01:51.6
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_536]
+TimeLineIndex = 3
+StartTime = 0:01:51.9
+Path = OFF
+
+[Event_537]
+TimeLineIndex = 3
+StartTime = 0:01:52.0
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_538]
+TimeLineIndex = 3
+StartTime = 0:01:52.3
+Path = OFF
+
+[Event_539]
+TimeLineIndex = 3
+StartTime = 0:01:52.4
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_540]
+TimeLineIndex = 3
+StartTime = 0:01:52.7
+Path = OFF
+
+[Event_541]
+TimeLineIndex = 3
+StartTime = 0:01:52.8
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_542]
+TimeLineIndex = 3
+StartTime = 0:01:53.1
+Path = OFF
+
+[Event_543]
+TimeLineIndex = 3
+StartTime = 0:01:53.2
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_544]
+TimeLineIndex = 3
+StartTime = 0:01:53.5
+Path = OFF
+
+[Event_545]
+TimeLineIndex = 3
+StartTime = 0:01:53.6
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_546]
+TimeLineIndex = 3
+StartTime = 0:01:53.9
+Path = OFF
+
+[Event_547]
+TimeLineIndex = 3
+StartTime = 0:01:54.1
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_548]
+TimeLineIndex = 3
+StartTime = 0:01:54.4
+Path = OFF
+
+[Event_549]
+TimeLineIndex = 3
+StartTime = 0:01:54.5
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_550]
+TimeLineIndex = 3
+StartTime = 0:01:54.8
+Path = OFF
+
+[Event_551]
+TimeLineIndex = 3
+StartTime = 0:01:54.9
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_552]
+TimeLineIndex = 3
+StartTime = 0:01:55.2
+Path = OFF
+
+[Event_553]
+TimeLineIndex = 3
+StartTime = 0:01:55.3
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_554]
+TimeLineIndex = 3
+StartTime = 0:01:55.6
+Path = OFF
+
+[Event_555]
+TimeLineIndex = 3
+StartTime = 0:01:55.7
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_556]
+TimeLineIndex = 3
+StartTime = 0:01:56.0
+Path = OFF
+
+[Event_557]
+TimeLineIndex = 3
+StartTime = 0:01:56.2
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_558]
+TimeLineIndex = 3
+StartTime = 0:01:56.5
+Path = OFF
+
+[Event_559]
+TimeLineIndex = 3
+StartTime = 0:01:56.6
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_560]
+TimeLineIndex = 3
+StartTime = 0:01:56.9
+Path = OFF
+
+[Event_561]
+TimeLineIndex = 3
+StartTime = 0:01:57.0
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_562]
+TimeLineIndex = 3
+StartTime = 0:01:57.3
+Path = OFF
+
+[Event_563]
+TimeLineIndex = 3
+StartTime = 0:01:57.4
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_564]
+TimeLineIndex = 3
+StartTime = 0:01:57.7
+Path = OFF
+
+[Event_565]
+TimeLineIndex = 3
+StartTime = 0:01:57.8
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_566]
+TimeLineIndex = 3
+StartTime = 0:01:58.1
+Path = OFF
+
+[Event_567]
+TimeLineIndex = 3
+StartTime = 0:01:58.2
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_568]
+TimeLineIndex = 3
+StartTime = 0:01:58.5
+Path = OFF
+
+[Event_569]
+TimeLineIndex = 3
+StartTime = 0:01:58.7
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_570]
+TimeLineIndex = 3
+StartTime = 0:01:59.0
+Path = OFF
+
+[Event_571]
+TimeLineIndex = 3
+StartTime = 0:01:59.1
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_572]
+TimeLineIndex = 3
+StartTime = 0:01:59.4
+Path = OFF
+
+[Event_573]
+TimeLineIndex = 3
+StartTime = 0:01:59.5
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_574]
+TimeLineIndex = 3
+StartTime = 0:01:59.8
+Path = OFF
+
+[Event_575]
+TimeLineIndex = 3
+StartTime = 0:01:59.9
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_576]
+TimeLineIndex = 3
+StartTime = 0:02:00.2
+Path = OFF
+
+[Event_577]
+TimeLineIndex = 3
+StartTime = 0:02:00.3
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_578]
+TimeLineIndex = 3
+StartTime = 0:02:00.6
+Path = OFF
+
+[Event_579]
+TimeLineIndex = 3
+StartTime = 0:02:00.8
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_580]
+TimeLineIndex = 3
+StartTime = 0:02:01.1
+Path = OFF
+
+[Event_581]
+TimeLineIndex = 3
+StartTime = 0:02:01.2
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_582]
+TimeLineIndex = 3
+StartTime = 0:02:01.5
+Path = OFF
+
+[Event_583]
+TimeLineIndex = 3
+StartTime = 0:02:01.6
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_584]
+TimeLineIndex = 3
+StartTime = 0:02:01.9
+Path = OFF
+
+[Event_585]
+TimeLineIndex = 3
+StartTime = 0:02:02.0
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_586]
+TimeLineIndex = 3
+StartTime = 0:02:02.3
+Path = OFF
+
+[Event_587]
+TimeLineIndex = 3
+StartTime = 0:02:02.4
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_588]
+TimeLineIndex = 3
+StartTime = 0:02:02.7
+Path = OFF
+
+[Event_589]
+TimeLineIndex = 3
+StartTime = 0:02:02.8
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_590]
+TimeLineIndex = 3
+StartTime = 0:02:03.1
+Path = OFF
+
+[Event_591]
+TimeLineIndex = 3
+StartTime = 0:02:03.3
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_592]
+TimeLineIndex = 3
+StartTime = 0:02:03.6
+Path = OFF
+
+[Event_593]
+TimeLineIndex = 3
+StartTime = 0:02:03.7
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_594]
+TimeLineIndex = 3
+StartTime = 0:02:04.0
+Path = OFF
+
+[Event_595]
+TimeLineIndex = 3
+StartTime = 0:02:04.1
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_596]
+TimeLineIndex = 3
+StartTime = 0:02:04.4
+Path = OFF
+
+[Event_597]
+TimeLineIndex = 3
+StartTime = 0:02:04.5
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_598]
+TimeLineIndex = 3
+StartTime = 0:02:04.8
+Path = OFF
+
+[Event_599]
+TimeLineIndex = 3
+StartTime = 0:02:04.9
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_600]
+TimeLineIndex = 3
+StartTime = 0:02:05.2
+Path = OFF
+
+[Event_601]
+TimeLineIndex = 3
+StartTime = 0:02:05.3
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_602]
+TimeLineIndex = 3
+StartTime = 0:02:05.6
+Path = OFF
+
+[Event_603]
+TimeLineIndex = 3
+StartTime = 0:02:05.8
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_604]
+TimeLineIndex = 3
+StartTime = 0:02:06.1
+Path = OFF
+
+[Event_605]
+TimeLineIndex = 3
+StartTime = 0:02:06.2
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_606]
+TimeLineIndex = 3
+StartTime = 0:02:06.5
+Path = OFF
+
+[Event_607]
+TimeLineIndex = 3
+StartTime = 0:02:06.6
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_608]
+TimeLineIndex = 3
+StartTime = 0:02:06.9
+Path = OFF
+
+[Event_609]
+TimeLineIndex = 3
+StartTime = 0:02:07.0
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_610]
+TimeLineIndex = 3
+StartTime = 0:02:07.3
+Path = OFF
+
+[Event_611]
+TimeLineIndex = 3
+StartTime = 0:02:07.4
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_612]
+TimeLineIndex = 3
+StartTime = 0:02:07.7
+Path = OFF
+
+[Event_613]
+TimeLineIndex = 3
+StartTime = 0:02:07.9
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_614]
+TimeLineIndex = 3
+StartTime = 0:02:08.2
+Path = OFF
+
+[Event_615]
+TimeLineIndex = 3
+StartTime = 0:02:08.3
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_616]
+TimeLineIndex = 3
+StartTime = 0:02:08.6
+Path = OFF
+
+[Event_617]
+TimeLineIndex = 3
+StartTime = 0:02:08.7
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_618]
+TimeLineIndex = 3
+StartTime = 0:02:09.0
+Path = OFF
+
+[Event_619]
+TimeLineIndex = 3
+StartTime = 0:02:09.1
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_620]
+TimeLineIndex = 3
+StartTime = 0:02:09.4
+Path = OFF
+
+[Event_621]
+TimeLineIndex = 3
+StartTime = 0:02:09.5
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_622]
+TimeLineIndex = 3
+StartTime = 0:02:09.8
+Path = OFF
+
+[Event_623]
+TimeLineIndex = 3
+StartTime = 0:02:09.9
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_624]
+TimeLineIndex = 3
+StartTime = 0:02:10.2
+Path = OFF
+
+[Event_625]
+TimeLineIndex = 3
+StartTime = 0:02:10.4
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_626]
+TimeLineIndex = 3
+StartTime = 0:02:10.7
+Path = OFF
+
+[Event_627]
+TimeLineIndex = 3
+StartTime = 0:02:10.8
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_628]
+TimeLineIndex = 3
+StartTime = 0:02:11.1
+Path = OFF
+
+[Event_629]
+TimeLineIndex = 3
+StartTime = 0:02:11.2
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_630]
+TimeLineIndex = 3
+StartTime = 0:02:11.5
+Path = OFF
+
+[Event_631]
+TimeLineIndex = 3
+StartTime = 0:02:11.6
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_632]
+TimeLineIndex = 3
+StartTime = 0:02:11.9
+Path = OFF
+
+[Event_633]
+TimeLineIndex = 3
+StartTime = 0:02:12.0
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_634]
+TimeLineIndex = 3
+StartTime = 0:02:12.3
+Path = OFF
+
+[Event_635]
+TimeLineIndex = 3
+StartTime = 0:02:12.5
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_636]
+TimeLineIndex = 3
+StartTime = 0:02:12.8
+Path = OFF
+
+[Event_637]
+TimeLineIndex = 3
+StartTime = 0:02:12.9
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_638]
+TimeLineIndex = 3
+StartTime = 0:02:13.2
+Path = OFF
+
+[Event_639]
+TimeLineIndex = 3
+StartTime = 0:02:13.3
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_640]
+TimeLineIndex = 3
+StartTime = 0:02:13.6
+Path = OFF
+
+[Event_641]
+TimeLineIndex = 3
+StartTime = 0:02:13.7
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_642]
+TimeLineIndex = 3
+StartTime = 0:02:14.0
+Path = OFF
+
+[Event_643]
+TimeLineIndex = 3
+StartTime = 0:02:14.1
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_644]
+TimeLineIndex = 3
+StartTime = 0:02:14.4
+Path = OFF
+
+[Event_645]
+TimeLineIndex = 3
+StartTime = 0:02:14.5
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_646]
+TimeLineIndex = 3
+StartTime = 0:02:14.8
+Path = OFF
+
+[Event_647]
+TimeLineIndex = 3
+StartTime = 0:02:15.0
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_648]
+TimeLineIndex = 3
+StartTime = 0:02:15.3
+Path = OFF
+
+[Event_649]
+TimeLineIndex = 3
+StartTime = 0:02:15.4
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_650]
+TimeLineIndex = 3
+StartTime = 0:02:15.7
+Path = OFF
+
+[Event_651]
+TimeLineIndex = 3
+StartTime = 0:02:15.8
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_652]
+TimeLineIndex = 3
+StartTime = 0:02:16.1
+Path = OFF
+
+[Event_653]
+TimeLineIndex = 3
+StartTime = 0:02:16.2
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_654]
+TimeLineIndex = 3
+StartTime = 0:02:16.5
+Path = OFF
+
+[Event_655]
+TimeLineIndex = 3
+StartTime = 0:02:16.6
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_656]
+TimeLineIndex = 3
+StartTime = 0:02:16.9
+Path = OFF
+
+[Event_657]
+TimeLineIndex = 3
+StartTime = 0:02:17.0
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_658]
+TimeLineIndex = 3
+StartTime = 0:02:17.3
+Path = OFF
+
+[Event_659]
+TimeLineIndex = 3
+StartTime = 0:02:17.5
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_660]
+TimeLineIndex = 3
+StartTime = 0:02:17.8
+Path = OFF
+
+[Event_661]
+TimeLineIndex = 3
+StartTime = 0:02:17.9
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_662]
+TimeLineIndex = 3
+StartTime = 0:02:18.2
+Path = OFF
+
+[Event_663]
+TimeLineIndex = 3
+StartTime = 0:02:18.3
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_664]
+TimeLineIndex = 3
+StartTime = 0:02:18.6
+Path = OFF
+
+[Event_665]
+TimeLineIndex = 3
+StartTime = 0:02:18.7
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_666]
+TimeLineIndex = 3
+StartTime = 0:02:19.0
+Path = OFF
+
+[Event_667]
+TimeLineIndex = 3
+StartTime = 0:02:19.1
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_668]
+TimeLineIndex = 3
+StartTime = 0:02:19.4
+Path = OFF
+
+[Event_669]
+TimeLineIndex = 3
+StartTime = 0:02:19.6
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_670]
+TimeLineIndex = 3
+StartTime = 0:02:19.9
+Path = OFF
+
+[Event_671]
+TimeLineIndex = 3
+StartTime = 0:02:20.0
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_672]
+TimeLineIndex = 3
+StartTime = 0:02:20.3
+Path = OFF
+
+[Event_673]
+TimeLineIndex = 3
+StartTime = 0:02:20.4
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_674]
+TimeLineIndex = 3
+StartTime = 0:02:20.7
+Path = OFF
+
+[Event_675]
+TimeLineIndex = 3
+StartTime = 0:02:20.8
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_676]
+TimeLineIndex = 3
+StartTime = 0:02:21.1
+Path = OFF
+
+[Event_677]
+TimeLineIndex = 3
+StartTime = 0:02:21.2
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_678]
+TimeLineIndex = 3
+StartTime = 0:02:21.5
+Path = OFF
+
+[Event_679]
+TimeLineIndex = 3
+StartTime = 0:02:21.6
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_680]
+TimeLineIndex = 3
+StartTime = 0:02:21.9
+Path = OFF
+
+[Event_681]
+TimeLineIndex = 3
+StartTime = 0:02:22.1
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_682]
+TimeLineIndex = 3
+StartTime = 0:02:22.4
+Path = OFF
+
+[Event_683]
+TimeLineIndex = 3
+StartTime = 0:02:22.5
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_684]
+TimeLineIndex = 3
+StartTime = 0:02:22.8
+Path = OFF
+
+[Event_685]
+TimeLineIndex = 3
+StartTime = 0:02:22.9
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_686]
+TimeLineIndex = 3
+StartTime = 0:02:23.2
+Path = OFF
+
+[Event_687]
+TimeLineIndex = 3
+StartTime = 0:02:23.3
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_688]
+TimeLineIndex = 3
+StartTime = 0:02:23.6
+Path = OFF
+
+[Event_689]
+TimeLineIndex = 3
+StartTime = 0:02:23.7
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_690]
+TimeLineIndex = 3
+StartTime = 0:02:24.0
+Path = OFF
+
+[Event_691]
+TimeLineIndex = 3
+StartTime = 0:02:24.2
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_692]
+TimeLineIndex = 3
+StartTime = 0:02:24.5
+Path = OFF
+
+[Event_693]
+TimeLineIndex = 3
+StartTime = 0:02:24.6
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_694]
+TimeLineIndex = 3
+StartTime = 0:02:24.9
+Path = OFF
+
+[Event_695]
+TimeLineIndex = 3
+StartTime = 0:02:25.0
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_696]
+TimeLineIndex = 3
+StartTime = 0:02:25.3
+Path = OFF
+
+[Event_697]
+TimeLineIndex = 3
+StartTime = 0:02:25.4
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_698]
+TimeLineIndex = 3
+StartTime = 0:02:25.7
+Path = OFF
+
+[Event_699]
+TimeLineIndex = 3
+StartTime = 0:02:25.8
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_700]
+TimeLineIndex = 3
+StartTime = 0:02:26.1
+Path = OFF
+
+[Event_701]
+TimeLineIndex = 3
+StartTime = 0:02:26.2
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_702]
+TimeLineIndex = 3
+StartTime = 0:02:26.5
+Path = OFF
+
+[Event_703]
+TimeLineIndex = 3
+StartTime = 0:02:26.7
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_704]
+TimeLineIndex = 3
+StartTime = 0:02:27.0
+Path = OFF
+
+[Event_705]
+TimeLineIndex = 3
+StartTime = 0:02:27.1
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_706]
+TimeLineIndex = 3
+StartTime = 0:02:27.4
+Path = OFF
+
+[Event_707]
+TimeLineIndex = 3
+StartTime = 0:02:27.5
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_708]
+TimeLineIndex = 3
+StartTime = 0:02:27.8
+Path = OFF
+
+[Event_709]
+TimeLineIndex = 3
+StartTime = 0:02:27.9
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_710]
+TimeLineIndex = 3
+StartTime = 0:02:28.2
+Path = OFF
+
+[Event_711]
+TimeLineIndex = 3
+StartTime = 0:02:28.3
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_712]
+TimeLineIndex = 3
+StartTime = 0:02:28.6
+Path = OFF
+
+[Event_713]
+TimeLineIndex = 3
+StartTime = 0:02:28.7
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_714]
+TimeLineIndex = 3
+StartTime = 0:02:29.0
+Path = OFF
+
+[Event_715]
+TimeLineIndex = 3
+StartTime = 0:02:29.2
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_716]
+TimeLineIndex = 3
+StartTime = 0:02:29.5
+Path = OFF
+
+[Event_717]
+TimeLineIndex = 3
+StartTime = 0:02:29.6
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_718]
+TimeLineIndex = 3
+StartTime = 0:02:29.9
+Path = OFF
+
+[Event_719]
+TimeLineIndex = 3
+StartTime = 0:02:30.0
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_720]
+TimeLineIndex = 3
+StartTime = 0:02:30.3
+Path = OFF
+
+[Event_721]
+TimeLineIndex = 3
+StartTime = 0:02:30.4
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_722]
+TimeLineIndex = 3
+StartTime = 0:02:30.7
+Path = OFF
+
+[Event_723]
+TimeLineIndex = 3
+StartTime = 0:02:30.8
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_724]
+TimeLineIndex = 3
+StartTime = 0:02:31.1
+Path = OFF
+
+[Event_725]
+TimeLineIndex = 3
+StartTime = 0:02:31.3
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_726]
+TimeLineIndex = 3
+StartTime = 0:02:31.6
+Path = OFF
+
+[Event_727]
+TimeLineIndex = 3
+StartTime = 0:02:31.7
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_728]
+TimeLineIndex = 3
+StartTime = 0:02:32.0
+Path = OFF
+
+[Event_729]
+TimeLineIndex = 3
+StartTime = 0:02:32.1
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_730]
+TimeLineIndex = 3
+StartTime = 0:02:32.4
+Path = OFF
+
+[Event_731]
+TimeLineIndex = 3
+StartTime = 0:02:32.5
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_732]
+TimeLineIndex = 3
+StartTime = 0:02:32.8
+Path = OFF
+
+[Event_733]
+TimeLineIndex = 3
+StartTime = 0:02:32.9
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_734]
+TimeLineIndex = 3
+StartTime = 0:02:33.2
+Path = OFF
+
+[Event_735]
+TimeLineIndex = 3
+StartTime = 0:02:33.3
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_736]
+TimeLineIndex = 3
+StartTime = 0:02:33.6
+Path = OFF
+
+[Event_737]
+TimeLineIndex = 3
+StartTime = 0:02:33.8
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_738]
+TimeLineIndex = 3
+StartTime = 0:02:34.1
+Path = OFF
+
+[Event_739]
+TimeLineIndex = 3
+StartTime = 0:02:34.2
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_740]
+TimeLineIndex = 3
+StartTime = 0:02:34.5
+Path = OFF
+
+[Event_741]
+TimeLineIndex = 3
+StartTime = 0:02:34.6
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_742]
+TimeLineIndex = 3
+StartTime = 0:02:34.9
+Path = OFF
+
+[Event_743]
+TimeLineIndex = 3
+StartTime = 0:02:35.0
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_744]
+TimeLineIndex = 3
+StartTime = 0:02:35.3
+Path = OFF
+
+[Event_745]
+TimeLineIndex = 3
+StartTime = 0:02:35.4
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_746]
+TimeLineIndex = 3
+StartTime = 0:02:35.7
+Path = OFF
+
+[Event_747]
+TimeLineIndex = 3
+StartTime = 0:02:35.8
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_748]
+TimeLineIndex = 3
+StartTime = 0:02:36.1
+Path = OFF
+
+[Event_749]
+TimeLineIndex = 3
+StartTime = 0:02:36.3
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_750]
+TimeLineIndex = 3
+StartTime = 0:02:36.6
+Path = OFF
+
+[Event_751]
+TimeLineIndex = 3
+StartTime = 0:02:36.7
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_752]
+TimeLineIndex = 3
+StartTime = 0:02:37.0
+Path = OFF
+
+[Event_753]
+TimeLineIndex = 3
+StartTime = 0:02:37.1
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_754]
+TimeLineIndex = 3
+StartTime = 0:02:37.4
+Path = OFF
+
+[Event_755]
+TimeLineIndex = 3
+StartTime = 0:02:37.5
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_756]
+TimeLineIndex = 3
+StartTime = 0:02:37.8
+Path = OFF
+
+[Event_757]
+TimeLineIndex = 3
+StartTime = 0:02:37.9
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_758]
+TimeLineIndex = 3
+StartTime = 0:02:38.2
+Path = OFF
+
+[Event_759]
+TimeLineIndex = 3
+StartTime = 0:02:38.4
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_760]
+TimeLineIndex = 3
+StartTime = 0:02:38.7
+Path = OFF
+
+[Event_761]
+TimeLineIndex = 3
+StartTime = 0:02:38.8
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_762]
+TimeLineIndex = 3
+StartTime = 0:02:39.1
+Path = OFF
+
+[Event_763]
+TimeLineIndex = 3
+StartTime = 0:02:39.2
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_764]
+TimeLineIndex = 3
+StartTime = 0:02:39.5
+Path = OFF
+
+[Event_765]
+TimeLineIndex = 3
+StartTime = 0:02:39.6
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_766]
+TimeLineIndex = 3
+StartTime = 0:02:39.9
+Path = OFF
+
+[Event_767]
+TimeLineIndex = 3
+StartTime = 0:02:40.0
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_768]
+TimeLineIndex = 3
+StartTime = 0:02:40.3
+Path = OFF
+
+[Event_769]
+TimeLineIndex = 3
+StartTime = 0:02:40.4
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_770]
+TimeLineIndex = 3
+StartTime = 0:02:40.7
+Path = OFF
+
+[Event_771]
+TimeLineIndex = 3
+StartTime = 0:02:40.9
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_772]
+TimeLineIndex = 3
+StartTime = 0:02:41.2
+Path = OFF
+
+[Event_773]
+TimeLineIndex = 3
+StartTime = 0:02:41.3
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_774]
+TimeLineIndex = 3
+StartTime = 0:02:41.6
+Path = OFF
+
+[Event_775]
+TimeLineIndex = 3
+StartTime = 0:02:41.7
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_776]
+TimeLineIndex = 3
+StartTime = 0:02:42.0
+Path = OFF
+
+[Event_777]
+TimeLineIndex = 3
+StartTime = 0:02:42.1
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_778]
+TimeLineIndex = 3
+StartTime = 0:02:42.4
+Path = OFF
+
+[Event_779]
+TimeLineIndex = 3
+StartTime = 0:02:42.5
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_780]
+TimeLineIndex = 3
+StartTime = 0:02:42.8
+Path = OFF
+
+[Event_781]
+TimeLineIndex = 3
+StartTime = 0:02:43.0
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_782]
+TimeLineIndex = 3
+StartTime = 0:02:43.3
+Path = OFF
+
+[Event_783]
+TimeLineIndex = 3
+StartTime = 0:02:43.4
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_784]
+TimeLineIndex = 3
+StartTime = 0:02:43.7
+Path = OFF
+
+[Event_785]
+TimeLineIndex = 3
+StartTime = 0:02:43.8
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_786]
+TimeLineIndex = 3
+StartTime = 0:02:44.1
+Path = OFF
+
+[Event_787]
+TimeLineIndex = 3
+StartTime = 0:02:44.2
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_788]
+TimeLineIndex = 3
+StartTime = 0:02:44.5
+Path = OFF
+
+[Event_789]
+TimeLineIndex = 3
+StartTime = 0:02:44.6
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_790]
+TimeLineIndex = 3
+StartTime = 0:02:44.9
+Path = OFF
+
+[Event_791]
+TimeLineIndex = 3
+StartTime = 0:02:45.0
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_792]
+TimeLineIndex = 3
+StartTime = 0:02:45.3
+Path = OFF
+
+[Event_793]
+TimeLineIndex = 3
+StartTime = 0:02:45.5
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_794]
+TimeLineIndex = 3
+StartTime = 0:02:45.8
+Path = OFF
+
+[Event_795]
+TimeLineIndex = 3
+StartTime = 0:02:45.9
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_796]
+TimeLineIndex = 3
+StartTime = 0:02:46.2
+Path = OFF
+
+[Event_797]
+TimeLineIndex = 3
+StartTime = 0:02:46.3
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_798]
+TimeLineIndex = 3
+StartTime = 0:02:46.6
+Path = OFF
+
+[Event_799]
+TimeLineIndex = 3
+StartTime = 0:02:46.7
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_800]
+TimeLineIndex = 3
+StartTime = 0:02:47.0
+Path = OFF
+
+[Event_801]
+TimeLineIndex = 3
+StartTime = 0:02:47.1
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_802]
+TimeLineIndex = 3
+StartTime = 0:02:47.4
+Path = OFF
+
+[Event_803]
+TimeLineIndex = 3
+StartTime = 0:02:47.5
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_804]
+TimeLineIndex = 3
+StartTime = 0:02:47.8
+Path = OFF
+
+[Event_805]
+TimeLineIndex = 3
+StartTime = 0:02:48.0
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_806]
+TimeLineIndex = 3
+StartTime = 0:02:48.3
+Path = OFF
+
+[Event_807]
+TimeLineIndex = 3
+StartTime = 0:02:48.4
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_808]
+TimeLineIndex = 3
+StartTime = 0:02:48.7
+Path = OFF
+
+[Event_809]
+TimeLineIndex = 3
+StartTime = 0:02:48.8
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_810]
+TimeLineIndex = 3
+StartTime = 0:02:49.1
+Path = OFF
+
+[Event_811]
+TimeLineIndex = 3
+StartTime = 0:02:49.2
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_812]
+TimeLineIndex = 3
+StartTime = 0:02:49.5
+Path = OFF
+
+[Event_813]
+TimeLineIndex = 3
+StartTime = 0:02:49.6
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_814]
+TimeLineIndex = 3
+StartTime = 0:02:49.9
+Path = OFF
+
+[Event_815]
+TimeLineIndex = 3
+StartTime = 0:02:50.1
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_816]
+TimeLineIndex = 3
+StartTime = 0:02:50.4
+Path = OFF
+
+[Event_817]
+TimeLineIndex = 3
+StartTime = 0:02:50.5
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_818]
+TimeLineIndex = 3
+StartTime = 0:02:50.8
+Path = OFF
+
+[Event_819]
+TimeLineIndex = 3
+StartTime = 0:02:50.9
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_820]
+TimeLineIndex = 3
+StartTime = 0:02:51.2
+Path = OFF
+
+[Event_821]
+TimeLineIndex = 3
+StartTime = 0:02:51.3
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_822]
+TimeLineIndex = 3
+StartTime = 0:02:51.6
+Path = OFF
+
+[Event_823]
+TimeLineIndex = 3
+StartTime = 0:02:51.7
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_824]
+TimeLineIndex = 3
+StartTime = 0:02:52.0
+Path = OFF
+
+[Event_825]
+TimeLineIndex = 3
+StartTime = 0:02:52.1
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_826]
+TimeLineIndex = 3
+StartTime = 0:02:52.4
+Path = OFF
+
+[Event_827]
+TimeLineIndex = 3
+StartTime = 0:02:52.6
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_828]
+TimeLineIndex = 3
+StartTime = 0:02:52.9
+Path = OFF
+
+[Event_829]
+TimeLineIndex = 3
+StartTime = 0:02:53.0
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_830]
+TimeLineIndex = 3
+StartTime = 0:02:53.3
+Path = OFF
+
+[Event_831]
+TimeLineIndex = 3
+StartTime = 0:02:53.4
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_832]
+TimeLineIndex = 3
+StartTime = 0:02:53.7
+Path = OFF
+
+[Event_833]
+TimeLineIndex = 3
+StartTime = 0:02:53.8
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_834]
+TimeLineIndex = 3
+StartTime = 0:02:54.1
+Path = OFF
+
+[Event_835]
+TimeLineIndex = 3
+StartTime = 0:02:54.2
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_836]
+TimeLineIndex = 3
+StartTime = 0:02:54.5
+Path = OFF
+
+[Event_837]
+TimeLineIndex = 3
+StartTime = 0:02:54.7
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_838]
+TimeLineIndex = 3
+StartTime = 0:02:55.0
+Path = OFF
+
+[Event_839]
+TimeLineIndex = 3
+StartTime = 0:02:55.1
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_840]
+TimeLineIndex = 3
+StartTime = 0:02:55.4
+Path = OFF
+
+[Event_841]
+TimeLineIndex = 3
+StartTime = 0:02:55.5
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_842]
+TimeLineIndex = 3
+StartTime = 0:02:55.8
+Path = OFF
+
+[Event_843]
+TimeLineIndex = 3
+StartTime = 0:02:55.9
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_844]
+TimeLineIndex = 3
+StartTime = 0:02:56.2
+Path = OFF
+
+[Event_845]
+TimeLineIndex = 3
+StartTime = 0:02:56.3
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_846]
+TimeLineIndex = 3
+StartTime = 0:02:56.6
+Path = OFF
+
+[Event_847]
+TimeLineIndex = 3
+StartTime = 0:02:56.7
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_848]
+TimeLineIndex = 3
+StartTime = 0:02:57.0
+Path = OFF
+
+[Event_849]
+TimeLineIndex = 3
+StartTime = 0:02:57.2
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_850]
+TimeLineIndex = 3
+StartTime = 0:02:57.5
+Path = OFF
+
+[Event_851]
+TimeLineIndex = 3
+StartTime = 0:02:57.6
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_852]
+TimeLineIndex = 3
+StartTime = 0:02:57.9
+Path = OFF
+
+[Event_853]
+TimeLineIndex = 3
+StartTime = 0:02:58.0
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_854]
+TimeLineIndex = 3
+StartTime = 0:02:58.3
+Path = OFF
+
+[Event_855]
+TimeLineIndex = 3
+StartTime = 0:02:58.4
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_856]
+TimeLineIndex = 3
+StartTime = 0:02:58.7
+Path = OFF
+
+[Event_857]
+TimeLineIndex = 3
+StartTime = 0:02:58.8
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_858]
+TimeLineIndex = 3
+StartTime = 0:02:59.1
+Path = OFF
+
+[Event_859]
+TimeLineIndex = 3
+StartTime = 0:02:59.2
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_860]
+TimeLineIndex = 3
+StartTime = 0:02:59.5
+Path = OFF
+
+[Event_861]
+TimeLineIndex = 3
+StartTime = 0:02:59.7
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_862]
+TimeLineIndex = 3
+StartTime = 0:03:00.0
+Path = OFF
+
+[Event_863]
+TimeLineIndex = 3
+StartTime = 0:03:00.1
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_864]
+TimeLineIndex = 3
+StartTime = 0:03:00.4
+Path = OFF
+
+[Event_865]
+TimeLineIndex = 3
+StartTime = 0:03:00.5
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_866]
+TimeLineIndex = 3
+StartTime = 0:03:00.8
+Path = OFF
+
+[Event_867]
+TimeLineIndex = 3
+StartTime = 0:03:00.9
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_868]
+TimeLineIndex = 3
+StartTime = 0:03:01.2
+Path = OFF
+
+[Event_869]
+TimeLineIndex = 3
+StartTime = 0:03:01.3
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_870]
+TimeLineIndex = 3
+StartTime = 0:03:01.6
+Path = OFF
+
+[Event_871]
+TimeLineIndex = 3
+StartTime = 0:03:01.8
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_872]
+TimeLineIndex = 3
+StartTime = 0:03:02.1
+Path = OFF
+
+[Event_873]
+TimeLineIndex = 3
+StartTime = 0:03:02.2
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_874]
+TimeLineIndex = 3
+StartTime = 0:03:02.5
+Path = OFF
+
+[Event_875]
+TimeLineIndex = 3
+StartTime = 0:03:02.6
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_876]
+TimeLineIndex = 3
+StartTime = 0:03:02.9
+Path = OFF
+
+[Event_877]
+TimeLineIndex = 3
+StartTime = 0:03:03.0
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_878]
+TimeLineIndex = 3
+StartTime = 0:03:03.3
+Path = OFF
+
+[Event_879]
+TimeLineIndex = 3
+StartTime = 0:03:03.4
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_880]
+TimeLineIndex = 3
+StartTime = 0:03:03.7
+Path = OFF
+
+[Event_881]
+TimeLineIndex = 3
+StartTime = 0:03:03.8
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_882]
+TimeLineIndex = 3
+StartTime = 0:03:04.1
+Path = OFF
+
+[Event_883]
+TimeLineIndex = 3
+StartTime = 0:03:04.3
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_884]
+TimeLineIndex = 3
+StartTime = 0:03:04.6
+Path = OFF
+
+[Event_885]
+TimeLineIndex = 3
+StartTime = 0:03:04.7
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_886]
+TimeLineIndex = 3
+StartTime = 0:03:05.0
+Path = OFF
+
+[Event_887]
+TimeLineIndex = 3
+StartTime = 0:03:05.1
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_888]
+TimeLineIndex = 3
+StartTime = 0:03:05.4
+Path = OFF
+
+[Event_889]
+TimeLineIndex = 3
+StartTime = 0:03:05.5
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_890]
+TimeLineIndex = 3
+StartTime = 0:03:05.8
+Path = OFF
+
+[Event_891]
+TimeLineIndex = 3
+StartTime = 0:03:05.9
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_892]
+TimeLineIndex = 3
+StartTime = 0:03:06.2
+Path = OFF
+
+[Event_893]
+TimeLineIndex = 3
+StartTime = 0:03:06.4
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_894]
+TimeLineIndex = 3
+StartTime = 0:03:06.7
+Path = OFF
+
+[Event_895]
+TimeLineIndex = 3
+StartTime = 0:03:06.8
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_896]
+TimeLineIndex = 3
+StartTime = 0:03:07.1
+Path = OFF
+
+[Event_897]
+TimeLineIndex = 3
+StartTime = 0:03:07.2
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_898]
+TimeLineIndex = 3
+StartTime = 0:03:07.5
+Path = OFF
+
+[Event_899]
+TimeLineIndex = 3
+StartTime = 0:03:07.6
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_900]
+TimeLineIndex = 3
+StartTime = 0:03:07.9
+Path = OFF
+
+[Event_901]
+TimeLineIndex = 3
+StartTime = 0:03:08.0
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_902]
+TimeLineIndex = 3
+StartTime = 0:03:08.3
+Path = OFF
+
+[Event_903]
+TimeLineIndex = 3
+StartTime = 0:03:08.4
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_904]
+TimeLineIndex = 3
+StartTime = 0:03:08.7
+Path = OFF
+
+[Event_905]
+TimeLineIndex = 3
+StartTime = 0:03:08.9
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_906]
+TimeLineIndex = 3
+StartTime = 0:03:09.2
+Path = OFF
+
+[Event_907]
+TimeLineIndex = 3
+StartTime = 0:03:09.3
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_908]
+TimeLineIndex = 3
+StartTime = 0:03:09.6
+Path = OFF
+
+[Event_909]
+TimeLineIndex = 3
+StartTime = 0:03:09.7
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_910]
+TimeLineIndex = 3
+StartTime = 0:03:10.0
+Path = OFF
+
+[Event_911]
+TimeLineIndex = 3
+StartTime = 0:03:10.1
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_912]
+TimeLineIndex = 3
+StartTime = 0:03:10.4
+Path = OFF
+
+[Event_913]
+TimeLineIndex = 3
+StartTime = 0:03:10.5
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_914]
+TimeLineIndex = 3
+StartTime = 0:03:10.8
+Path = OFF
+
+[Event_915]
+TimeLineIndex = 3
+StartTime = 0:03:10.9
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_916]
+TimeLineIndex = 3
+StartTime = 0:03:11.2
+Path = OFF
+
+[Event_917]
+TimeLineIndex = 3
+StartTime = 0:03:11.4
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_918]
+TimeLineIndex = 3
+StartTime = 0:03:11.7
+Path = OFF
+
+[Event_919]
+TimeLineIndex = 3
+StartTime = 0:03:11.8
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_920]
+TimeLineIndex = 3
+StartTime = 0:03:12.1
+Path = OFF
+
+[Event_921]
+TimeLineIndex = 3
+StartTime = 0:03:12.2
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_922]
+TimeLineIndex = 3
+StartTime = 0:03:12.5
+Path = OFF
+
+[Event_923]
+TimeLineIndex = 3
+StartTime = 0:03:12.6
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_924]
+TimeLineIndex = 3
+StartTime = 0:03:12.9
+Path = OFF
+
+[Event_925]
+TimeLineIndex = 3
+StartTime = 0:03:13.0
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_926]
+TimeLineIndex = 3
+StartTime = 0:03:13.3
+Path = OFF
+
+[Event_927]
+TimeLineIndex = 3
+StartTime = 0:03:13.5
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_928]
+TimeLineIndex = 3
+StartTime = 0:03:13.8
+Path = OFF
+
+[Event_929]
+TimeLineIndex = 3
+StartTime = 0:03:13.9
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_930]
+TimeLineIndex = 3
+StartTime = 0:03:14.2
+Path = OFF
+
+[Event_931]
+TimeLineIndex = 3
+StartTime = 0:03:14.3
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_932]
+TimeLineIndex = 3
+StartTime = 0:03:14.6
+Path = OFF
+
+[Event_933]
+TimeLineIndex = 3
+StartTime = 0:03:14.7
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_934]
+TimeLineIndex = 3
+StartTime = 0:03:15.0
+Path = OFF
+
+[Event_935]
+TimeLineIndex = 3
+StartTime = 0:03:15.1
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_936]
+TimeLineIndex = 3
+StartTime = 0:03:15.4
+Path = OFF
+
+[Event_937]
+TimeLineIndex = 3
+StartTime = 0:03:15.5
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_938]
+TimeLineIndex = 3
+StartTime = 0:03:15.8
+Path = OFF
+
+[Event_939]
+TimeLineIndex = 3
+StartTime = 0:03:16.0
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_940]
+TimeLineIndex = 3
+StartTime = 0:03:16.3
+Path = OFF
+
+[Event_941]
+TimeLineIndex = 3
+StartTime = 0:03:16.4
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_942]
+TimeLineIndex = 3
+StartTime = 0:03:16.7
+Path = OFF
+
+[Event_943]
+TimeLineIndex = 3
+StartTime = 0:03:16.8
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_944]
+TimeLineIndex = 3
+StartTime = 0:03:17.1
+Path = OFF
+
+[Event_945]
+TimeLineIndex = 3
+StartTime = 0:03:17.2
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_946]
+TimeLineIndex = 3
+StartTime = 0:03:17.5
+Path = OFF
+
+[Event_947]
+TimeLineIndex = 3
+StartTime = 0:03:17.6
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_948]
+TimeLineIndex = 3
+StartTime = 0:03:17.9
+Path = OFF
+
+[Event_949]
+TimeLineIndex = 3
+StartTime = 0:03:18.1
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_950]
+TimeLineIndex = 3
+StartTime = 0:03:18.4
+Path = OFF
+
+[Event_951]
+TimeLineIndex = 3
+StartTime = 0:03:18.5
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_952]
+TimeLineIndex = 3
+StartTime = 0:03:18.8
+Path = OFF
+
+[Event_953]
+TimeLineIndex = 3
+StartTime = 0:03:18.9
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_954]
+TimeLineIndex = 3
+StartTime = 0:03:19.2
+Path = OFF
+
+[Event_955]
+TimeLineIndex = 3
+StartTime = 0:03:19.3
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_956]
+TimeLineIndex = 3
+StartTime = 0:03:19.6
+Path = OFF
+
+[Event_957]
+TimeLineIndex = 3
+StartTime = 0:03:19.7
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_958]
+TimeLineIndex = 3
+StartTime = 0:03:20.0
+Path = OFF
+
+[Event_959]
+TimeLineIndex = 3
+StartTime = 0:03:20.1
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_960]
+TimeLineIndex = 3
+StartTime = 0:03:20.4
+Path = OFF
+
+[Event_961]
+TimeLineIndex = 3
+StartTime = 0:03:20.6
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_962]
+TimeLineIndex = 3
+StartTime = 0:03:20.9
+Path = OFF
+
+[Event_963]
+TimeLineIndex = 3
+StartTime = 0:03:21.0
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_964]
+TimeLineIndex = 3
+StartTime = 0:03:21.3
+Path = OFF
+
+[Event_965]
+TimeLineIndex = 3
+StartTime = 0:03:21.4
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_966]
+TimeLineIndex = 3
+StartTime = 0:03:21.7
+Path = OFF
+
+[Event_967]
+TimeLineIndex = 3
+StartTime = 0:03:21.8
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_968]
+TimeLineIndex = 3
+StartTime = 0:03:22.1
+Path = OFF
+
+[Event_969]
+TimeLineIndex = 3
+StartTime = 0:03:22.2
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_970]
+TimeLineIndex = 3
+StartTime = 0:03:22.5
+Path = OFF
+
+[Event_971]
+TimeLineIndex = 3
+StartTime = 0:03:22.6
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_972]
+TimeLineIndex = 3
+StartTime = 0:03:22.9
+Path = OFF
+
+[Event_973]
+TimeLineIndex = 3
+StartTime = 0:03:23.1
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_974]
+TimeLineIndex = 3
+StartTime = 0:03:23.4
+Path = OFF
+
+[Event_975]
+TimeLineIndex = 3
+StartTime = 0:03:23.5
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_976]
+TimeLineIndex = 3
+StartTime = 0:03:23.8
+Path = OFF
+
+[Event_977]
+TimeLineIndex = 3
+StartTime = 0:03:23.9
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_978]
+TimeLineIndex = 3
+StartTime = 0:03:24.2
+Path = OFF
+
+[Event_979]
+TimeLineIndex = 3
+StartTime = 0:03:24.3
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_980]
+TimeLineIndex = 3
+StartTime = 0:03:24.6
+Path = OFF
+
+[Event_981]
+TimeLineIndex = 3
+StartTime = 0:03:24.7
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_982]
+TimeLineIndex = 3
+StartTime = 0:03:25.0
+Path = OFF
+
+[Event_983]
+TimeLineIndex = 3
+StartTime = 0:03:25.2
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_984]
+TimeLineIndex = 3
+StartTime = 0:03:25.5
+Path = OFF
+
+[Event_985]
+TimeLineIndex = 3
+StartTime = 0:03:25.6
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_986]
+TimeLineIndex = 3
+StartTime = 0:03:25.9
+Path = OFF
+
+[Event_987]
+TimeLineIndex = 3
+StartTime = 0:03:26.0
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_988]
+TimeLineIndex = 3
+StartTime = 0:03:26.3
+Path = OFF
+
+[Event_989]
+TimeLineIndex = 3
+StartTime = 0:03:26.4
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_990]
+TimeLineIndex = 3
+StartTime = 0:03:26.7
+Path = OFF
+
+[Event_991]
+TimeLineIndex = 3
+StartTime = 0:03:26.8
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_992]
+TimeLineIndex = 3
+StartTime = 0:03:27.1
+Path = OFF
+
+[Event_993]
+TimeLineIndex = 3
+StartTime = 0:03:27.2
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_994]
+TimeLineIndex = 3
+StartTime = 0:03:27.5
+Path = OFF
+
+[Event_995]
+TimeLineIndex = 3
+StartTime = 0:03:27.7
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_996]
+TimeLineIndex = 3
+StartTime = 0:03:28.0
+Path = OFF
+
+[Event_997]
+TimeLineIndex = 3
+StartTime = 0:03:28.1
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_998]
+TimeLineIndex = 3
+StartTime = 0:03:28.4
+Path = OFF
+
+[Event_999]
+TimeLineIndex = 3
+StartTime = 0:03:28.5
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1000]
+TimeLineIndex = 3
+StartTime = 0:03:28.8
+Path = OFF
+
+[Event_1001]
+TimeLineIndex = 3
+StartTime = 0:03:28.9
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1002]
+TimeLineIndex = 3
+StartTime = 0:03:29.2
+Path = OFF
+
+[Event_1003]
+TimeLineIndex = 3
+StartTime = 0:03:29.3
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1004]
+TimeLineIndex = 3
+StartTime = 0:03:29.6
+Path = OFF
+
+[Event_1005]
+TimeLineIndex = 3
+StartTime = 0:03:29.7
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1006]
+TimeLineIndex = 3
+StartTime = 0:03:30.0
+Path = OFF
+
+[Event_1007]
+TimeLineIndex = 3
+StartTime = 0:03:30.2
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1008]
+TimeLineIndex = 3
+StartTime = 0:03:30.5
+Path = OFF
+
+[Event_1009]
+TimeLineIndex = 3
+StartTime = 0:03:30.6
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1010]
+TimeLineIndex = 3
+StartTime = 0:03:30.9
+Path = OFF
+
+[Event_1011]
+TimeLineIndex = 3
+StartTime = 0:03:31.0
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1012]
+TimeLineIndex = 3
+StartTime = 0:03:31.3
+Path = OFF
+
+[Event_1013]
+TimeLineIndex = 3
+StartTime = 0:03:31.4
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1014]
+TimeLineIndex = 3
+StartTime = 0:03:31.7
+Path = OFF
+
+[Event_1015]
+TimeLineIndex = 3
+StartTime = 0:03:31.8
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1016]
+TimeLineIndex = 3
+StartTime = 0:03:32.1
+Path = OFF
+
+[Event_1017]
+TimeLineIndex = 3
+StartTime = 0:03:32.3
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1018]
+TimeLineIndex = 3
+StartTime = 0:03:32.6
+Path = OFF
+
+[Event_1019]
+TimeLineIndex = 3
+StartTime = 0:03:32.7
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1020]
+TimeLineIndex = 3
+StartTime = 0:03:33.0
+Path = OFF
+
+[Event_1021]
+TimeLineIndex = 3
+StartTime = 0:03:33.1
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1022]
+TimeLineIndex = 3
+StartTime = 0:03:33.4
+Path = OFF
+
+[Event_1023]
+TimeLineIndex = 3
+StartTime = 0:03:33.5
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1024]
+TimeLineIndex = 3
+StartTime = 0:03:33.8
+Path = OFF
+
+[Event_1025]
+TimeLineIndex = 3
+StartTime = 0:03:33.9
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1026]
+TimeLineIndex = 3
+StartTime = 0:03:34.2
+Path = OFF
+
+[Event_1027]
+TimeLineIndex = 3
+StartTime = 0:03:34.3
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1028]
+TimeLineIndex = 3
+StartTime = 0:03:34.6
+Path = OFF
+
+[Event_1029]
+TimeLineIndex = 3
+StartTime = 0:03:34.8
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1030]
+TimeLineIndex = 3
+StartTime = 0:03:35.1
+Path = OFF
+
+[Event_1031]
+TimeLineIndex = 3
+StartTime = 0:03:35.2
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1032]
+TimeLineIndex = 3
+StartTime = 0:03:35.5
+Path = OFF
+
+[Event_1033]
+TimeLineIndex = 3
+StartTime = 0:03:35.6
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1034]
+TimeLineIndex = 3
+StartTime = 0:03:35.9
+Path = OFF
+
+[Event_1035]
+TimeLineIndex = 3
+StartTime = 0:03:36.0
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1036]
+TimeLineIndex = 3
+StartTime = 0:03:36.3
+Path = OFF
+
+[Event_1037]
+TimeLineIndex = 3
+StartTime = 0:03:36.4
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1038]
+TimeLineIndex = 3
+StartTime = 0:03:36.7
+Path = OFF
+
+[Event_1039]
+TimeLineIndex = 3
+StartTime = 0:03:36.9
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1040]
+TimeLineIndex = 3
+StartTime = 0:03:37.2
+Path = OFF
+
+[Event_1041]
+TimeLineIndex = 3
+StartTime = 0:03:37.3
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1042]
+TimeLineIndex = 3
+StartTime = 0:03:37.6
+Path = OFF
+
+[Event_1043]
+TimeLineIndex = 3
+StartTime = 0:03:37.7
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1044]
+TimeLineIndex = 3
+StartTime = 0:03:38.0
+Path = OFF
+
+[Event_1045]
+TimeLineIndex = 3
+StartTime = 0:03:38.1
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1046]
+TimeLineIndex = 3
+StartTime = 0:03:38.4
+Path = OFF
+
+[Event_1047]
+TimeLineIndex = 3
+StartTime = 0:03:38.5
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1048]
+TimeLineIndex = 3
+StartTime = 0:03:38.8
+Path = OFF
+
+[Event_1049]
+TimeLineIndex = 3
+StartTime = 0:03:38.9
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1050]
+TimeLineIndex = 3
+StartTime = 0:03:39.2
+Path = OFF
+
+[Event_1051]
+TimeLineIndex = 3
+StartTime = 0:03:39.4
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1052]
+TimeLineIndex = 3
+StartTime = 0:03:39.7
+Path = OFF
+
+[Event_1053]
+TimeLineIndex = 3
+StartTime = 0:03:39.8
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1054]
+TimeLineIndex = 3
+StartTime = 0:03:40.1
+Path = OFF
+
+[Event_1055]
+TimeLineIndex = 3
+StartTime = 0:03:40.2
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1056]
+TimeLineIndex = 3
+StartTime = 0:03:40.5
+Path = OFF
+
+[Event_1057]
+TimeLineIndex = 3
+StartTime = 0:03:40.6
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1058]
+TimeLineIndex = 3
+StartTime = 0:03:40.9
+Path = OFF
+
+[Event_1059]
+TimeLineIndex = 3
+StartTime = 0:03:41.0
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1060]
+TimeLineIndex = 3
+StartTime = 0:03:41.3
+Path = OFF
+
+[Event_1061]
+TimeLineIndex = 3
+StartTime = 0:03:41.4
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1062]
+TimeLineIndex = 3
+StartTime = 0:03:41.7
+Path = OFF
+
+[Event_1063]
+TimeLineIndex = 3
+StartTime = 0:03:41.9
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1064]
+TimeLineIndex = 3
+StartTime = 0:03:42.2
+Path = OFF
+
+[Event_1065]
+TimeLineIndex = 3
+StartTime = 0:03:42.3
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1066]
+TimeLineIndex = 3
+StartTime = 0:03:42.6
+Path = OFF
+
+[Event_1067]
+TimeLineIndex = 3
+StartTime = 0:03:42.7
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1068]
+TimeLineIndex = 3
+StartTime = 0:03:43.0
+Path = OFF
+
+[Event_1069]
+TimeLineIndex = 3
+StartTime = 0:03:43.1
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1070]
+TimeLineIndex = 3
+StartTime = 0:03:43.4
+Path = OFF
+
+[Event_1071]
+TimeLineIndex = 3
+StartTime = 0:03:43.5
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1072]
+TimeLineIndex = 3
+StartTime = 0:03:43.8
+Path = OFF
+
+[Event_1073]
+TimeLineIndex = 3
+StartTime = 0:03:44.0
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1074]
+TimeLineIndex = 3
+StartTime = 0:03:44.3
+Path = OFF
+
+[Event_1075]
+TimeLineIndex = 3
+StartTime = 0:03:44.4
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1076]
+TimeLineIndex = 3
+StartTime = 0:03:44.7
+Path = OFF
+
+[Event_1077]
+TimeLineIndex = 3
+StartTime = 0:03:44.8
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1078]
+TimeLineIndex = 3
+StartTime = 0:03:45.1
+Path = OFF
+
+[Event_1079]
+TimeLineIndex = 3
+StartTime = 0:03:45.2
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1080]
+TimeLineIndex = 3
+StartTime = 0:03:45.5
+Path = OFF
+
+[Event_1081]
+TimeLineIndex = 3
+StartTime = 0:03:45.6
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1082]
+TimeLineIndex = 3
+StartTime = 0:03:45.9
+Path = OFF
+
+[Event_1083]
+TimeLineIndex = 3
+StartTime = 0:03:46.0
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1084]
+TimeLineIndex = 3
+StartTime = 0:03:46.3
+Path = OFF
+
+[Event_1085]
+TimeLineIndex = 3
+StartTime = 0:03:46.5
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1086]
+TimeLineIndex = 3
+StartTime = 0:03:46.8
+Path = OFF
+
+[Event_1087]
+TimeLineIndex = 3
+StartTime = 0:03:46.9
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1088]
+TimeLineIndex = 3
+StartTime = 0:03:47.2
+Path = OFF
+
+[Event_1089]
+TimeLineIndex = 3
+StartTime = 0:03:47.3
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1090]
+TimeLineIndex = 3
+StartTime = 0:03:47.6
+Path = OFF
+
+[Event_1091]
+TimeLineIndex = 3
+StartTime = 0:03:47.7
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1092]
+TimeLineIndex = 3
+StartTime = 0:03:48.0
+Path = OFF
+
+[Event_1093]
+TimeLineIndex = 3
+StartTime = 0:03:48.1
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1094]
+TimeLineIndex = 3
+StartTime = 0:03:48.4
+Path = OFF
+
+[Event_1095]
+TimeLineIndex = 3
+StartTime = 0:03:48.6
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1096]
+TimeLineIndex = 3
+StartTime = 0:03:48.9
+Path = OFF
+
+[Event_1097]
+TimeLineIndex = 3
+StartTime = 0:03:49.0
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1098]
+TimeLineIndex = 3
+StartTime = 0:03:49.3
+Path = OFF
+
+[Event_1099]
+TimeLineIndex = 3
+StartTime = 0:03:49.4
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1100]
+TimeLineIndex = 3
+StartTime = 0:03:49.7
+Path = OFF
+
+[Event_1101]
+TimeLineIndex = 3
+StartTime = 0:03:49.8
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1102]
+TimeLineIndex = 3
+StartTime = 0:03:50.1
+Path = OFF
+
+[Event_1103]
+TimeLineIndex = 3
+StartTime = 0:03:50.2
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1104]
+TimeLineIndex = 3
+StartTime = 0:03:50.5
+Path = OFF
+
+[Event_1105]
+TimeLineIndex = 3
+StartTime = 0:03:50.6
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1106]
+TimeLineIndex = 3
+StartTime = 0:03:50.9
+Path = OFF
+
+[Event_1107]
+TimeLineIndex = 3
+StartTime = 0:03:51.1
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1108]
+TimeLineIndex = 3
+StartTime = 0:03:51.4
+Path = OFF
+
+[Event_1109]
+TimeLineIndex = 3
+StartTime = 0:03:51.5
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1110]
+TimeLineIndex = 3
+StartTime = 0:03:51.8
+Path = OFF
+
+[Event_1111]
+TimeLineIndex = 3
+StartTime = 0:03:51.9
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1112]
+TimeLineIndex = 3
+StartTime = 0:03:52.2
+Path = OFF
+
+[Event_1113]
+TimeLineIndex = 3
+StartTime = 0:03:52.3
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1114]
+TimeLineIndex = 3
+StartTime = 0:03:52.6
+Path = OFF
+
+[Event_1115]
+TimeLineIndex = 3
+StartTime = 0:03:52.7
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1116]
+TimeLineIndex = 3
+StartTime = 0:03:53.0
+Path = OFF
+
+[Event_1117]
+TimeLineIndex = 3
+StartTime = 0:03:53.1
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1118]
+TimeLineIndex = 3
+StartTime = 0:03:53.4
+Path = OFF
+
+[Event_1119]
+TimeLineIndex = 3
+StartTime = 0:03:53.6
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1120]
+TimeLineIndex = 3
+StartTime = 0:03:53.9
+Path = OFF
+
+[Event_1121]
+TimeLineIndex = 3
+StartTime = 0:03:54.0
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1122]
+TimeLineIndex = 3
+StartTime = 0:03:54.3
+Path = OFF
+
+[Event_1123]
+TimeLineIndex = 3
+StartTime = 0:03:54.4
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1124]
+TimeLineIndex = 3
+StartTime = 0:03:54.7
+Path = OFF
+
+[Event_1125]
+TimeLineIndex = 3
+StartTime = 0:03:54.8
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1126]
+TimeLineIndex = 3
+StartTime = 0:03:55.1
+Path = OFF
+
+[Event_1127]
+TimeLineIndex = 3
+StartTime = 0:03:55.2
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1128]
+TimeLineIndex = 3
+StartTime = 0:03:55.5
+Path = OFF
+
+[Event_1129]
+TimeLineIndex = 3
+StartTime = 0:03:55.7
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1130]
+TimeLineIndex = 3
+StartTime = 0:03:56.0
+Path = OFF
+
+[Event_1131]
+TimeLineIndex = 3
+StartTime = 0:03:56.1
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1132]
+TimeLineIndex = 3
+StartTime = 0:03:56.4
+Path = OFF
+
+[Event_1133]
+TimeLineIndex = 3
+StartTime = 0:03:56.5
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1134]
+TimeLineIndex = 3
+StartTime = 0:03:56.8
+Path = OFF
+
+[Event_1135]
+TimeLineIndex = 3
+StartTime = 0:03:56.9
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1136]
+TimeLineIndex = 3
+StartTime = 0:03:57.2
+Path = OFF
+
+[Event_1137]
+TimeLineIndex = 3
+StartTime = 0:03:57.3
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1138]
+TimeLineIndex = 3
+StartTime = 0:03:57.6
+Path = OFF
+
+[Event_1139]
+TimeLineIndex = 3
+StartTime = 0:03:57.7
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1140]
+TimeLineIndex = 3
+StartTime = 0:03:58.0
+Path = OFF
+
+[Event_1141]
+TimeLineIndex = 3
+StartTime = 0:03:58.2
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1142]
+TimeLineIndex = 3
+StartTime = 0:03:58.5
+Path = OFF
+
+[Event_1143]
+TimeLineIndex = 3
+StartTime = 0:03:58.6
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1144]
+TimeLineIndex = 3
+StartTime = 0:03:58.9
+Path = OFF
+
+[Event_1145]
+TimeLineIndex = 3
+StartTime = 0:03:59.0
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1146]
+TimeLineIndex = 3
+StartTime = 0:03:59.3
+Path = OFF
+
+[Event_1147]
+TimeLineIndex = 3
+StartTime = 0:03:59.4
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1148]
+TimeLineIndex = 3
+StartTime = 0:03:59.7
+Path = OFF
+
+[Event_1149]
+TimeLineIndex = 3
+StartTime = 0:03:59.8
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1150]
+TimeLineIndex = 3
+StartTime = 0:04:00.1
+Path = OFF
+
+[Event_1151]
+TimeLineIndex = 3
+StartTime = 0:04:00.3
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_purple.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1152]
+TimeLineIndex = 3
+StartTime = 0:04:00.6
+Path = OFF
+
+[Event_1153]
+TimeLineIndex = 3
+StartTime = 0:04:00.7
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1154]
+TimeLineIndex = 3
+StartTime = 0:04:01.0
+Path = OFF
+
+[Event_1155]
+TimeLineIndex = 3
+StartTime = 0:04:01.1
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1156]
+TimeLineIndex = 3
+StartTime = 0:04:01.4
+Path = OFF
+
+[Event_1157]
+TimeLineIndex = 3
+StartTime = 0:04:01.5
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1158]
+TimeLineIndex = 3
+StartTime = 0:04:01.8
+Path = OFF
+
+[Event_1159]
+TimeLineIndex = 3
+StartTime = 0:04:01.9
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1160]
+TimeLineIndex = 3
+StartTime = 0:04:02.2
+Path = OFF
+
+[Event_1161]
+TimeLineIndex = 3
+StartTime = 0:04:02.3
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1162]
+TimeLineIndex = 3
+StartTime = 0:04:02.6
+Path = OFF
+
+[Event_1163]
+TimeLineIndex = 3
+StartTime = 0:04:02.8
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_1_red.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1164]
+TimeLineIndex = 3
+StartTime = 0:04:03.1
+Path = OFF
+
+[Event_1165]
+TimeLineIndex = 3
+StartTime = 0:04:03.2
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1166]
+TimeLineIndex = 3
+StartTime = 0:04:03.5
+Path = OFF
+
+[Event_1167]
+TimeLineIndex = 3
+StartTime = 0:04:03.6
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1168]
+TimeLineIndex = 3
+StartTime = 0:04:03.9
+Path = OFF
+
+[Event_1169]
+TimeLineIndex = 3
+StartTime = 0:04:04.0
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1170]
+TimeLineIndex = 3
+StartTime = 0:04:04.3
+Path = OFF
+
+[Event_1171]
+TimeLineIndex = 3
+StartTime = 0:04:04.4
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1172]
+TimeLineIndex = 3
+StartTime = 0:04:04.7
+Path = OFF
+
+[Event_1173]
+TimeLineIndex = 3
+StartTime = 0:04:04.8
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1174]
+TimeLineIndex = 3
+StartTime = 0:04:05.1
+Path = OFF
+
+[Event_1175]
+TimeLineIndex = 3
+StartTime = 0:04:05.3
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_orange.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1176]
+TimeLineIndex = 3
+StartTime = 0:04:05.6
+Path = OFF
+
+[Event_1177]
+TimeLineIndex = 3
+StartTime = 0:04:05.7
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1178]
+TimeLineIndex = 3
+StartTime = 0:04:06.0
+Path = OFF
+
+[Event_1179]
+TimeLineIndex = 3
+StartTime = 0:04:06.1
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1180]
+TimeLineIndex = 3
+StartTime = 0:04:06.4
+Path = OFF
+
+[Event_1181]
+TimeLineIndex = 3
+StartTime = 0:04:06.5
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1182]
+TimeLineIndex = 3
+StartTime = 0:04:06.8
+Path = OFF
+
+[Event_1183]
+TimeLineIndex = 3
+StartTime = 0:04:06.9
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1184]
+TimeLineIndex = 3
+StartTime = 0:04:07.2
+Path = OFF
+
+[Event_1185]
+TimeLineIndex = 3
+StartTime = 0:04:07.4
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1186]
+TimeLineIndex = 3
+StartTime = 0:04:07.7
+Path = OFF
+
+[Event_1187]
+TimeLineIndex = 3
+StartTime = 0:04:07.8
+Path = SPOTS_walls/SPOTS_single/SPOT_6/SPOT_walls_2_yellow.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1188]
+TimeLineIndex = 3
+StartTime = 0:04:08.1
+Path = OFF
+
+[Event_1189]
+TimeLineIndex = 3
+StartTime = 0:04:08.2
+Path = SPOTS_walls/SPOTS_single/SPOT_7/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1190]
+TimeLineIndex = 3
+StartTime = 0:04:08.5
+Path = OFF
+
+[Event_1191]
+TimeLineIndex = 3
+StartTime = 0:04:08.6
+Path = SPOTS_walls/SPOTS_single/SPOT_8/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1192]
+TimeLineIndex = 3
+StartTime = 0:04:08.9
+Path = OFF
+
+[Event_1193]
+TimeLineIndex = 3
+StartTime = 0:04:09.0
+Path = SPOTS_walls/SPOTS_single/SPOT_9/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1194]
+TimeLineIndex = 3
+StartTime = 0:04:09.3
+Path = OFF
+
+[Event_1195]
+TimeLineIndex = 3
+StartTime = 0:04:09.4
+Path = SPOTS_walls/SPOTS_single/SPOT_10/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1196]
+TimeLineIndex = 3
+StartTime = 0:04:09.7
+Path = OFF
+
+[Event_1197]
+TimeLineIndex = 3
+StartTime = 0:04:09.9
+Path = SPOTS_walls/SPOTS_single/SPOT_11/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1198]
+TimeLineIndex = 3
+StartTime = 0:04:10.2
+Path = OFF
+
+[Event_1199]
+TimeLineIndex = 3
+StartTime = 0:04:10.3
+Path = SPOTS_walls/SPOTS_single/SPOT_12/SPOT_1_green.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1200]
+TimeLineIndex = 3
+StartTime = 0:04:10.6
+Path = OFF
+
+[Event_1201]
+TimeLineIndex = 3
+StartTime = 0:04:10.7
+Path = SPOTS_walls/SPOTS_single/SPOT_1/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1202]
+TimeLineIndex = 3
+StartTime = 0:04:11.0
+Path = OFF
+
+[Event_1203]
+TimeLineIndex = 3
+StartTime = 0:04:11.1
+Path = SPOTS_walls/SPOTS_single/SPOT_2/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1204]
+TimeLineIndex = 3
+StartTime = 0:04:11.4
+Path = OFF
+
+[Event_1205]
+TimeLineIndex = 3
+StartTime = 0:04:11.5
+Path = SPOTS_walls/SPOTS_single/SPOT_3/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1206]
+TimeLineIndex = 3
+StartTime = 0:04:11.8
+Path = OFF
+
+[Event_1207]
+TimeLineIndex = 3
+StartTime = 0:04:11.9
+Path = SPOTS_walls/SPOTS_single/SPOT_4/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1208]
+TimeLineIndex = 3
+StartTime = 0:04:12.2
+Path = OFF
+
+[Event_1209]
+TimeLineIndex = 3
+StartTime = 0:04:12.4
+Path = SPOTS_walls/SPOTS_single/SPOT_5/SPOT_1_blue.scex
+Length = 0:00:00.3
+Speed = 100
+SpeedType = 2
+
+[Event_1210]
+TimeLineIndex = 3
+StartTime = 0:04:12.7
+Path = OFF
+

@@ -1,0 +1,1048 @@
+{
+  "fixtures": {
+    "1753817199": {
+      "name": "LED Wall Spot #1",
+      "model": "LED_pásky_(lavice)",
+      "position": [
+        1.0,
+        7.6,
+        1.5
+      ],
+      "light_type": "led_wall",
+      "zone": "walls"
+    },
+    "1753817200": {
+      "name": "LED Wall Spot #2",
+      "model": "LED_pásky_(lavice)",
+      "position": [
+        3.0,
+        7.6,
+        1.5
+      ],
+      "light_type": "led_wall",
+      "zone": "walls"
+    },
+    "1753817201": {
+      "name": "LED Wall Spot #3",
+      "model": "LED_pásky_(lavice)",
+      "position": [
+        5.0,
+        7.6,
+        1.5
+      ],
+      "light_type": "led_wall",
+      "zone": "walls"
+    },
+    "1753817202": {
+      "name": "LED Wall Spot #4",
+      "model": "LED_pásky_(lavice)",
+      "position": [
+        7.0,
+        7.6,
+        1.5
+      ],
+      "light_type": "led_wall",
+      "zone": "walls"
+    },
+    "1753817203": {
+      "name": "LED Wall Spot #5",
+      "model": "LED_pásky_(lavice)",
+      "position": [
+        8.5,
+        5.0,
+        1.5
+      ],
+      "light_type": "led_wall",
+      "zone": "walls"
+    },
+    "1753817204": {
+      "name": "LED Wall Spot #6",
+      "model": "LED_pásky_(lavice)",
+      "position": [
+        8.5,
+        3.0,
+        1.5
+      ],
+      "light_type": "led_wall",
+      "zone": "walls"
+    },
+    "1753817205": {
+      "name": "LED Wall Spot #7",
+      "model": "LED_pásky_(lavice)",
+      "position": [
+        8.5,
+        1.0,
+        1.5
+      ],
+      "light_type": "led_wall",
+      "zone": "walls"
+    },
+    "1753817206": {
+      "name": "LED Wall Spot #8",
+      "model": "LED_pásky_(lavice)",
+      "position": [
+        7.0,
+        0.0,
+        1.5
+      ],
+      "light_type": "led_wall",
+      "zone": "walls"
+    },
+    "1753817207": {
+      "name": "LED Wall Spot #9",
+      "model": "LED_pásky_(lavice)",
+      "position": [
+        5.0,
+        0.0,
+        1.5
+      ],
+      "light_type": "led_wall",
+      "zone": "walls"
+    },
+    "1753817208": {
+      "name": "LED Wall Spot #10",
+      "model": "LED_pásky_(lavice)",
+      "position": [
+        3.0,
+        0.0,
+        1.5
+      ],
+      "light_type": "led_wall",
+      "zone": "walls"
+    },
+    "1753817209": {
+      "name": "LED Wall Spot #11",
+      "model": "LED_pásky_(lavice)",
+      "position": [
+        1.0,
+        0.0,
+        1.5
+      ],
+      "light_type": "led_wall",
+      "zone": "walls"
+    },
+    "1753821000": {
+      "name": "Ceiling Spot #1",
+      "model": "Bodovka_RGB",
+      "position": [
+        6.75,
+        3.8,
+        3.1
+      ],
+      "light_type": "ceiling_spot",
+      "zone": "ceiling"
+    },
+    "1753821001": {
+      "name": "Ceiling Spot #2",
+      "model": "Bodovka_RGB",
+      "position": [
+        6.415063509461097,
+        5.05,
+        3.1
+      ],
+      "light_type": "ceiling_spot",
+      "zone": "ceiling"
+    },
+    "1753821002": {
+      "name": "Ceiling Spot #3",
+      "model": "Bodovka_RGB",
+      "position": [
+        5.5,
+        5.965063509461096,
+        3.1
+      ],
+      "light_type": "ceiling_spot",
+      "zone": "ceiling"
+    },
+    "1753821003": {
+      "name": "Ceiling Spot #4",
+      "model": "Bodovka_RGB",
+      "position": [
+        4.25,
+        6.3,
+        3.1
+      ],
+      "light_type": "ceiling_spot",
+      "zone": "ceiling"
+    },
+    "1753821004": {
+      "name": "Ceiling Spot #5",
+      "model": "Bodovka_RGB",
+      "position": [
+        3.0000000000000004,
+        5.965063509461096,
+        3.1
+      ],
+      "light_type": "ceiling_spot",
+      "zone": "ceiling"
+    },
+    "1753821005": {
+      "name": "Ceiling Spot #6",
+      "model": "Bodovka_RGB",
+      "position": [
+        2.084936490538903,
+        5.05,
+        3.1
+      ],
+      "light_type": "ceiling_spot",
+      "zone": "ceiling"
+    },
+    "1753821006": {
+      "name": "Ceiling Spot #7",
+      "model": "Bodovka_RGB",
+      "position": [
+        1.75,
+        3.8000000000000003,
+        3.1
+      ],
+      "light_type": "ceiling_spot",
+      "zone": "ceiling"
+    },
+    "1753821007": {
+      "name": "Ceiling Spot #8",
+      "model": "Bodovka_RGB",
+      "position": [
+        2.0849364905389027,
+        2.5500000000000003,
+        3.1
+      ],
+      "light_type": "ceiling_spot",
+      "zone": "ceiling"
+    },
+    "1753821008": {
+      "name": "Ceiling Spot #9",
+      "model": "Bodovka_RGB",
+      "position": [
+        2.999999999999999,
+        1.6349364905389039,
+        3.1
+      ],
+      "light_type": "ceiling_spot",
+      "zone": "ceiling"
+    },
+    "1753821009": {
+      "name": "Ceiling Spot #10",
+      "model": "Bodovka_RGB",
+      "position": [
+        4.249999999999999,
+        1.2999999999999998,
+        3.1
+      ],
+      "light_type": "ceiling_spot",
+      "zone": "ceiling"
+    },
+    "1753821010": {
+      "name": "Ceiling Spot #11",
+      "model": "Bodovka_RGB",
+      "position": [
+        5.5,
+        1.6349364905389034,
+        3.1
+      ],
+      "light_type": "ceiling_spot",
+      "zone": "ceiling"
+    },
+    "1753821011": {
+      "name": "Ceiling Spot #12",
+      "model": "Bodovka_RGB",
+      "position": [
+        6.4150635094610955,
+        2.549999999999999,
+        3.1
+      ],
+      "light_type": "ceiling_spot",
+      "zone": "ceiling"
+    },
+    "1753953037": {
+      "name": "Moving Head #1",
+      "model": "Intimidator Spot 375Z IRC (15CH)",
+      "position": [
+        2.0,
+        2.0,
+        3.0
+      ],
+      "light_type": "moving_head",
+      "zone": "ceiling"
+    },
+    "1753953038": {
+      "name": "Moving Head #2",
+      "model": "Intimidator Spot 375Z IRC (15CH)",
+      "position": [
+        6.5,
+        2.0,
+        3.0
+      ],
+      "light_type": "moving_head",
+      "zone": "ceiling"
+    },
+    "1753953039": {
+      "name": "Moving Head #3",
+      "model": "Intimidator Spot 375Z IRC (15CH)",
+      "position": [
+        2.0,
+        5.6,
+        3.0
+      ],
+      "light_type": "moving_head",
+      "zone": "ceiling"
+    },
+    "1753953040": {
+      "name": "Moving Head #4",
+      "model": "Intimidator Spot 375Z IRC (15CH)",
+      "position": [
+        6.5,
+        5.6,
+        3.0
+      ],
+      "light_type": "moving_head",
+      "zone": "ceiling"
+    },
+    "1753953041": {
+      "name": "Moving Head #5",
+      "model": "Intimidator Spot 375Z IRC (15CH)",
+      "position": [
+        4.25,
+        3.8,
+        3.0
+      ],
+      "light_type": "moving_head",
+      "zone": "ceiling"
+    },
+    "1753841": {
+      "name": "UV Light #1",
+      "model": "UV_Light",
+      "position": [
+        1.0,
+        1.0,
+        2.8
+      ],
+      "light_type": "uv",
+      "zone": "effects"
+    },
+    "1753842": {
+      "name": "UV Light #2",
+      "model": "UV_Light",
+      "position": [
+        7.5,
+        6.6,
+        2.8
+      ],
+      "light_type": "uv",
+      "zone": "effects"
+    }
+  },
+  "colors": {
+    "red": {
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "channel_values": {
+        "led_wall": {
+          "red": 255,
+          "green": 0,
+          "blue": 0,
+          "white": 0
+        },
+        "ceiling_spot": {
+          "red": 255,
+          "green": 0,
+          "blue": 0,
+          "white": 0
+        },
+        "moving_head": {
+          "color": 11
+        },
+        "uv": {
+          "dimmer": 255
+        }
+      }
+    },
+    "green": {
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "channel_values": {
+        "led_wall": {
+          "red": 0,
+          "green": 255,
+          "blue": 0,
+          "white": 0
+        },
+        "ceiling_spot": {
+          "red": 0,
+          "green": 255,
+          "blue": 0,
+          "white": 0
+        },
+        "moving_head": {
+          "color": 19
+        },
+        "uv": {
+          "dimmer": 255
+        }
+      }
+    },
+    "blue": {
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "channel_values": {
+        "led_wall": {
+          "red": 0,
+          "green": 0,
+          "blue": 255,
+          "white": 0
+        },
+        "ceiling_spot": {
+          "red": 0,
+          "green": 0,
+          "blue": 255,
+          "white": 0
+        },
+        "moving_head": {
+          "color": 51
+        },
+        "uv": {
+          "dimmer": 255
+        }
+      }
+    },
+    "yellow": {
+      "rgb": [
+        255,
+        255,
+        0
+      ],
+      "channel_values": {
+        "led_wall": {
+          "red": 255,
+          "green": 255,
+          "blue": 0,
+          "white": 0
+        },
+        "ceiling_spot": {
+          "red": 255,
+          "green": 255,
+          "blue": 0,
+          "white": 0
+        },
+        "moving_head": {
+          "color": 35
+        },
+        "uv": {
+          "dimmer": 255
+        }
+      }
+    },
+    "orange": {
+      "rgb": [
+        255,
+        165,
+        0
+      ],
+      "channel_values": {
+        "led_wall": {
+          "red": 255,
+          "green": 165,
+          "blue": 0,
+          "white": 0
+        },
+        "ceiling_spot": {
+          "red": 255,
+          "green": 165,
+          "blue": 0,
+          "white": 0
+        },
+        "moving_head": {
+          "color": 27
+        },
+        "uv": {
+          "dimmer": 255
+        }
+      }
+    },
+    "purple": {
+      "rgb": [
+        128,
+        0,
+        128
+      ],
+      "channel_values": {
+        "led_wall": {
+          "red": 128,
+          "green": 0,
+          "blue": 128,
+          "white": 0
+        },
+        "ceiling_spot": {
+          "red": 128,
+          "green": 0,
+          "blue": 128,
+          "white": 0
+        },
+        "moving_head": {
+          "color": 59
+        },
+        "uv": {
+          "dimmer": 255
+        }
+      }
+    },
+    "cyan": {
+      "rgb": [
+        0,
+        255,
+        255
+      ],
+      "channel_values": {
+        "led_wall": {
+          "red": 0,
+          "green": 255,
+          "blue": 255,
+          "white": 0
+        },
+        "ceiling_spot": {
+          "red": 0,
+          "green": 255,
+          "blue": 255,
+          "white": 0
+        },
+        "moving_head": {
+          "color": 43
+        },
+        "uv": {
+          "dimmer": 255
+        }
+      }
+    },
+    "magenta": {
+      "rgb": [
+        255,
+        0,
+        255
+      ],
+      "channel_values": {
+        "led_wall": {
+          "red": 255,
+          "green": 0,
+          "blue": 255,
+          "white": 0
+        },
+        "ceiling_spot": {
+          "red": 255,
+          "green": 0,
+          "blue": 255,
+          "white": 0
+        },
+        "moving_head": {
+          "color": 47
+        },
+        "uv": {
+          "dimmer": 255
+        }
+      }
+    },
+    "white_warm": {
+      "rgb": [
+        255,
+        200,
+        150
+      ],
+      "channel_values": {
+        "led_wall": {
+          "red": 255,
+          "green": 200,
+          "blue": 150,
+          "white": 0
+        },
+        "ceiling_spot": {
+          "red": 255,
+          "green": 200,
+          "blue": 150,
+          "white": 0
+        },
+        "moving_head": {
+          "color": 43
+        },
+        "uv": {
+          "dimmer": 255
+        }
+      }
+    },
+    "white_cool": {
+      "rgb": [
+        200,
+        220,
+        255
+      ],
+      "channel_values": {
+        "led_wall": {
+          "red": 200,
+          "green": 220,
+          "blue": 255,
+          "white": 0
+        },
+        "ceiling_spot": {
+          "red": 200,
+          "green": 220,
+          "blue": 255,
+          "white": 0
+        },
+        "moving_head": {
+          "color": 51
+        },
+        "uv": {
+          "dimmer": 255
+        }
+      }
+    }
+  },
+  "effects": {
+    "static": {
+      "steps": [
+        {
+          "length": 5000
+        }
+      ],
+      "duration": 5000
+    },
+    "fade_in": {
+      "steps": [
+        {
+          "length": 100,
+          "dimmer": 0
+        },
+        {
+          "length": 2000,
+          "dimmer": 255,
+          "fade": true
+        }
+      ],
+      "duration": 2100
+    },
+    "fade_out": {
+      "steps": [
+        {
+          "length": 100,
+          "dimmer": 255
+        },
+        {
+          "length": 2000,
+          "dimmer": 0,
+          "fade": true
+        }
+      ],
+      "duration": 2100
+    },
+    "strobe_slow": {
+      "steps": [
+        {
+          "length": 500,
+          "shutter": 255
+        },
+        {
+          "length": 500,
+          "shutter": 0
+        }
+      ],
+      "duration": 1000
+    },
+    "strobe_fast": {
+      "steps": [
+        {
+          "length": 100,
+          "shutter": 255
+        },
+        {
+          "length": 100,
+          "shutter": 0
+        }
+      ],
+      "duration": 200
+    },
+    "pulse": {
+      "steps": [
+        {
+          "length": 100,
+          "dimmer": 100
+        },
+        {
+          "length": 800,
+          "dimmer": 255,
+          "fade": true
+        },
+        {
+          "length": 800,
+          "dimmer": 100,
+          "fade": true
+        }
+      ],
+      "duration": 1700
+    }
+  },
+  "structure": {
+    "individual": {
+      "led_wall_99": {
+        "fixture_id": "1753817199",
+        "position": [
+          1.0,
+          7.6,
+          1.5
+        ],
+        "files_generated": 60
+      },
+      "led_wall_00": {
+        "fixture_id": "1753817200",
+        "position": [
+          3.0,
+          7.6,
+          1.5
+        ],
+        "files_generated": 60
+      },
+      "led_wall_01": {
+        "fixture_id": "1753817201",
+        "position": [
+          5.0,
+          7.6,
+          1.5
+        ],
+        "files_generated": 60
+      },
+      "led_wall_02": {
+        "fixture_id": "1753817202",
+        "position": [
+          7.0,
+          7.6,
+          1.5
+        ],
+        "files_generated": 60
+      },
+      "led_wall_03": {
+        "fixture_id": "1753817203",
+        "position": [
+          8.5,
+          5.0,
+          1.5
+        ],
+        "files_generated": 60
+      },
+      "led_wall_04": {
+        "fixture_id": "1753817204",
+        "position": [
+          8.5,
+          3.0,
+          1.5
+        ],
+        "files_generated": 60
+      },
+      "led_wall_05": {
+        "fixture_id": "1753817205",
+        "position": [
+          8.5,
+          1.0,
+          1.5
+        ],
+        "files_generated": 60
+      },
+      "led_wall_06": {
+        "fixture_id": "1753817206",
+        "position": [
+          7.0,
+          0.0,
+          1.5
+        ],
+        "files_generated": 60
+      },
+      "led_wall_07": {
+        "fixture_id": "1753817207",
+        "position": [
+          5.0,
+          0.0,
+          1.5
+        ],
+        "files_generated": 60
+      },
+      "led_wall_08": {
+        "fixture_id": "1753817208",
+        "position": [
+          3.0,
+          0.0,
+          1.5
+        ],
+        "files_generated": 60
+      },
+      "led_wall_09": {
+        "fixture_id": "1753817209",
+        "position": [
+          1.0,
+          0.0,
+          1.5
+        ],
+        "files_generated": 60
+      },
+      "ceiling_spot_00": {
+        "fixture_id": "1753821000",
+        "position": [
+          6.75,
+          3.8,
+          3.1
+        ],
+        "files_generated": 60
+      },
+      "ceiling_spot_01": {
+        "fixture_id": "1753821001",
+        "position": [
+          6.415063509461097,
+          5.05,
+          3.1
+        ],
+        "files_generated": 60
+      },
+      "ceiling_spot_02": {
+        "fixture_id": "1753821002",
+        "position": [
+          5.5,
+          5.965063509461096,
+          3.1
+        ],
+        "files_generated": 60
+      },
+      "ceiling_spot_03": {
+        "fixture_id": "1753821003",
+        "position": [
+          4.25,
+          6.3,
+          3.1
+        ],
+        "files_generated": 60
+      },
+      "ceiling_spot_04": {
+        "fixture_id": "1753821004",
+        "position": [
+          3.0000000000000004,
+          5.965063509461096,
+          3.1
+        ],
+        "files_generated": 60
+      },
+      "ceiling_spot_05": {
+        "fixture_id": "1753821005",
+        "position": [
+          2.084936490538903,
+          5.05,
+          3.1
+        ],
+        "files_generated": 60
+      },
+      "ceiling_spot_06": {
+        "fixture_id": "1753821006",
+        "position": [
+          1.75,
+          3.8000000000000003,
+          3.1
+        ],
+        "files_generated": 60
+      },
+      "ceiling_spot_07": {
+        "fixture_id": "1753821007",
+        "position": [
+          2.0849364905389027,
+          2.5500000000000003,
+          3.1
+        ],
+        "files_generated": 60
+      },
+      "ceiling_spot_08": {
+        "fixture_id": "1753821008",
+        "position": [
+          2.999999999999999,
+          1.6349364905389039,
+          3.1
+        ],
+        "files_generated": 60
+      },
+      "ceiling_spot_09": {
+        "fixture_id": "1753821009",
+        "position": [
+          4.249999999999999,
+          1.2999999999999998,
+          3.1
+        ],
+        "files_generated": 60
+      },
+      "ceiling_spot_10": {
+        "fixture_id": "1753821010",
+        "position": [
+          5.5,
+          1.6349364905389034,
+          3.1
+        ],
+        "files_generated": 60
+      },
+      "ceiling_spot_11": {
+        "fixture_id": "1753821011",
+        "position": [
+          6.4150635094610955,
+          2.549999999999999,
+          3.1
+        ],
+        "files_generated": 60
+      },
+      "moving_head_37": {
+        "fixture_id": "1753953037",
+        "position": [
+          2.0,
+          2.0,
+          3.0
+        ],
+        "files_generated": 60
+      },
+      "moving_head_38": {
+        "fixture_id": "1753953038",
+        "position": [
+          6.5,
+          2.0,
+          3.0
+        ],
+        "files_generated": 60
+      },
+      "moving_head_39": {
+        "fixture_id": "1753953039",
+        "position": [
+          2.0,
+          5.6,
+          3.0
+        ],
+        "files_generated": 60
+      },
+      "moving_head_40": {
+        "fixture_id": "1753953040",
+        "position": [
+          6.5,
+          5.6,
+          3.0
+        ],
+        "files_generated": 60
+      },
+      "moving_head_41": {
+        "fixture_id": "1753953041",
+        "position": [
+          4.25,
+          3.8,
+          3.0
+        ],
+        "files_generated": 60
+      },
+      "uv_41": {
+        "fixture_id": "1753841",
+        "position": [
+          1.0,
+          1.0,
+          2.8
+        ],
+        "files_generated": 60
+      },
+      "uv_42": {
+        "fixture_id": "1753842",
+        "position": [
+          7.5,
+          6.6,
+          2.8
+        ],
+        "files_generated": 60
+      }
+    },
+    "groups": {
+      "walls_1&11": {
+        "fixture_ids": [
+          "1753817199",
+          "1753817209"
+        ],
+        "files_generated": 30
+      },
+      "walls_2&10": {
+        "fixture_ids": [
+          "1753817200",
+          "1753817208"
+        ],
+        "files_generated": 30
+      },
+      "walls_3&9": {
+        "fixture_ids": [
+          "1753817201",
+          "1753817207"
+        ],
+        "files_generated": 30
+      },
+      "walls_4&8": {
+        "fixture_ids": [
+          "1753817202",
+          "1753817206"
+        ],
+        "files_generated": 30
+      },
+      "walls_5&7": {
+        "fixture_ids": [
+          "1753817203",
+          "1753817205"
+        ],
+        "files_generated": 30
+      }
+    },
+    "zones": {
+      "walls": {
+        "fixture_ids": [
+          "1753817199",
+          "1753817200",
+          "1753817201",
+          "1753817202",
+          "1753817203",
+          "1753817204",
+          "1753817205",
+          "1753817206",
+          "1753817207",
+          "1753817208",
+          "1753817209"
+        ],
+        "files_generated": 30
+      },
+      "ceiling": {
+        "fixture_ids": [
+          "1753821000",
+          "1753821001",
+          "1753821002",
+          "1753821003",
+          "1753821004",
+          "1753821005",
+          "1753821006",
+          "1753821007",
+          "1753821008",
+          "1753821009",
+          "1753821010",
+          "1753821011",
+          "1753953037",
+          "1753953038",
+          "1753953039",
+          "1753953040",
+          "1753953041"
+        ],
+        "files_generated": 30
+      },
+      "effects": {
+        "fixture_ids": [
+          "1753841",
+          "1753842"
+        ],
+        "files_generated": 30
+      }
+    },
+    "patterns": {}
+  }
+}

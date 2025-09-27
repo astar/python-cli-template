@@ -1,0 +1,33 @@
+{
+  "song_name": "test_short",
+  "duration": 345.92,
+  "tempo": 92.28515625,
+  "created_shows": {
+    "ultimate_action": {
+      "name": "Ultimate Action Show",
+      "file": "Ultimate_Action_Show.tml",
+      "description": "Maximálně akční show s bass vlnami a treble explozemi"
+    },
+    "intelligent": [
+      {
+        "name": "Intelligent Classic_Buildup",
+        "file": "Intelligent_Classic_Buildup.tml",
+        "description": "AI řízená show s Classic_Buildup story arc"
+      },
+      {
+        "name": "Intelligent Emotional_Journey",
+        "file": "Intelligent_Emotional_Journey.tml",
+        "description": "AI řízená show s Emotional_Journey story arc"
+      },
+      {
+        "name": "Intelligent Party_Energy",
+        "file": "Intelligent_Party_Energy.tml",
+        "description": "AI řízená show s Party_Energy story arc"
+      }
+    ]
+  },
+  "windows_paths": {
+    "music_directory": "C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny\\Music\\test_short",
+    "timelines_directory": "C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny\\Timelines\\test_short"
+  }
+}

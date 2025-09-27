@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1753817205" name="LED Wall Spot #7" model="LED_pásky_(lavice)" />
+  </Fixtures>
+  <Steps>
+    <Step length="100">
+      <Fixture id="1753817205">
+        <Channel index="0" name="red" value="128" />
+        <Channel index="1" name="green" value="0" />
+        <Channel index="2" name="blue" value="128" />
+        <Channel index="3" name="white" value="0" />
+      </Fixture>
+    </Step>
+    <Step length="800">
+      <Fixture id="1753817205">
+        <Channel index="0" name="red" value="128" fade="1" />
+        <Channel index="1" name="green" value="0" fade="1" />
+        <Channel index="2" name="blue" value="128" fade="1" />
+        <Channel index="3" name="white" value="0" fade="1" />
+      </Fixture>
+    </Step>
+    <Step length="800">
+      <Fixture id="1753817205">
+        <Channel index="0" name="red" value="128" fade="1" />
+        <Channel index="1" name="green" value="0" fade="1" />
+        <Channel index="2" name="blue" value="128" fade="1" />
+        <Channel index="3" name="white" value="0" fade="1" />
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>
