@@ -1,0 +1,100 @@
+﻿
+[Params]
+Version = 0.2
+CommentTimeLine = 0
+LightTimeLines = 10
+MediaTimeLines = 1
+ShowWaveForm = 1
+MaxTime = 0:30:00
+Zoom = 0
+TimeLine_1 = V I D E O   P I C T U R E   T I M E L I N E
+TimeLine_2 = A U D I O   T I M E L I N E
+TimeLine_3 = L I G H T   S C E N E   T I M E L I N E   #   1
+TimeLine_4 = L I G H T   S C E N E   T I M E L I N E   #   2
+TimeLine_5 = L I G H T   S C E N E   T I M E L I N E   #   3
+TimeLine_6 = L I G H T   S C E N E   T I M E L I N E   #   4
+TimeLine_7 = L I G H T   S C E N E   T I M E L I N E   #   5
+TimeLine_8 = L I G H T   S C E N E   T I M E L I N E   #   6
+TimeLine_9 = L I G H T   S C E N E   T I M E L I N E   #   7
+TimeLine_10 = L I G H T   S C E N E   T I M E L I N E   #   8
+TimeLine_11 = L I G H T   S C E N E   T I M E L I N E   #   9
+TimeLine_12 = L I G H T   S C E N E   T I M E L I N E   #   10
+[Event_0]
+TimeLineIndex = 2
+StartTime = 0:00:00.0
+Path = Music/Deadpool & Wolverine Theme ｜ Like a Prayer (Complete Version).wav
+Length = 0:05:39.0
+[Event_1]
+TimeLineIndex = 3
+StartTime = 0:00:00.0
+Path = Gene_led_walls_zkouška.gpj
+Length = 0:00:10.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_2]
+TimeLineIndex = 3
+StartTime = 0:00:24.8
+Path = OFF
+[Event_3]
+TimeLineIndex = 4
+StartTime = 0:00:24.8
+Path = Gene_spots_ukázka.gpj
+Length = 0:00:10.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_4]
+TimeLineIndex = 4
+StartTime = 0:00:55.4
+Path = OFF
+[Event_5]
+TimeLineIndex = 3
+StartTime = 0:00:55.4
+Path = Gene_bodovky_ukázka.gpj
+Length = 0:00:10.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_6]
+TimeLineIndex = 4
+StartTime = 0:01:19.8
+Path = Gobos_barvy.gpj
+Length = 0:00:20.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_7]
+TimeLineIndex = 3
+StartTime = 0:01:19.9
+Path = OFF
+[Event_8]
+TimeLineIndex = 3
+StartTime = 0:01:53.8
+Path = GOBO_tvary.gpj
+Length = 0:00:20.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_9]
+TimeLineIndex = 4
+StartTime = 0:01:54.0
+Path = OFF
+[Event_10]
+TimeLineIndex = 3
+StartTime = 0:02:34.9
+Path = OFF
+[Event_11]
+TimeLineIndex = 4
+StartTime = 0:02:34.9
+Path = random_gobos.gpj
+Length = 0:00:20.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2

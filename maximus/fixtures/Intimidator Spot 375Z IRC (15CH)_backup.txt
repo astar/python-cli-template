@@ -1,0 +1,56 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP575W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 17
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+3DViewShape = 
+2DViewImage = Chauvet/DJ/Intimidator-375Z-IRC.png
+
+Channel = pan
+ pravý roh,143,143 
+
+Channel = upan
+
+Channel = tilt
+ pravy roh,200,200 
+
+Channel = utilt
+
+Channel = pantilt_speed
+ Pan/Tilt speed (fast to slow),0,255 
+
+Channel = color
+ open,0,7 red,8,15 green,16,23 dark_green,24,31 dark_blue,32,39 full_white,40,47 blue,48,55 purple,56,63 index,64,188 open,189,189 rotate,190,255 
+
+Channel = gobo
+ Chauvet/open,0,7 metal_basic/Z03748-4,8,15 metal_basic/sh29,16,23 metal_basic/Q460R1,24,31 metal_complex/RR1SS3,32,39 metal_basic/L330SS8,40,47 metal_complex/RR1SR4,48,55 metal_complex/bio,56,63 Miscellaneous/shake_gobo7,64,71 Miscellaneous/shake_gobo6,72,79 Miscellaneous/shake_gobo5,80,87 Miscellaneous/shake_gobo4,88,95 Miscellaneous/shake_gobo3,96,103 Miscellaneous/shake_gobo2,104,111 Miscellaneous/shake_gobo1,112,119 Miscellaneous/open,120,127 Miscellaneous/left_rotate,128,189 Miscellaneous/right_rotate,194,255 
+
+Channel = gobo_rotate
+ index,0,63 right_rotate,64,147 left_rotate,148,231 Gobo Bounce,232,255 
+
+Channel = prism
+ open,0,7 prism,8,12 right_rotate,13,130 left_rotate,131,247 
+
+Channel = focus
+ focus_far,0,255 
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = shutter
+ closed,0,3 open,4,7 strobe,8,76 pulse_strobe,77,145 Random shutter,146,215 open,216,255 
+
+Channel = control
+ no_function,0,7 Blackout while pan/tilt moving,8,15 Blackout while moving color wheel,16,23 blackout while moving gobo wheel,24,31 Disable Blackout while pan/tilt/moving color wheel,32,39 Disable blackout while pan/tilt/moving gobo wheel,40,47 Disable blackout while moving all option,48,55 no_function,56,95 reset_xy,96,111 reset_color,112,119 reset_gobo,120,127 reset_gobo rotation,128,135 reset_prism,136,143 reset_focus,144,151 reset,152,159 no_function,160,255 
+
+Channel = movement_macro
+ no_function,0,7 macro_1,8,23 macro_2,24,39 macro_3,40,55 macro_4,56,71 macro_5,72,87 macro_6,88,103 macro_7,104,119 macro_8,120,135 Sound Controlled program 1,136,151 Sound Controlled program 2,152,167 Sound Controlled program 3,168,183 Sound Controlled program 4,184,199 Sound Controlled program 5,200,215 Sound Controlled program 6,216,231 Sound Controlled program 7,232,247 Sound Controlled program 8,248,255 
+
+Channel = zoom
+ Motorized zoom (big to small),0,255 
+

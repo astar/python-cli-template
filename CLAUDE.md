@@ -4,6 +4,12 @@
 
 Systém pro řízení DMX světel v saune na základě analýzy hudby. Projekt vytváří timeline soubory (.tml) kompatibilní s Infinit Maximus lighting controllerem a poskytuje real-time vizualizaci.
 
+**⚡ NOVÉ FUNKCE V TÉTO VERZI:**
+- ✅ **Windows Export System** - Automatická konverze cest pro cílový Windows systém
+- ✅ **Ceremonial Structure** - Organizace projektů podle ceremoniálů
+- ✅ **CP1250 Encoding** - Podpora pro české znaky na Windows
+- ✅ **Path Converter** - Inteligentní konverze mezi Unix/Windows cestami
+
 ## 🏗️ Architektura Systému
 
 ### Hlavní Komponenty
@@ -61,6 +67,23 @@ dmx-analyzer spectacular song.wav -o amazing_show.tml
 
 # Real-time vizualizace
 dmx-analyzer visualize amazing_show.tml song.wav
+
+# 🆕 NOVÉ PŘÍKAZY:
+
+# Vytvoření ceremoniální struktury
+dmx-analyzer create-ceremonial "Kokoti"
+
+# Export pro Windows s ceremoniální strukturou
+dmx-analyzer export timeline.tml --target windows --ceremonial "Kokoti"
+
+# Export s vlastním kódováním
+dmx-analyzer export timeline.tml --target windows --encoding cp1250
+
+# Pokročilé spektrální řízení
+dmx-analyzer music-director song.wav
+
+# Dynamické explozivní efekty
+dmx-analyzer dynamic song.wav -o explosive_show.tml
 ```
 
 ## 🎨 Vizualizátor Ovládání
@@ -136,6 +159,44 @@ Special_efects/Walls_flashing_snake/   → Speciální efekty
 }
 ```
 
+## 🌐 Windows Export System
+
+### Ceremonial Structure
+```
+C:\Users\itbrn\TheLightingController\LightShows\Infinit Maximus - Jarda Vazny\
+├── Music\
+│   ├── Kokoti\           # Ceremonial directory
+│   │   ├── song1.mp3
+│   │   └── song2.wav
+│   └── Placata\          # Another ceremonial
+│       └── track.mp3
+└── generated_scenes_systematic\
+    ├── individual\
+    ├── groups\
+    └── zones\
+```
+
+### Export Workflow
+```bash
+# 1. Vytvoř ceremonial strukturu
+dmx-analyzer create-ceremonial "Kokoti"
+
+# 2. Zkopíruj hudbu do ceremonial/music/
+cp song.wav Kokoti/music/
+
+# 3. Generuj timeline
+dmx-analyzer spectacular Kokoti/music/song.wav -o Kokoti/timelines/song.tml
+
+# 4. Export pro Windows
+dmx-analyzer export Kokoti/timelines/song.tml -o Kokoti/exports/song_windows.tml --ceremonial "Kokoti"
+```
+
+### Path Conversion Features
+- **Automatická konverze**: Unix ↔ Windows cesty
+- **České znaky**: ž→z, š→s, č→c, ř→r, ě→e
+- **CP1250 encoding**: Kompatibilita s Windows
+- **Ceremonial paths**: Organizace podle ceremoniálů
+
 ## 🐛 Známé Omezení
 
 ### Pygame Mixer
@@ -145,6 +206,10 @@ Special_efects/Walls_flashing_snake/   → Speciální efekty
 ### Performance
 - Pro pomalší systémy: snížit rozlišení okna
 - Editovat `sauna_renderer.py`: width=800, height=600
+
+### Windows Export
+- Testováno jen s CP1250 encoding
+- Dlouhé názvy souborů (>260 znaků) mohou způsobit problémy
 
 ## 🔮 Budoucí Rozšíření
 

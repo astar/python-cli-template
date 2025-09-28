@@ -1,0 +1,168 @@
+﻿
+[Params]
+PanTiltShift = 0.0
+ExplodePanTilt = 0
+GroupRGB = 1
+FanPanOffset = 0
+FanTiltOffset = 0
+[Fixture_0]
+ID = 1753816792
+Name = Bodovka_(strop)
+DMX = 32
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_1]
+ID = 1753816793
+Name = Bodovka_(strop) #2
+DMX = 36
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_2]
+ID = 1753816794
+Name = Bodovka_(strop) #3
+DMX = 40
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_3]
+ID = 1753816795
+Name = Bodovka_(strop) #4
+DMX = 44
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_4]
+ID = 1753816796
+Name = Bodovka_(strop) #5
+DMX = 48
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_5]
+ID = 1753816797
+Name = Bodovka_(strop) #6
+DMX = 52
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_6]
+ID = 1753816798
+Name = Bodovka_(strop) #7
+DMX = 56
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_7]
+ID = 1753816799
+Name = Bodovka_(strop) #8
+DMX = 60
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_8]
+ID = 1753816800
+Name = Bodovka_(strop) #9
+DMX = 64
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_9]
+ID = 1753816801
+Name = Bodovka_(strop) #10
+DMX = 68
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_10]
+ID = 1753816802
+Name = Bodovka_(strop) #11
+DMX = 72
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_11]
+ID = 1753816803
+Name = Bodovka_(strop) #12
+DMX = 76
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[RGB]
+Selected = 1
+CurveName = Default Curve
+Transition = 2
+Duration = 100
+Shift = -4.7
+Point_0 = 24997,47034
+Point_1 = 25448,18279
+Point_2 = 49545,31653
+[white]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535

@@ -184,12 +184,239 @@ def music_director(audio_file: Path) -> None:
         run_music_director(audio_file)
 
     except ImportError as e:
-        click.echo("❌ Music Director requires pygame and librosa: pip install pygame librosa", err=True)
+        click.echo(
+            "❌ Music Director requires pygame and librosa: pip install pygame librosa",
+            err=True,
+        )
         click.echo(f"   Error: {e}", err=True)
         sys.exit(1)
     except Exception as e:
         click.echo(f"❌ Music Director error: {e}", err=True)
         logger.error("Music Director failed: %s", e)
+        sys.exit(1)
+
+
+@cli.command()
+@click.argument("timeline_file", type=click.Path(exists=True, path_type=Path))
+@click.option(
+    "--output", "-o", type=click.Path(path_type=Path), help="Output timeline file path"
+)
+@click.option(
+    "--target",
+    type=click.Choice(["windows", "unix"]),
+    default="windows",
+    help="Target platform for export"
+)
+@click.option(
+    "--encoding",
+    type=str,
+    default="cp1250",
+    help="Target encoding (default: cp1250 for Windows)"
+)
+@click.option(
+    "--ceremonial",
+    type=str,
+    help="Ceremonial name for directory structure (e.g., 'Kokoti', 'Placata')"
+)
+def export(
+    timeline_file: Path,
+    output: Path | None,
+    target: str,
+    encoding: str,
+    ceremonial: str | None,
+) -> None:
+    """Export timeline with Windows-compatible paths and encoding."""
+    from .settings import ExportConfig
+    from .models import DMXTimeline
+    import configparser
+
+    try:
+        click.echo(f"📤 Exporting timeline for {target} platform...")
+        click.echo(f"   Source: {timeline_file}")
+        click.echo(f"   Target encoding: {encoding}")
+        if ceremonial:
+            click.echo(f"   Ceremonial: {ceremonial}")
+
+        # Generate output path if not provided
+        if not output:
+            suffix = "_windows" if target == "windows" else "_unix"
+            output = timeline_file.with_stem(f"{timeline_file.stem}{suffix}")
+
+        # Read existing timeline file - try UTF-8 first, then CP1250
+        config = configparser.ConfigParser(interpolation=None)
+        try:
+            config.read(timeline_file, encoding='utf-8')
+        except UnicodeDecodeError:
+            try:
+                config.read(timeline_file, encoding='cp1250')
+                click.echo("   ℹ️  Read file using CP1250 encoding")
+            except UnicodeDecodeError:
+                config.read(timeline_file, encoding='latin-1')
+                click.echo("   ℹ️  Read file using Latin-1 encoding")
+
+        # Create DMXTimeline from config
+        timeline = DMXTimeline()
+
+        # Parse params section
+        if 'Params' in config:
+            params = config['Params']
+            timeline.version = params.get('Version', '0.2')
+            timeline.light_timelines = int(params.get('LightTimeLines', '10'))
+            timeline.media_timelines = int(params.get('MediaTimeLines', '1'))
+            timeline.show_waveform = bool(int(params.get('ShowWaveForm', '1')))
+            timeline.max_time = params.get('MaxTime', '0:30:00')
+
+        # Parse events
+        from .models import DMXEvent, SpeedType
+
+        for section_name in config.sections():
+            if section_name.startswith('Event_'):
+                event_data = dict(config[section_name])
+
+                # Skip audio event (Event_0)
+                if section_name == 'Event_0':
+                    timeline.audio_file = event_data.get('path', event_data.get('Path', ''))
+                    timeline.audio_length = event_data.get('length', event_data.get('Length', ''))
+                    continue
+
+                event = DMXEvent(
+                    timeline_index=int(event_data.get('timelineindex', event_data.get('TimeLineIndex', '3'))),
+                    start_time=event_data.get('starttime', event_data.get('StartTime', '0:00:00.0')),
+                    path=event_data.get('path', event_data.get('Path', '')),
+                    length=event_data.get('length', event_data.get('Length')),
+                    speed=int(event_data.get('speed', event_data.get('Speed', '100'))),
+                    speed_type=SpeedType(int(event_data.get('speedtype', event_data.get('SpeedType', '2')))),
+                    fade_in=int(event_data.get('fadein', event_data.get('FadeIn', '0'))) if event_data.get('fadein') or event_data.get('FadeIn') else None,
+                    fade_out=int(event_data.get('fadeout', event_data.get('FadeOut', '0'))) if event_data.get('fadeout') or event_data.get('FadeOut') else None,
+                    bpm=int(event_data.get('bpm', event_data.get('BPM', '0'))) if event_data.get('bpm') or event_data.get('BPM') else None,
+                    volume=int(event_data.get('volume', event_data.get('Volume', '0'))) if event_data.get('volume') or event_data.get('Volume') else None,
+                )
+                timeline.add_event(event)
+
+        # Configure export settings
+        export_config = ExportConfig(
+            target_platform=target,
+            convert_encoding=True
+        )
+
+        # Update path converter encoding and ceremonial settings
+        from .path_converter import get_path_converter, PathConfig
+        path_config = PathConfig(
+            target_encoding=encoding,
+            ceremonial_name=ceremonial
+        )
+        converter = get_path_converter(path_config)
+
+        # Export timeline
+        exported_content = timeline.to_tml_format(export_config)
+
+        # Write to file with appropriate encoding
+        output_encoding = encoding if target == "windows" else "utf-8"
+        with open(output, 'w', encoding=output_encoding) as f:
+            f.write(exported_content)
+
+        click.echo(f"✅ Timeline exported successfully!")
+        click.echo(f"   Output: {output}")
+        click.echo(f"   Platform: {target}")
+        click.echo(f"   Encoding: {output_encoding}")
+        click.echo(f"   Events: {len(timeline.events)}")
+
+        # Show sample path conversion
+        if timeline.events:
+            sample_event = timeline.events[0]
+            click.echo(f"\n📝 Sample path conversion:")
+            click.echo(f"   Original: {sample_event.path}")
+
+            from .path_converter import get_path_converter
+            converter = get_path_converter()
+            converted_path = converter.convert_scene_path(sample_event.path, target)
+            click.echo(f"   Converted: {converted_path}")
+
+    except Exception as e:
+        click.echo(f"❌ Export failed: {e}", err=True)
+        logger.error("Export failed: %s", e)
+        sys.exit(1)
+
+
+@cli.command()
+@click.argument("ceremonial_name", type=str)
+@click.option(
+    "--base-dir",
+    type=click.Path(path_type=Path),
+    default=Path.cwd(),
+    help="Base directory for ceremonial structure"
+)
+def create_ceremonial(ceremonial_name: str, base_dir: Path) -> None:
+    """Create ceremonial directory structure for organized timeline management."""
+    from .path_converter import PathConverter, PathConfig
+
+    try:
+        click.echo(f"🎭 Creating ceremonial structure for: {ceremonial_name}")
+
+        # Create safe directory name
+        converter = PathConverter()
+        safe_name = converter.get_safe_filename(ceremonial_name)
+
+        # Create directory structure
+        ceremonial_dir = base_dir / safe_name
+        music_dir = ceremonial_dir / "music"
+        timelines_dir = ceremonial_dir / "timelines"
+        exports_dir = ceremonial_dir / "exports"
+
+        # Create directories
+        music_dir.mkdir(parents=True, exist_ok=True)
+        timelines_dir.mkdir(parents=True, exist_ok=True)
+        exports_dir.mkdir(parents=True, exist_ok=True)
+
+        # Create README with structure explanation
+        readme_content = f"""# {ceremonial_name} - DMX Light Show Project
+
+## Directory Structure
+
+- `music/` - Audio files for this ceremonial
+- `timelines/` - Generated .tml timeline files
+- `exports/` - Windows-compatible exports for target system
+
+## Usage
+
+### 1. Add Music
+Copy your audio files to the `music/` directory.
+
+### 2. Generate Timeline
+```bash
+dmx-analyzer spectacular music/your_song.wav -o timelines/your_song.tml
+```
+
+### 3. Export for Windows
+```bash
+dmx-analyzer export timelines/your_song.tml -o exports/your_song_windows.tml --target windows --ceremonial "{ceremonial_name}"
+```
+
+### 4. Windows Target Paths
+- Music: `C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny\\Music\\{safe_name}\\`
+- Scenes: `C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny\\generated_scenes_systematic\\`
+
+## Created with DMX Music Analyzer
+"""
+
+        readme_path = ceremonial_dir / "README.md"
+        readme_path.write_text(readme_content, encoding="utf-8")
+
+        click.echo(f"✅ Ceremonial structure created:")
+        click.echo(f"   📁 {ceremonial_dir}")
+        click.echo(f"   📁 {music_dir}")
+        click.echo(f"   📁 {timelines_dir}")
+        click.echo(f"   📁 {exports_dir}")
+        click.echo(f"   📄 {readme_path}")
+
+        click.echo(f"\n🎵 Next steps:")
+        click.echo(f"1. Copy audio files to: {music_dir}")
+        click.echo(f"2. Generate timeline: dmx-analyzer spectacular music/song.wav -o timelines/song.tml")
+        click.echo(f"3. Export for Windows: dmx-analyzer export timelines/song.tml --ceremonial \"{ceremonial_name}\"")
+
+    except Exception as e:
+        click.echo(f"❌ Failed to create ceremonial structure: {e}", err=True)
+        logger.error("Ceremonial creation failed: %s", e)
         sys.exit(1)
 
 
@@ -207,17 +434,23 @@ def dynamic(
 
     try:
         click.echo("💥 Creating DYNAMIC explosive lighting show...")
-        click.echo("🎯 Beat detection + Strobe effects + Circular waves + Bass explosions")
+        click.echo(
+            "🎯 Beat detection + Strobe effects + Circular waves + Bass explosions"
+        )
         click.echo(f"🎵 Audio: {audio_file}")
 
         # Generate output path if not provided
         if not output:
-            output = audio_file.with_stem(f"{audio_file.stem}_DYNAMIC").with_suffix(".tml")
+            output = audio_file.with_stem(f"{audio_file.stem}_DYNAMIC").with_suffix(
+                ".tml"
+            )
 
         # Create dynamic spectacular timeline
         timeline = create_dynamic_spectacular_timeline(audio_file, output)
 
-        click.echo(f"💥 EXPLOSIVE timeline created with {len(timeline.events)} dynamic effects!")
+        click.echo(
+            f"💥 EXPLOSIVE timeline created with {len(timeline.events)} dynamic effects!"
+        )
         click.echo(f"💾 Saved to: {output}")
 
         # Show effects summary

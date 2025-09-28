@@ -1,0 +1,188 @@
+{
+  "choreographies": {
+    "Romantic Slow Sweep": {
+      "description": "Pomalé romantické kývání pro lyrické části",
+      "file": "romantic_slow_sweep.scex",
+      "colors": [
+        "warm_white",
+        "orange",
+        "yellow",
+        "red",
+        "magenta"
+      ],
+      "recommended_for": [
+        "lyrické části",
+        "pomalé verše",
+        "emocionální momenty"
+      ]
+    },
+    "Energetic Fast Sweep": {
+      "description": "Rychlé energické kývání pro taneční části",
+      "file": "energetic_fast_sweep.scex",
+      "colors": [
+        "white",
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "recommended_for": [
+        "rychlé části",
+        "taneční sekce",
+        "vysoká energie"
+      ]
+    },
+    "Mystical Circle": {
+      "description": "Kruhový pohyb pro tajemné atmosféry",
+      "file": "mystical_circle.scex",
+      "colors": [
+        "purple",
+        "blue",
+        "cyan",
+        "magenta",
+        "white"
+      ],
+      "recommended_for": [
+        "intro",
+        "bridge",
+        "tajemné atmosféry"
+      ]
+    },
+    "Dynamic Figure 8": {
+      "description": "Osmička pro dynamické buildupy",
+      "file": "dynamic_figure_8.scex",
+      "colors": [
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "recommended_for": [
+        "buildup",
+        "před dropem",
+        "rostoucí napětí"
+      ]
+    },
+    "Synchronized Power": {
+      "description": "Synchronní pohyb pro power momenty",
+      "file": "synchronized_power.scex",
+      "colors": [
+        "white",
+        "white",
+        "white",
+        "white",
+        "white"
+      ],
+      "recommended_for": [
+        "chorus",
+        "drop",
+        "peak momenty"
+      ]
+    },
+    "Counter Balance": {
+      "description": "Protisměrný pohyb pro vytvoření napětí",
+      "file": "counter_balance.scex",
+      "colors": [
+        "red",
+        "blue",
+        "red",
+        "blue",
+        "red"
+      ],
+      "recommended_for": [
+        "kontrasty",
+        "napětí",
+        "dramatické momenty"
+      ]
+    },
+    "Sequential Chase": {
+      "description": "Postupné následování pro buildup",
+      "file": "sequential_chase.scex",
+      "colors": [
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "recommended_for": [
+        "buildup",
+        "crescendo",
+        "postupné narůstání"
+      ]
+    },
+    "Rainbow Explosion": {
+      "description": "Explozivní barevný efekt pro drop momenty",
+      "file": "rainbow_explosion.scex",
+      "colors": [
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "recommended_for": [
+        "drop",
+        "explosion",
+        "peak energy"
+      ]
+    },
+    "Ambient Static": {
+      "description": "Statické pozice pro ambient pozadí",
+      "file": "ambient_static.scex",
+      "colors": [
+        "warm_white",
+        "orange",
+        "blue",
+        "purple",
+        "cyan"
+      ],
+      "recommended_for": [
+        "pozadí",
+        "ambient",
+        "klidné momenty"
+      ]
+    },
+    "Strobo Madness": {
+      "description": "Intenzivní stroboskopický efekt",
+      "file": "strobo_madness.scex",
+      "colors": [
+        "white",
+        "red",
+        "white",
+        "blue",
+        "white"
+      ],
+      "recommended_for": [
+        "intenzivní momenty",
+        "peak energy",
+        "rave části"
+      ]
+    }
+  },
+  "usage_guide": {
+    "romantic_moments": [
+      "Romantic Slow Sweep",
+      "Ambient Static"
+    ],
+    "energetic_parts": [
+      "Energetic Fast Sweep",
+      "Rainbow Explosion"
+    ],
+    "mysterious_atmospheres": [
+      "Mystical Circle"
+    ],
+    "buildup_moments": [
+      "Sequential Chase",
+      "Dynamic Figure 8"
+    ],
+    "power_moments": [
+      "Synchronized Power",
+      "Strobo Madness"
+    ],
+    "tension_creation": [
+      "Counter Balance"
+    ]
+  }
+}

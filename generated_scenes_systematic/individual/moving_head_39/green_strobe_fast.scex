@@ -7,14 +7,30 @@
   <Steps>
     <Step length="100">
       <Fixture id="1753953039">
-        <Channel index="4" name="color" value="19" />
-        <Channel index="9" name="shutter" value="255" />
+        <Channel index="0" name="pan" value="128" />
+        <Channel index="1" name="upan" value="128" />
+        <Channel index="2" name="tilt" value="77" />
+        <Channel index="3" name="utilt" value="77" />
+        <Channel index="5" name="color" value="19" />
+        <Channel index="6" name="gobo" value="0" />
+        <Channel index="7" name="gobo_rotate" value="0" />
+        <Channel index="10" name="dimmer" value="60" />
+        <Channel index="11" name="shutter" value="4" />
+        <Channel index="14" name="zoom" value="0" />
       </Fixture>
     </Step>
     <Step length="100">
       <Fixture id="1753953039">
-        <Channel index="4" name="color" value="19" />
-        <Channel index="9" name="shutter" value="0" />
+        <Channel index="0" name="pan" value="128" />
+        <Channel index="1" name="upan" value="128" />
+        <Channel index="2" name="tilt" value="77" />
+        <Channel index="3" name="utilt" value="77" />
+        <Channel index="5" name="color" value="19" />
+        <Channel index="6" name="gobo" value="0" />
+        <Channel index="7" name="gobo_rotate" value="0" />
+        <Channel index="10" name="dimmer" value="60" />
+        <Channel index="11" name="shutter" value="4" />
+        <Channel index="14" name="zoom" value="0" />
       </Fixture>
     </Step>
   </Steps>

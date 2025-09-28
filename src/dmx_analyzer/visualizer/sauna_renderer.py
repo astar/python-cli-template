@@ -34,6 +34,18 @@ class LightFixture:
         self.fade_start_time = 0
         self.fade_duration = 0
 
+        # Moving heads specific properties
+        self.pan = 128  # 0-255 horizontal position (128 = center)
+        self.tilt = 128  # 0-255 vertical position (128 = center)
+        self.gobo = 0   # 0-255 gobo pattern
+        self.prism = 0  # 0-255 prism effects
+        self.focus = 128  # 0-255 focus setting
+        self.shutter = 32  # 0-255 shutter/strobe
+
+        # Calculated beam direction for visualization
+        self.beam_angle = 0.0  # Horizontal angle in radians
+        self.beam_elevation = 0.0  # Vertical angle (affects beam length)
+
     def set_color(
         self, color: tuple[int, int, int], intensity: float = 1.0, effect: str = None
     ) -> None:
@@ -43,6 +55,30 @@ class LightFixture:
         self.intensity = max(0.0, min(1.0, intensity))
         self.effect = effect
         self.is_on = intensity > 0
+
+    def set_moving_head_position(self, pan: int = None, tilt: int = None, gobo: int = None, prism: int = None, focus: int = None, shutter: int = None) -> None:
+        """Set moving head position and parameters."""
+        if pan is not None:
+            self.pan = max(0, min(255, pan))
+        if tilt is not None:
+            self.tilt = max(0, min(255, tilt))
+        if gobo is not None:
+            self.gobo = max(0, min(255, gobo))
+        if prism is not None:
+            self.prism = max(0, min(255, prism))
+        if focus is not None:
+            self.focus = max(0, min(255, focus))
+        if shutter is not None:
+            self.shutter = max(0, min(255, shutter))
+
+        # Calculate beam direction for visualization
+        # Pan: 0-255 maps to -180 to +180 degrees
+        pan_degrees = ((self.pan - 128) / 128.0) * 180.0
+        self.beam_angle = math.radians(pan_degrees)
+
+        # Tilt: 0-255 maps to -90 to +90 degrees (affects beam length/elevation)
+        tilt_degrees = ((self.tilt - 128) / 128.0) * 90.0
+        self.beam_elevation = math.radians(tilt_degrees)
 
     def update(self, current_time: float) -> None:
         """Aktualizuje animace světla."""
@@ -163,7 +199,7 @@ class SaunaRenderer:
         # 3D souřadnice: X(-4.25 až +4.25), Z(-3.8 až +3.8), Y(0 až 3.1)
 
         # Scaling pro 2D zobrazení
-        scale_x = self.sauna_rect.width / 8.5   # pixels per meter X
+        scale_x = self.sauna_rect.width / 8.5  # pixels per meter X
         scale_z = self.sauna_rect.height / 7.6  # pixels per meter Z
         center_x = self.sauna_rect.centerx
         center_z = self.sauna_rect.centery
@@ -178,12 +214,12 @@ class SaunaRenderer:
         wall_spots_3d = [
             (-3.21, -2.60),  # Spot_(stěna) #1
             (-3.23, -0.73),  # Spot_(stěna) #2
-            (-3.23, 0.80),   # Spot_(stěna) #3
-            (-2.58, 3.33),   # Spot_(stěna) #4
-            (2.58, 3.33),    # Spot_(stěna) #5
-            (3.23, 0.78),    # Spot_(stěna) #6
-            (3.23, -0.73),   # Spot_(stěna) #7
-            (3.23, -2.60),   # Spot_(stěna) #8
+            (-3.23, 0.80),  # Spot_(stěna) #3
+            (-2.58, 3.33),  # Spot_(stěna) #4
+            (2.58, 3.33),  # Spot_(stěna) #5
+            (3.23, 0.78),  # Spot_(stěna) #6
+            (3.23, -0.73),  # Spot_(stěna) #7
+            (3.23, -2.60),  # Spot_(stěna) #8
         ]
 
         for i, (x_3d, z_3d) in enumerate(wall_spots_3d):
@@ -197,15 +233,15 @@ class SaunaRenderer:
             (-1.07, -3.05),  # Bodovka_(strop) #1
             (-1.07, -1.85),  # Bodovka_(strop) #2
             (-1.07, -0.75),  # Bodovka_(strop) #3
-            (-1.07, 0.35),   # Bodovka_(strop) #4
-            (-1.07, 1.35),   # Bodovka_(strop) #5
-            (0.00, 1.35),    # Bodovka_(strop) #6
-            (1.07, 1.35),    # Bodovka_(strop) #7
-            (1.07, 0.35),    # Bodovka_(strop) #8
-            (1.07, -0.75),   # Bodovka_(strop) #9
-            (1.07, -1.85),   # Bodovka_(strop) #10
-            (1.07, -2.90),   # Bodovka_(strop) #11
-            (0.00, -3.67),   # Bodovka_(strop) #12
+            (-1.07, 0.35),  # Bodovka_(strop) #4
+            (-1.07, 1.35),  # Bodovka_(strop) #5
+            (0.00, 1.35),  # Bodovka_(strop) #6
+            (1.07, 1.35),  # Bodovka_(strop) #7
+            (1.07, 0.35),  # Bodovka_(strop) #8
+            (1.07, -0.75),  # Bodovka_(strop) #9
+            (1.07, -1.85),  # Bodovka_(strop) #10
+            (1.07, -2.90),  # Bodovka_(strop) #11
+            (0.00, -3.67),  # Bodovka_(strop) #12
         ]
 
         for i, (x_3d, z_3d) in enumerate(bodovky_3d):
@@ -218,15 +254,15 @@ class SaunaRenderer:
         led_lavice_3d = [
             (-2.53, -3.36),  # LED_pásek_(lavice) #1
             (-3.80, -1.64),  # LED_pásek_(lavice) #2
-            (-3.80, 0.22),   # LED_pásek_(lavice) #3
-            (-3.80, 2.00),   # LED_pásek_(lavice) #4
-            (-2.84, 3.66),   # LED_pásek_(lavice) #5
-            (0.17, 4.25),    # LED_pásek_(lavice) #6
-            (3.03, 3.54),    # LED_pásek_(lavice) #7
-            (3.80, 2.00),    # LED_pásek_(lavice) #8
-            (3.80, 0.22),    # LED_pásek_(lavice) #9
-            (3.80, -1.64),   # LED_pásek_(lavice) #10
-            (2.53, -3.33),   # LED_pásek_(lavice) #11
+            (-3.80, 0.22),  # LED_pásek_(lavice) #3
+            (-3.80, 2.00),  # LED_pásek_(lavice) #4
+            (-2.84, 3.66),  # LED_pásek_(lavice) #5
+            (0.17, 4.25),  # LED_pásek_(lavice) #6
+            (3.03, 3.54),  # LED_pásek_(lavice) #7
+            (3.80, 2.00),  # LED_pásek_(lavice) #8
+            (3.80, 0.22),  # LED_pásek_(lavice) #9
+            (3.80, -1.64),  # LED_pásek_(lavice) #10
+            (2.53, -3.33),  # LED_pásek_(lavice) #11
         ]
 
         for i, (x_3d, z_3d) in enumerate(led_lavice_3d):
@@ -238,10 +274,10 @@ class SaunaRenderer:
         # Moving Heads (5 kusů) - přesné pozice z 3D modelu
         moving_heads_3d = [
             (-2.37, -1.65),  # Intimidator Spot 375Z #1
-            (-2.37, 0.69),   # Intimidator Spot 375Z #2
-            (-0.16, 1.90),   # Intimidator Spot 375Z #3
-            (2.21, 0.13),    # Intimidator Spot 375Z #4
-            (2.21, -0.54),   # Intimidator Spot 375Z #5
+            (-2.37, 0.69),  # Intimidator Spot 375Z #2
+            (-0.16, 1.90),  # Intimidator Spot 375Z #3
+            (2.21, 0.13),  # Intimidator Spot 375Z #4
+            (2.21, -0.54),  # Intimidator Spot 375Z #5
         ]
 
         for i, (x_3d, z_3d) in enumerate(moving_heads_3d):
@@ -253,7 +289,7 @@ class SaunaRenderer:
         # LED kamna (2 světla) - přesné pozice z 3D modelu
         led_kamna_3d = [
             (-0.68, -1.32),  # LED_pásek_(kamna) #1
-            (0.66, -1.28),   # LED_pásek_(kamna) #2
+            (0.66, -1.28),  # LED_pásek_(kamna) #2
         ]
 
         for i, (x_3d, z_3d) in enumerate(led_kamna_3d):
@@ -265,9 +301,7 @@ class SaunaRenderer:
         # UV světla (1 kus) - přesná pozice z 3D modelu
         uv_3d = (-0.02, -1.58)  # UV_světla
         pos = real_3d_to_2d(uv_3d[0], uv_3d[1])
-        self.fixtures["uv_1"] = LightFixture(
-            "UV Light 1", pos, "uv_light", size=15
-        )
+        self.fixtures["uv_1"] = LightFixture("UV Light 1", pos, "uv_light", size=15)
 
         logger.info(f"Created {len(self.fixtures)} light fixtures (real 3D layout)")
 
@@ -282,7 +316,11 @@ class SaunaRenderer:
             fixture_group, color = self._parse_scene_path(event.path)
 
             if action == "start":
-                self._activate_fixture_group(fixture_group, color, event, current_time)
+                # Check if this is an advanced scene file
+                if "generated_scenes_advanced" in event.path:
+                    self._activate_advanced_scene(event.path, current_time)
+                else:
+                    self._activate_fixture_group(fixture_group, color, event, current_time)
             elif action == "end":
                 self._deactivate_fixture_group(fixture_group)
             elif action == "update":
@@ -292,18 +330,140 @@ class SaunaRenderer:
         for fixture in self.fixtures.values():
             fixture.update(current_time)
 
+    def _activate_advanced_scene(self, scene_path: str, current_time: float) -> None:
+        """Load and activate advanced scene with full DMX channel control."""
+        import xml.etree.ElementTree as ET
+        from pathlib import Path
+        import os
+
+        # Build full path to scene file
+        full_path = Path(scene_path)
+        if not full_path.is_absolute():
+            # Relative to current working directory
+            full_path = Path(os.getcwd()) / scene_path
+
+        logger.debug(f"Loading advanced scene: {full_path}")
+
+        try:
+            if not full_path.exists():
+                logger.warning(f"Advanced scene file not found: {full_path}")
+                return
+
+            # Parse XML scene file
+            tree = ET.parse(full_path)
+            root = tree.getroot()
+
+            # Find Steps section
+            steps = root.find("Steps")
+            if steps is None:
+                logger.warning(f"No Steps found in scene file: {full_path}")
+                return
+
+            # Get first step (for now, we use the first step's values)
+            first_step = steps.find("Step")
+            if first_step is None:
+                logger.warning(f"No Step found in scene file: {full_path}")
+                return
+
+            # Process each fixture in the step
+            for fixture_elem in first_step.findall("Fixture"):
+                fixture_id = fixture_elem.get("id")
+
+                # Map fixture ID to our visualizer fixtures
+                viz_fixture_key = self._map_fixture_id_to_key(fixture_id)
+                if not viz_fixture_key or viz_fixture_key not in self.fixtures:
+                    logger.debug(f"Fixture ID {fixture_id} not found in visualizer")
+                    continue
+
+                fixture = self.fixtures[viz_fixture_key]
+                logger.debug(f"Processing fixture: {viz_fixture_key}")
+
+                # Extract DMX channel values
+                channels = {}
+                for channel_elem in fixture_elem.findall("Channel"):
+                    channel_name = channel_elem.get("name")
+                    channel_value = int(channel_elem.get("value", 0))
+                    channels[channel_name] = channel_value
+
+                # Apply channels to fixture
+                if fixture.fixture_type == "moving_head":
+                    # Set moving head parameters
+                    fixture.set_moving_head_position(
+                        pan=channels.get("pan"),
+                        tilt=channels.get("tilt"),
+                        gobo=channels.get("gobo"),
+                        prism=channels.get("prism"),
+                        focus=channels.get("focus"),
+                        shutter=channels.get("shutter")
+                    )
+
+                    # Set color and intensity
+                    if "color" in channels:
+                        color_rgb = self._dmx_color_to_rgb(channels["color"])
+                        intensity = channels.get("dimmer", 255) / 255.0
+                        fixture.set_color(color_rgb, intensity)
+                        logger.debug(f"Set {viz_fixture_key}: PAN={channels.get('pan', 128)}, TILT={channels.get('tilt', 128)}, Color={color_rgb}, Intensity={intensity:.2f}")
+
+        except Exception as e:
+            logger.error(f"Error loading advanced scene {scene_path}: {e}")
+
+    def _map_fixture_id_to_key(self, fixture_id: str) -> str | None:
+        """Map DMX fixture ID to visualizer fixture key."""
+        # Moving heads mapping
+        id_to_key = {
+            "1753953037": "moving_head_1",
+            "1753953038": "moving_head_2",
+            "1753953039": "moving_head_3",
+            "1753953040": "moving_head_4",
+            "1753953041": "moving_head_5",
+        }
+        return id_to_key.get(fixture_id)
+
+    def _dmx_color_to_rgb(self, dmx_value: int) -> tuple[int, int, int]:
+        """Convert DMX color wheel value to RGB."""
+        # Basic color wheel mapping (similar to our moving heads generator)
+        color_map = {
+            0: (255, 255, 255),   # White
+            11: (255, 0, 0),      # Red
+            31: (255, 128, 0),    # Orange
+            51: (0, 0, 255),      # Blue
+            71: (255, 255, 0),    # Yellow
+            91: (0, 255, 0),      # Green
+            111: (128, 0, 255),   # Purple
+            131: (0, 255, 255),   # Cyan
+            171: (255, 0, 255),   # Magenta
+            211: (255, 255, 255), # White
+        }
+
+        # Find closest color
+        closest_dmx = min(color_map.keys(), key=lambda x: abs(x - dmx_value))
+        return color_map[closest_dmx]
+
     def _parse_scene_path(self, path: str) -> tuple[str, str]:
         """Parsuje scene path pro určení skupiny světel a barvy."""
         if path == "OFF":
             return "all", "off"
 
         # Extract fixture group and color from path
-        # Examples: "LED_walls/Walls_all/Walls_red.scex"
-        #          "Bodovky/Bodovky_all/Bodovka_blue.scex"
-        #          "LED_Walls/Walls_single/Walls_11/Walls_11_white - studená.scex"
+        # Systematic paths: "generated_scenes_systematic/individual/ceiling_spot_00/red_static.scex"
+        #                  "generated_scenes_systematic/individual/led_wall_00/blue_static.scex"
 
         parts = path.split("/")
         if len(parts) >= 2:
+            # For systematic individual scenes
+            if "individual" in parts and len(parts) >= 4:
+                fixture_name = parts[-2]  # e.g., "ceiling_spot_00", "led_wall_00"
+                filename = parts[-1]      # e.g., "red_static.scex"
+
+                # Map systematic names to renderer fixture keys
+                fixture_key = self._map_systematic_name_to_fixture_key(fixture_name)
+
+                # Extract color from filename
+                color = self._extract_color_from_filename(filename)
+
+                return fixture_key, color
+
+            # Legacy paths: "LED_walls/Walls_all/Walls_red.scex"
             group = parts[0].lower()
 
             # Rozpoznej jestli je to single nebo all
@@ -321,36 +481,82 @@ class SaunaRenderer:
                     group = parts[1].lower()
 
             filename = parts[-1] if len(parts) > 2 else parts[1]
-
-            # Extract color from filename - zlepšené rozpoznávání
-            color = "white"
-            filename_lower = filename.lower()
-
-            # Rozpoznání barev v různých formátech
-            if "red" in filename_lower or "červen" in filename_lower:
-                color = "red"
-            elif "blue" in filename_lower or "modr" in filename_lower:
-                color = "blue"
-            elif "green" in filename_lower or "zelen" in filename_lower:
-                color = "green"
-            elif "yellow" in filename_lower or "žlut" in filename_lower:
-                color = "yellow"
-            elif "orange" in filename_lower or "oranžov" in filename_lower:
-                color = "orange"
-            elif "purple" in filename_lower or "fialov" in filename_lower:
-                color = "purple"
-            elif "azure" in filename_lower or "azurov" in filename_lower:
-                color = "azure"
-            elif "white - studená" in filename_lower or "studena" in filename_lower:
-                color = "white - studená"
-            elif "white - teplá" in filename_lower or "tepla" in filename_lower:
-                color = "white - teplá"
-            elif "white" in filename_lower or "bil" in filename_lower:
-                color = "white"
+            color = self._extract_color_from_filename(filename)
 
             return group, color
 
         return "unknown", "white"
+
+    def _map_systematic_name_to_fixture_key(self, systematic_name: str) -> str:
+        """Map systematic fixture name to renderer fixture key."""
+        # ceiling_spot_00 -> bodovka_1
+        if systematic_name.startswith("ceiling_spot_"):
+            num = int(systematic_name.split("_")[-1])
+            return f"bodovka_{num + 1}"  # 0-based to 1-based
+
+        # led_wall_00 -> wall_spot_1
+        elif systematic_name.startswith("led_wall_"):
+            num_str = systematic_name.split("_")[-1]
+            if num_str == "99":  # Special case for led_wall_99
+                num = 10  # Map to wall_spot_11 (but we only have 8, so it will map to existing)
+            else:
+                num = int(num_str)
+            return f"wall_spot_{num + 1}"  # 0-based to 1-based
+
+        # moving_head_37 -> moving_head_1
+        elif systematic_name.startswith("moving_head_"):
+            num_str = systematic_name.split("_")[-1]
+            # Map moving head IDs to 1-5 range
+            if num_str == "37":
+                return "moving_head_1"
+            elif num_str == "38":
+                return "moving_head_2"
+            elif num_str == "39":
+                return "moving_head_3"
+            elif num_str == "40":
+                return "moving_head_4"
+            elif num_str == "41":
+                return "moving_head_5"
+            else:
+                return "moving_head_1"  # Default fallback
+
+        # uv_41, uv_42 -> uv_1
+        elif systematic_name.startswith("uv_"):
+            return "uv_1"
+
+        # For other types, return as-is and let the group mapping handle it
+        return systematic_name
+
+    def _extract_color_from_filename(self, filename: str) -> str:
+        """Extract color from filename."""
+        filename_lower = filename.lower()
+
+        if "red" in filename_lower or "červen" in filename_lower:
+            return "red"
+        elif "blue" in filename_lower or "modr" in filename_lower:
+            return "blue"
+        elif "green" in filename_lower or "zelen" in filename_lower:
+            return "green"
+        elif "yellow" in filename_lower or "žlut" in filename_lower:
+            return "yellow"
+        elif "orange" in filename_lower or "oranžov" in filename_lower:
+            return "orange"
+        elif "purple" in filename_lower or "fialov" in filename_lower:
+            return "purple"
+        elif "magenta" in filename_lower:
+            return "purple"  # Map magenta to purple
+        elif "cyan" in filename_lower:
+            return "azure"   # Map cyan to azure
+        elif "azure" in filename_lower or "azurov" in filename_lower:
+            return "azure"
+        elif "white" in filename_lower and "cool" in filename_lower:
+            return "white - studená"
+        elif "white" in filename_lower and "warm" in filename_lower:
+            return "white - teplá"
+        elif "white" in filename_lower or "bil" in filename_lower:
+            return "white"
+
+        return "white"  # Default
 
     def _activate_fixture_group(
         self, group: str, color: str, event, current_time: float
@@ -415,6 +621,10 @@ class SaunaRenderer:
         """Vrátí klíče světel pro danou skupinu."""
         group_lower = group.lower()
 
+        # Check if this is a direct fixture key first
+        if group in self.fixtures:
+            return [group]
+
         # Základní skupiny
         if group_lower in ["bodovky", "bodovka", "ceiling"]:
             return [k for k in self.fixtures.keys() if k.startswith("bodovka_")]
@@ -457,8 +667,11 @@ class SaunaRenderer:
             except:
                 return [k for k in self.fixtures.keys() if k.startswith("bodovka_")]
 
-        elif "mh_" in group_lower:
-            # Moving heads
+        elif "moving_head_" in group_lower:
+            # Moving heads - direct mapping
+            if group_lower in self.fixtures:
+                return [group_lower]
+            # Try parsing number
             try:
                 mh_num = int(group_lower.split("_")[-1])
                 if 1 <= mh_num <= 5:
@@ -468,6 +681,18 @@ class SaunaRenderer:
                 return [k for k in self.fixtures.keys() if k.startswith("moving_head_")]
             except:
                 return [k for k in self.fixtures.keys() if k.startswith("moving_head_")]
+
+        elif "wall_spot_" in group_lower:
+            # Wall spots - direct mapping
+            if group_lower in self.fixtures:
+                return [group_lower]
+            return []
+
+        elif "uv_" in group_lower:
+            # UV lights - direct mapping
+            if group_lower in self.fixtures:
+                return [group_lower]
+            return [k for k in self.fixtures.keys() if k.startswith("uv_")]
 
         elif "lavice_" in group_lower:
             # LED lavice
@@ -535,7 +760,7 @@ class SaunaRenderer:
         for x_3d, z_3d, width, height in main_benches:
             pos = real_3d_to_2d_structure(x_3d, z_3d)
             bench_rect = pygame.Rect(
-                pos[0] - width//2, pos[1] - height//2, width, height
+                pos[0] - width // 2, pos[1] - height // 2, width, height
             )
             pygame.draw.rect(self.screen, bench_color, bench_rect)
 
@@ -550,7 +775,9 @@ class SaunaRenderer:
         pygame.draw.rect(self.screen, (32, 32, 32), screen_rect)
 
         # Labels s reálnými rozměry
-        title_text = self.font_medium.render("REÁLNÁ SAUNA (8.5m × 7.6m)", True, self.text_color)
+        title_text = self.font_medium.render(
+            "REÁLNÁ SAUNA (8.5m × 7.6m)", True, self.text_color
+        )
         self.screen.blit(title_text, (self.sauna_rect.x, self.sauna_rect.y - 25))
 
         # Kamna label
@@ -603,7 +830,9 @@ class SaunaRenderer:
                 pygame.draw.circle(self.screen, (150, 100, 100), pos, size // 2, 2)
 
             elif fixture.fixture_type == "moving_head":
-                # Diamant pro moving heads
+                # Advanced moving head visualization with beam direction
+
+                # Draw main fixture body (diamond)
                 points = [
                     (pos[0], pos[1] - size // 2),
                     (pos[0] + size // 2, pos[1]),
@@ -612,6 +841,79 @@ class SaunaRenderer:
                 ]
                 pygame.draw.polygon(self.screen, color, points)
                 pygame.draw.polygon(self.screen, (100, 100, 100), points, 2)
+
+                # Draw beam direction if light is on
+                if fixture.intensity > 0.1:
+                    # Calculate beam length based on tilt (elevation)
+                    # Higher tilt = shorter beam (pointing down), lower tilt = longer beam
+                    base_beam_length = 120
+                    elevation_factor = math.cos(fixture.beam_elevation)
+                    beam_length = int(base_beam_length * elevation_factor * fixture.intensity)
+
+                    if beam_length > 10:  # Only draw if beam is long enough to see
+                        # Calculate beam end point based on pan angle
+                        beam_end_x = pos[0] + beam_length * math.cos(fixture.beam_angle)
+                        beam_end_y = pos[1] + beam_length * math.sin(fixture.beam_angle)
+
+                        # Draw beam cone (triangle)
+                        beam_width = 15 + int(5 * fixture.intensity)
+
+                        # Calculate perpendicular vector for beam width
+                        perp_x = -math.sin(fixture.beam_angle) * beam_width
+                        perp_y = math.cos(fixture.beam_angle) * beam_width
+
+                        beam_points = [
+                            pos,  # Start at fixture
+                            (beam_end_x + perp_x, beam_end_y + perp_y),  # Left side
+                            (beam_end_x - perp_x, beam_end_y - perp_y),  # Right side
+                        ]
+
+                        # Semi-transparent beam color
+                        beam_color = (*color, 40)
+                        beam_surf = pygame.Surface((abs(int(beam_end_x - pos[0])) + beam_width * 2,
+                                                  abs(int(beam_end_y - pos[1])) + beam_width * 2), pygame.SRCALPHA)
+
+                        # Offset for beam surface
+                        surf_offset_x = min(pos[0], beam_end_x + perp_x, beam_end_x - perp_x) - beam_width
+                        surf_offset_y = min(pos[1], beam_end_y + perp_y, beam_end_y - perp_y) - beam_width
+
+                        # Adjust beam points for surface coordinates
+                        beam_points_surf = [
+                            (pos[0] - surf_offset_x, pos[1] - surf_offset_y),
+                            (beam_end_x + perp_x - surf_offset_x, beam_end_y + perp_y - surf_offset_y),
+                            (beam_end_x - perp_x - surf_offset_x, beam_end_y - perp_y - surf_offset_y),
+                        ]
+
+                        pygame.draw.polygon(beam_surf, beam_color, beam_points_surf)
+                        self.screen.blit(beam_surf, (surf_offset_x, surf_offset_y), special_flags=pygame.BLEND_ALPHA_SDL2)
+
+                        # Draw beam center line
+                        beam_line_color = tuple(min(255, c + 50) for c in color)
+                        pygame.draw.line(self.screen, beam_line_color, pos, (beam_end_x, beam_end_y), 2)
+
+                        # Draw beam target spot
+                        target_radius = max(3, int(8 * fixture.intensity))
+                        pygame.draw.circle(self.screen, color, (int(beam_end_x), int(beam_end_y)), target_radius)
+
+                        # Add gobo/prism effects
+                        if fixture.gobo > 0:
+                            # Simple gobo pattern visualization
+                            gobo_points = []
+                            for i in range(6):
+                                angle = i * math.pi / 3
+                                gobo_x = beam_end_x + 8 * math.cos(angle)
+                                gobo_y = beam_end_y + 8 * math.sin(angle)
+                                gobo_points.append((gobo_x, gobo_y))
+                            pygame.draw.polygon(self.screen, beam_line_color, gobo_points, 1)
+
+                        if fixture.prism > 0:
+                            # Prism rainbow effect
+                            prism_colors = [(255, 0, 0), (255, 255, 0), (0, 255, 0), (0, 255, 255), (0, 0, 255), (255, 0, 255)]
+                            for i, prism_color in enumerate(prism_colors):
+                                offset_angle = fixture.beam_angle + (i - 3) * 0.2
+                                prism_x = pos[0] + beam_length * 0.8 * math.cos(offset_angle)
+                                prism_y = pos[1] + beam_length * 0.8 * math.sin(offset_angle)
+                                pygame.draw.circle(self.screen, prism_color, (int(prism_x), int(prism_y)), 2)
 
             elif fixture.fixture_type == "uv":
                 # Hvězda pro UV

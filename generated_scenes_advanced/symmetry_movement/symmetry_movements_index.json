@@ -1,0 +1,110 @@
+{
+  "symmetry_movements": {
+    "Mirror Horizontal Gentle": {
+      "file": "mirror_horizontal_gentle.scex",
+      "description": "Horizontální zrcadlení - levé a pravé se pohybují symetricky",
+      "principles": [
+        "zrcadlová_symetrie"
+      ]
+    },
+    "Mirror Horizontal Dynamic": {
+      "file": "mirror_horizontal_dynamic.scex",
+      "description": "Horizontální zrcadlení - levé a pravé se pohybují symetricky",
+      "principles": [
+        "zrcadlová_symetrie"
+      ]
+    },
+    "Adjacent Pairs Gentle": {
+      "file": "adjacent_pairs_gentle.scex",
+      "description": "Přilehlé páry - sousední lights se pohybují společně",
+      "principles": [
+        "přilehlé_páry"
+      ]
+    },
+    "Adjacent Pairs Fast": {
+      "file": "adjacent_pairs_fast.scex",
+      "description": "Přilehlé páry - sousední lights se pohybují společně",
+      "principles": [
+        "přilehlé_páry"
+      ]
+    },
+    "Opposite Pairs Contrast": {
+      "file": "opposite_pairs_contrast.scex",
+      "description": "Protilehlé páry - protější světla se pohybují opačně",
+      "principles": [
+        "protilehlé_páry"
+      ]
+    },
+    "Opposite Pairs Quarter": {
+      "file": "opposite_pairs_quarter.scex",
+      "description": "Protilehlé páry - protější světla se pohybují opačně",
+      "principles": [
+        "protilehlé_páry"
+      ]
+    },
+    "Pendulum Synchronized": {
+      "file": "pendulum_synchronized.scex",
+      "description": "Kyvadlový pohyb - tam a zpět synchronně nebo fázově",
+      "principles": [
+        "kyvadlový_pohyb"
+      ]
+    },
+    "Pendulum Cascading": {
+      "file": "pendulum_cascading.scex",
+      "description": "Kyvadlový pohyb - tam a zpět synchronně nebo fázově",
+      "principles": [
+        "kyvadlový_pohyb"
+      ]
+    },
+    "Pendulum Alternating": {
+      "file": "pendulum_alternating.scex",
+      "description": "Kyvadlový pohyb - tam a zpět synchronně nebo fázově",
+      "principles": [
+        "kyvadlový_pohyb"
+      ]
+    },
+    "Rotational Symmetry Slow": {
+      "file": "rotational_symmetry_slow.scex",
+      "description": "Rotační symetrie - všechny heads rotují se zachováním symetrie",
+      "principles": [
+        "rotační_symetrie"
+      ]
+    },
+    "Rotational Symmetry Fast": {
+      "file": "rotational_symmetry_fast.scex",
+      "description": "Rotační symetrie - všechny heads rotují se zachováním symetrie",
+      "principles": [
+        "rotační_symetrie"
+      ]
+    }
+  },
+  "principles": {
+    "mirror_symmetry": "Zrcadlové odrazy - levé a pravé světla",
+    "adjacent_pairs": "Přilehlé páry - sousední světla společně",
+    "opposite_pairs": "Protilehlé páry - vzdálená světla v kontrastue",
+    "pendulum": "Kyvadlové pohyby - tam a zpět",
+    "rotational": "Rotační symetrie - zachování úhlových vztahů"
+  },
+  "usage_guide": {
+    "romantic_moments": [
+      "Mirror Horizontal Gentle",
+      "Pendulum Synchronized"
+    ],
+    "energetic_sections": [
+      "Adjacent Pairs Fast",
+      "Rotational Symmetry Fast"
+    ],
+    "dramatic_buildup": [
+      "Opposite Pairs Contrast",
+      "Pendulum Alternating"
+    ],
+    "hypnotic_parts": [
+      "Rotational Symmetry Slow",
+      "Pendulum Cascading"
+    ],
+    "rhythmic_emphasis": [
+      "Adjacent Pairs Gentle",
+      "Mirror Horizontal Dynamic"
+    ]
+  }
+}

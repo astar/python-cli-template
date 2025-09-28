@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1753816712" name="Spot_(stěna)" model="Spot_RGBW (stěna)"/>
+    <Fixture id="1753816713" name="Spot_(stěna) #2" model="Spot_RGBW (stěna)"/>
+    <Fixture id="1753816714" name="Spot_(stěna) #3" model="Spot_RGBW (stěna)"/>
+    <Fixture id="1753816715" name="Spot_(stěna) #4" model="Spot_RGBW (stěna)"/>
+    <Fixture id="1753816716" name="Spot_(stěna) #5" model="Spot_RGBW (stěna)"/>
+    <Fixture id="1753816717" name="Spot_(stěna) #6" model="Spot_RGBW (stěna)"/>
+    <Fixture id="1753816718" name="Spot_(stěna) #7" model="Spot_RGBW (stěna)"/>
+    <Fixture id="1753816719" name="Spot_(stěna) #8" model="Spot_RGBW (stěna)"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1753816712">
+        <Channel index="0" name="red" palid="1756488612" value="125"/>
+        <Channel index="1" name="green" palid="1756488612" value="125"/>
+        <Channel index="2" name="blue" palid="1756488612" value="125"/>
+        <Channel index="3" name="white" palid="1756488603" value="0"/>
+      </Fixture>
+      <Fixture id="1753816713">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816714">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816715">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816716">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816717">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816718">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816719">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+    </Step>
+    <Step length="500">
+      <Fixture id="1753816712">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816713">
+        <Channel index="0" name="red" palid="1756488603" value="125"/>
+        <Channel index="1" name="green" palid="1756488612" value="125"/>
+        <Channel index="2" name="blue" palid="1756488612" value="125"/>
+        <Channel index="3" name="white" palid="1756488603" value="0"/>
+      </Fixture>
+      <Fixture id="1753816714">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816715">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816716">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816717">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816718">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816719">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+    </Step>
+    <Step length="500">
+      <Fixture id="1753816712">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816713">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816714">
+        <Channel index="0" name="red" palid="1756488603" value="125"/>
+        <Channel index="1" name="green" palid="1756488612" value="125"/>
+        <Channel index="2" name="blue" palid="1756488612" value="125"/>
+        <Channel index="3" name="white" palid="1756488603" value="0"/>
+      </Fixture>
+      <Fixture id="1753816715">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816716">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816717">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816718">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816719">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+    </Step>
+    <Step length="500">
+      <Fixture id="1753816712">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816713">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816714">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816715">
+        <Channel index="0" name="red" palid="1756488603" value="125"/>
+        <Channel index="1" name="green" palid="1756488612" value="125"/>
+        <Channel index="2" name="blue" palid="1756488612" value="125"/>
+        <Channel index="3" name="white" palid="1756488603" value="0"/>
+      </Fixture>
+      <Fixture id="1753816716">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816717">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816718">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816719">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+    </Step>
+    <Step length="500">
+      <Fixture id="1753816712">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816713">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816714">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816715">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816716">
+        <Channel index="0" name="red" palid="1756488603" value="125"/>
+        <Channel index="1" name="green" palid="1756488612" value="125"/>
+        <Channel index="2" name="blue" palid="1756488612" value="125"/>
+        <Channel index="3" name="white" palid="1756488603" value="0"/>
+      </Fixture>
+      <Fixture id="1753816717">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816718">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816719">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+    </Step>
+    <Step length="500">
+      <Fixture id="1753816712">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816713">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816714">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816715">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816716">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816717">
+        <Channel index="0" name="red" palid="1756488603" value="125"/>
+        <Channel index="1" name="green" palid="1756488612" value="125"/>
+        <Channel index="2" name="blue" palid="1756488612" value="125"/>
+        <Channel index="3" name="white" palid="1756488603" value="0"/>
+      </Fixture>
+      <Fixture id="1753816718">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816719">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+    </Step>
+    <Step length="500">
+      <Fixture id="1753816712">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816713">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816714">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816715">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816716">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816717">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816718">
+        <Channel index="0" name="red" palid="1756488603" value="125"/>
+        <Channel index="1" name="green" palid="1756488612" value="125"/>
+        <Channel index="2" name="blue" palid="1756488612" value="125"/>
+        <Channel index="3" name="white" palid="1756488603" value="0"/>
+      </Fixture>
+      <Fixture id="1753816719">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+    </Step>
+    <Step length="500">
+      <Fixture id="1753816712">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816713">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816714">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816715">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816716">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816717">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816718">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1753816719">
+        <Channel index="0" name="red" palid="1756488603" value="125"/>
+        <Channel index="1" name="green" palid="1756488612" value="125"/>
+        <Channel index="2" name="blue" palid="1756488612" value="125"/>
+        <Channel index="3" name="white" palid="1756488603" value="0"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

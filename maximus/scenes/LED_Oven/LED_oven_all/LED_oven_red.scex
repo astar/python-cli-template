@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1753817282" name="LED_pásek_(kamna)" model="LED_pásek_(kamna)"/>
+    <Fixture id="1753817283" name="LED_pásek_(kamna) #2" model="LED_pásek_(kamna)"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1753817282">
+        <Channel index="0" name="red" palid="1756577540" value="210"/>
+        <Channel index="1" name="green" palid="1756577540" value="0"/>
+        <Channel index="2" name="blue" palid="1756577540" value="0"/>
+        <Channel index="3" name="white" palid="1756577540" value="0"/>
+      </Fixture>
+      <Fixture id="1753817283">
+        <Channel index="0" name="red" palid="1756577540" value="210"/>
+        <Channel index="1" name="green" palid="1756577540" value="0"/>
+        <Channel index="2" name="blue" palid="1756577540" value="0"/>
+        <Channel index="3" name="white" palid="1756577540" value="0"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

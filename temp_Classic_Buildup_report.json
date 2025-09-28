@@ -1,0 +1,318 @@
+{
+  "audio_file": "test_short.mp3",
+  "story_analysis": {
+    "total_moments": 32,
+    "total_scenes": 32,
+    "story_arc": {
+      "intro_moments": 1,
+      "buildup_moments": 0,
+      "drop_moments": 0,
+      "bridge_moments": 31
+    },
+    "emotional_distribution": {
+      "calm": 2,
+      "energy": 0,
+      "tension": 0,
+      "release": 30,
+      "mystery": 0,
+      "joy": 0
+    }
+  },
+  "scene_usage": {
+    "ceiling_spot_purple_static": 1,
+    "ceiling_spot_blue_static": 1,
+    "Romantic Slow Sweep": 3,
+    "Mystical Circle": 21,
+    "ceiling_spot_blue_pulse": 6
+  },
+  "timeline_events": [
+    {
+      "time": 1.8343764172335602,
+      "duration": 10.27482993197279,
+      "scene": "ceiling_spot_purple_static",
+      "emotion": "calm",
+      "section": "intro",
+      "energy": 0.07272123545408249,
+      "tempo": 120.0
+    },
+    {
+      "time": 12.10920634920635,
+      "duration": 10.611519274376416,
+      "scene": "ceiling_spot_blue_static",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.09145836532115936,
+      "tempo": 120.0
+    },
+    {
+      "time": 22.720725623582766,
+      "duration": 10.031020408163265,
+      "scene": "Romantic Slow Sweep",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.1824333369731903,
+      "tempo": 120.0
+    },
+    {
+      "time": 32.75174603174603,
+      "duration": 10.425759637188207,
+      "scene": "Romantic Slow Sweep",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.21149156987667084,
+      "tempo": 120.0
+    },
+    {
+      "time": 43.17750566893424,
+      "duration": 10.379319727891158,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.26788726449012756,
+      "tempo": 120.0
+    },
+    {
+      "time": 53.556825396825396,
+      "duration": 10.367709750566895,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.26713263988494873,
+      "tempo": 120.0
+    },
+    {
+      "time": 63.92453514739229,
+      "duration": 10.379319727891158,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.29792582988739014,
+      "tempo": 120.0
+    },
+    {
+      "time": 74.30385487528345,
+      "duration": 10.367709750566888,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.3162389099597931,
+      "tempo": 120.0
+    },
+    {
+      "time": 84.67156462585034,
+      "duration": 10.379319727891158,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.3199959993362427,
+      "tempo": 120.0
+    },
+    {
+      "time": 95.0508843537415,
+      "duration": 10.390929705215427,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.35629934072494507,
+      "tempo": 120.0
+    },
+    {
+      "time": 105.44181405895692,
+      "duration": 10.367709750566888,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.3290790915489197,
+      "tempo": 120.0
+    },
+    {
+      "time": 115.80952380952381,
+      "duration": 10.390929705215413,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.3550650179386139,
+      "tempo": 120.0
+    },
+    {
+      "time": 126.20045351473922,
+      "duration": 10.379319727891158,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.3737294375896454,
+      "tempo": 120.0
+    },
+    {
+      "time": 136.57977324263038,
+      "duration": 10.379319727891158,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.35338494181632996,
+      "tempo": 120.0
+    },
+    {
+      "time": 146.95909297052154,
+      "duration": 10.367709750566888,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.31692981719970703,
+      "tempo": 120.0
+    },
+    {
+      "time": 157.32680272108843,
+      "duration": 10.390929705215427,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.38482365012168884,
+      "tempo": 120.0
+    },
+    {
+      "time": 167.71773242630385,
+      "duration": 10.379319727891158,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.37712034583091736,
+      "tempo": 120.0
+    },
+    {
+      "time": 178.097052154195,
+      "duration": 10.367709750566888,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.4061460793018341,
+      "tempo": 120.0
+    },
+    {
+      "time": 188.4647619047619,
+      "duration": 10.367709750566888,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.4257442057132721,
+      "tempo": 120.0
+    },
+    {
+      "time": 198.8324716553288,
+      "duration": 10.390929705215427,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.38235411047935486,
+      "tempo": 120.0
+    },
+    {
+      "time": 209.22340136054422,
+      "duration": 10.379319727891158,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.4081421196460724,
+      "tempo": 120.0
+    },
+    {
+      "time": 219.60272108843537,
+      "duration": 10.054240362811782,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.31890323758125305,
+      "tempo": 120.0
+    },
+    {
+      "time": 229.65696145124716,
+      "duration": 10.042630385487541,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.324958860874176,
+      "tempo": 120.0
+    },
+    {
+      "time": 239.6995918367347,
+      "duration": 10.390929705215427,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.4009154140949249,
+      "tempo": 120.0
+    },
+    {
+      "time": 250.09052154195012,
+      "duration": 10.37931972789113,
+      "scene": "ceiling_spot_blue_pulse",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.4622279107570648,
+      "tempo": 120.0
+    },
+    {
+      "time": 260.46984126984125,
+      "duration": 10.379319727891186,
+      "scene": "ceiling_spot_blue_pulse",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.4704611301422119,
+      "tempo": 120.0
+    },
+    {
+      "time": 270.84916099773244,
+      "duration": 10.37931972789113,
+      "scene": "ceiling_spot_blue_pulse",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.48420506715774536,
+      "tempo": 120.0
+    },
+    {
+      "time": 281.22848072562357,
+      "duration": 10.379319727891186,
+      "scene": "ceiling_spot_blue_pulse",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.46535977721214294,
+      "tempo": 120.0
+    },
+    {
+      "time": 291.60780045351476,
+      "duration": 10.332879818594108,
+      "scene": "Mystical Circle",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.44954967498779297,
+      "tempo": 120.0
+    },
+    {
+      "time": 301.94068027210886,
+      "duration": 10.414149659863938,
+      "scene": "ceiling_spot_blue_pulse",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.46077457070350647,
+      "tempo": 120.0
+    },
+    {
+      "time": 312.3548299319728,
+      "duration": 10.390929705215399,
+      "scene": "ceiling_spot_blue_pulse",
+      "emotion": "calm",
+      "section": "bridge",
+      "energy": 0.517525851726532,
+      "tempo": 120.0
+    },
+    {
+      "time": 322.7457596371882,
+      "duration": 11.01786848072561,
+      "scene": "Romantic Slow Sweep",
+      "emotion": "release",
+      "section": "bridge",
+      "energy": 0.20628951489925385,
+      "tempo": 120.0
+    }
+  ]
+}

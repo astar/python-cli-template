@@ -1,0 +1,179 @@
+﻿
+[Params]
+PanTiltShift = 0.0
+ExplodePanTilt = 0
+GroupRGB = 1
+FanPanOffset = 0
+FanTiltOffset = 0
+[Fixture_0]
+ID = 1753951490
+Name = Intimidator Spot 375Z IRC (15CH)
+DMX = 132
+Channels = pan,upan,tilt,utilt,pantilt_speed,color,gobo,gobo_rotate,prism,focus,dimmer,shutter,control,movement_macro,zoom
+ReversePan = 1
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_1]
+ID = 1753953036
+Name = Intimidator Spot 375Z IRC (15CH) #2
+DMX = 147
+Channels = pan,upan,tilt,utilt,pantilt_speed,color,gobo,gobo_rotate,prism,focus,dimmer,shutter,control,movement_macro,zoom
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_2]
+ID = 1753953037
+Name = Intimidator Spot 375Z IRC (15CH) #3
+DMX = 162
+Channels = pan,upan,tilt,utilt,pantilt_speed,color,gobo,gobo_rotate,prism,focus,dimmer,shutter,control,movement_macro,zoom
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_3]
+ID = 1753953038
+Name = Intimidator Spot 375Z IRC (15CH) #4
+DMX = 177
+Channels = pan,upan,tilt,utilt,pantilt_speed,color,gobo,gobo_rotate,prism,focus,dimmer,shutter,control,movement_macro,zoom
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_4]
+ID = 1753953039
+Name = Intimidator Spot 375Z IRC (15CH) #5
+DMX = 192
+Channels = pan,upan,tilt,utilt,pantilt_speed,color,gobo,gobo_rotate,prism,focus,dimmer,shutter,control,movement_macro,zoom
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Pan/Tilt/uPan/uTilt]
+Selected = 1
+CurveName = Default Curve
+Transition = 2
+Duration = 200
+Shift = 8.8
+Point_0 = 48941,30463
+Point_1 = 41589,55140
+Point_2 = 19114,53423
+Point_3 = 30456,39050
+Point_4 = 5671,37694
+Point_5 = 0,0
+Point_6 = 55662,16452
+[pantilt_speed]
+Selected = 1
+CurveName = Default Curve
+Transition = 1
+Duration = 50
+Shift = 4.0
+Point_0 = 0,65535
+Point_1 = 40749,36700
+Point_2 = 42009,18712
+Point_3 = 65535,65535
+[color]
+Selected = 1
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,15548
+Point_1 = 15333,3074
+Point_2 = 39699,9130
+Point_3 = 54192,13017
+Point_4 = 60073,5153
+Point_5 = 65535,15548
+[gobo]
+Selected = 1
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,15639
+Point_1 = 19114,15006
+Point_2 = 37388,2983
+Point_3 = 55452,10938
+Point_4 = 65535,15639
+[gobo_rotate]
+Selected = 1
+CurveName = Default Curve
+Transition = 1
+Duration = 100
+Shift = 0.0
+Point_0 = 0,32090
+Point_1 = 47050,17718
+Point_2 = 47051,45107
+Point_3 = 65535,32090
+[prism]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[focus]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[dimmer]
+Selected = 1
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[shutter]
+Selected = 1
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[control]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[movement_macro]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[zoom]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535

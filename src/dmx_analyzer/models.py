@@ -125,8 +125,19 @@ class DMXTimeline(BaseModel):
         """Get all events starting at a specific time."""
         return [event for event in self.events if event.start_time == time_str]
 
-    def to_tml_format(self) -> str:
-        """Convert timeline to .tml file format."""
+    def to_tml_format(self, export_config=None) -> str:
+        """Convert timeline to .tml file format.
+
+        Args:
+            export_config: Export configuration for path conversion
+        """
+        from .path_converter import get_path_converter
+        from .settings import ExportConfig
+
+        # Use provided config or default
+        config = export_config or ExportConfig()
+        converter = get_path_converter()
+
         lines = []
 
         # Header section
@@ -149,18 +160,30 @@ class DMXTimeline(BaseModel):
 
         # Audio event (if present)
         if self.audio_file and self.audio_length:
+            # Convert audio path using the converter
+            audio_path = converter.convert_audio_path(
+                self.audio_file,
+                config.target_platform
+            )
+
             lines.append("[Event_0]")
             lines.append("TimeLineIndex = 2")
             lines.append("StartTime = 0:00:00.0")
-            lines.append(f"Path = {self.audio_file}")
+            lines.append(f"Path = {audio_path}")
             lines.append(f"Length = {self.audio_length}")
 
-        # DMX events
+        # DMX events with path conversion
         for i, event in enumerate(self.events, 1):
             lines.append(f"[Event_{i}]")
             lines.append(f"TimeLineIndex = {event.timeline_index}")
             lines.append(f"StartTime = {event.start_time}")
-            lines.append(f"Path = {event.path}")
+
+            # Convert scene path for target platform
+            scene_path = converter.convert_scene_path(
+                event.path,
+                config.target_platform
+            )
+            lines.append(f"Path = {scene_path}")
 
             if event.length:
                 lines.append(f"Length = {event.length}")
@@ -176,7 +199,18 @@ class DMXTimeline(BaseModel):
             lines.append(f"Speed = {event.speed}")
             lines.append(f"SpeedType = {event.speed_type.value}")
 
-        return "\n".join(lines)
+        result = "\n".join(lines)
+
+        # Handle encoding conversion if needed
+        if config.convert_encoding and config.target_platform == "windows":
+            try:
+                # Test if we can encode to CP1250
+                result.encode("cp1250")
+            except UnicodeEncodeError:
+                # Replace problematic characters
+                result = converter._replace_czech_chars(result)
+
+        return result
 
 
 class GenerationConfig(BaseModel):

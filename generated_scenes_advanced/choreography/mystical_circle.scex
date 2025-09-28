@@ -1,0 +1,844 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Scene>
+  <Fixtures>
+    <Fixture id="1753951490" name="Moving Head 1" model="Intimidator Spot 375Z IRC (15CH)" />
+    <Fixture id="1753953036" name="Moving Head 2" model="Intimidator Spot 375Z IRC (15CH)" />
+    <Fixture id="1753953037" name="Moving Head 3" model="Intimidator Spot 375Z IRC (15CH)" />
+    <Fixture id="1753953038" name="Moving Head 4" model="Intimidator Spot 375Z IRC (15CH)" />
+    <Fixture id="1753953039" name="Moving Head 5" model="Intimidator Spot 375Z IRC (15CH)" />
+  </Fixtures>
+  <Steps>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="128" />
+        <Channel name="tilt" value="128" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="179" />
+        <Channel name="tilt" value="128" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="230" />
+        <Channel name="tilt" value="128" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="25" />
+        <Channel name="tilt" value="128" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="76" />
+        <Channel name="tilt" value="128" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="145" />
+        <Channel name="tilt" value="140" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="196" />
+        <Channel name="tilt" value="140" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="247" />
+        <Channel name="tilt" value="140" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="42" />
+        <Channel name="tilt" value="140" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="93" />
+        <Channel name="tilt" value="140" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="160" />
+        <Channel name="tilt" value="150" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="211" />
+        <Channel name="tilt" value="150" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="6" />
+        <Channel name="tilt" value="150" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="57" />
+        <Channel name="tilt" value="150" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="108" />
+        <Channel name="tilt" value="150" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="175" />
+        <Channel name="tilt" value="158" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="226" />
+        <Channel name="tilt" value="158" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="21" />
+        <Channel name="tilt" value="158" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="72" />
+        <Channel name="tilt" value="158" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="123" />
+        <Channel name="tilt" value="158" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="190" />
+        <Channel name="tilt" value="164" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="241" />
+        <Channel name="tilt" value="164" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="36" />
+        <Channel name="tilt" value="164" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="87" />
+        <Channel name="tilt" value="164" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="138" />
+        <Channel name="tilt" value="164" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="205" />
+        <Channel name="tilt" value="158" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="0" />
+        <Channel name="tilt" value="158" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="51" />
+        <Channel name="tilt" value="158" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="102" />
+        <Channel name="tilt" value="158" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="153" />
+        <Channel name="tilt" value="158" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="220" />
+        <Channel name="tilt" value="150" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="15" />
+        <Channel name="tilt" value="150" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="66" />
+        <Channel name="tilt" value="150" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="117" />
+        <Channel name="tilt" value="150" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="168" />
+        <Channel name="tilt" value="150" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="235" />
+        <Channel name="tilt" value="140" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="30" />
+        <Channel name="tilt" value="140" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="81" />
+        <Channel name="tilt" value="140" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="132" />
+        <Channel name="tilt" value="140" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="183" />
+        <Channel name="tilt" value="140" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="250" />
+        <Channel name="tilt" value="128" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="45" />
+        <Channel name="tilt" value="128" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="96" />
+        <Channel name="tilt" value="128" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="147" />
+        <Channel name="tilt" value="128" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="198" />
+        <Channel name="tilt" value="128" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="235" />
+        <Channel name="tilt" value="116" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="30" />
+        <Channel name="tilt" value="116" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="81" />
+        <Channel name="tilt" value="116" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="132" />
+        <Channel name="tilt" value="116" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="183" />
+        <Channel name="tilt" value="116" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="220" />
+        <Channel name="tilt" value="106" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="15" />
+        <Channel name="tilt" value="106" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="66" />
+        <Channel name="tilt" value="106" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="117" />
+        <Channel name="tilt" value="106" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="168" />
+        <Channel name="tilt" value="106" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="205" />
+        <Channel name="tilt" value="98" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="0" />
+        <Channel name="tilt" value="98" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="51" />
+        <Channel name="tilt" value="98" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="102" />
+        <Channel name="tilt" value="98" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="153" />
+        <Channel name="tilt" value="98" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="190" />
+        <Channel name="tilt" value="92" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="241" />
+        <Channel name="tilt" value="92" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="36" />
+        <Channel name="tilt" value="92" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="87" />
+        <Channel name="tilt" value="92" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="138" />
+        <Channel name="tilt" value="92" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="175" />
+        <Channel name="tilt" value="98" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="226" />
+        <Channel name="tilt" value="98" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="21" />
+        <Channel name="tilt" value="98" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="72" />
+        <Channel name="tilt" value="98" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="123" />
+        <Channel name="tilt" value="98" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="160" />
+        <Channel name="tilt" value="106" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="211" />
+        <Channel name="tilt" value="106" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="6" />
+        <Channel name="tilt" value="106" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="57" />
+        <Channel name="tilt" value="106" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="108" />
+        <Channel name="tilt" value="106" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+    <Step length="625">
+      <Fixture id="1753951490">
+        <Channel name="pan" value="145" />
+        <Channel name="tilt" value="116" />
+        <Channel name="color" value="111" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel name="pan" value="196" />
+        <Channel name="tilt" value="116" />
+        <Channel name="color" value="51" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel name="pan" value="247" />
+        <Channel name="tilt" value="116" />
+        <Channel name="color" value="131" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel name="pan" value="42" />
+        <Channel name="tilt" value="116" />
+        <Channel name="color" value="171" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel name="pan" value="93" />
+        <Channel name="tilt" value="116" />
+        <Channel name="color" value="0" />
+        <Channel name="dimmer" value="255" />
+        <Channel name="shutter" value="32" />
+        <Channel name="gobo" value="10" />
+        <Channel name="prism" value="0" />
+        <Channel name="focus" value="100" />
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1753953037" name="Moving Head #1" model="Intimidator Spot 375Z IRC (15CH)" />
+    <Fixture id="1753953038" name="Moving Head #2" model="Intimidator Spot 375Z IRC (15CH)" />
+    <Fixture id="1753953039" name="Moving Head #3" model="Intimidator Spot 375Z IRC (15CH)" />
+    <Fixture id="1753953040" name="Moving Head #4" model="Intimidator Spot 375Z IRC (15CH)" />
+    <Fixture id="1753953041" name="Moving Head #5" model="Intimidator Spot 375Z IRC (15CH)" />
+  </Fixtures>
+  <Steps>
+    <Step length="100">
+      <Fixture id="1753953037">
+        <Channel index="0" name="pan" value="127" />
+        <Channel index="1" name="upan" value="0" />
+        <Channel index="2" name="tilt" value="98" />
+        <Channel index="3" name="utilt" value="0" />
+        <Channel index="4" name="color" value="11" />
+        <Channel index="5" name="gobo" value="0" />
+        <Channel index="6" name="prism" value="0" />
+        <Channel index="7" name="focus" value="128" />
+        <Channel index="8" name="dimmer" value="180" />
+        <Channel index="9" name="shutter" value="32" />
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel index="0" name="pan" value="147" />
+        <Channel index="1" name="upan" value="0" />
+        <Channel index="2" name="tilt" value="98" />
+        <Channel index="3" name="utilt" value="0" />
+        <Channel index="4" name="color" value="11" />
+        <Channel index="5" name="gobo" value="0" />
+        <Channel index="6" name="prism" value="0" />
+        <Channel index="7" name="focus" value="128" />
+        <Channel index="8" name="dimmer" value="180" />
+        <Channel index="9" name="shutter" value="32" />
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel index="0" name="pan" value="107" />
+        <Channel index="1" name="upan" value="0" />
+        <Channel index="2" name="tilt" value="108" />
+        <Channel index="3" name="utilt" value="0" />
+        <Channel index="4" name="color" value="11" />
+        <Channel index="5" name="gobo" value="0" />
+        <Channel index="6" name="prism" value="0" />
+        <Channel index="7" name="focus" value="128" />
+        <Channel index="8" name="dimmer" value="180" />
+        <Channel index="9" name="shutter" value="32" />
+      </Fixture>
+      <Fixture id="1753953040">
+        <Channel index="0" name="pan" value="167" />
+        <Channel index="1" name="upan" value="0" />
+        <Channel index="2" name="tilt" value="88" />
+        <Channel index="3" name="utilt" value="0" />
+        <Channel index="4" name="color" value="11" />
+        <Channel index="5" name="gobo" value="0" />
+        <Channel index="6" name="prism" value="0" />
+        <Channel index="7" name="focus" value="128" />
+        <Channel index="8" name="dimmer" value="180" />
+        <Channel index="9" name="shutter" value="32" />
+      </Fixture>
+      <Fixture id="1753953041">
+        <Channel index="0" name="pan" value="87" />
+        <Channel index="1" name="upan" value="0" />
+        <Channel index="2" name="tilt" value="98" />
+        <Channel index="3" name="utilt" value="0" />
+        <Channel index="4" name="color" value="11" />
+        <Channel index="5" name="gobo" value="0" />
+        <Channel index="6" name="prism" value="0" />
+        <Channel index="7" name="focus" value="128" />
+        <Channel index="8" name="dimmer" value="180" />
+        <Channel index="9" name="shutter" value="32" />
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

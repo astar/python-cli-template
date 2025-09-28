@@ -12,6 +12,12 @@ from .models import DMXEvent
 from .models import DMXTimeline
 from .models import SpeedType
 
+# Import advanced moving heads choreographer
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).parent.parent.parent))
+from advanced_moving_heads import MovingHeadsChoreographer
+
 logger = get_logger(__name__)
 
 
@@ -20,6 +26,9 @@ class SpectacularTimelineGenerator:
 
     def __init__(self):
         """Initialize spectacular timeline generator."""
+        # Initialize moving heads choreographer
+        self.choreographer = MovingHeadsChoreographer()
+
         # Mapování frekvenčních pásem na typy světel
         self.frequency_to_fixtures = {
             "sub_bass": ["LED_Oven"],  # Hluboké basy -> kamna
@@ -90,6 +99,9 @@ class SpectacularTimelineGenerator:
 
         # 6. EMOCIONÁLNÍ AMBIENTNÍ OSVĚTLENÍ
         events.extend(self._generate_emotional_ambient(analysis))
+
+        # 7. POKROČILÉ MOVING HEADS CHOREOGRAFIE
+        events.extend(self._create_advanced_moving_heads_choreography(analysis, timeline_index=8))
 
         # Seřaď events podle času
         events.sort(key=lambda e: self._time_to_seconds(e.start_time))
@@ -483,6 +495,117 @@ class SpectacularTimelineGenerator:
             )
         )
 
+        return events
+
+    def _create_advanced_moving_heads_choreography(
+        self, music_analysis: dict, timeline_index: int = 3
+    ) -> list[DMXEvent]:
+        """Vytvoří pokročilou choreografii pro moving heads na základě hudební analýzy."""
+        events = []
+
+        # Extract music characteristics
+        bpm = music_analysis.get("bpm", 120)
+        energy = music_analysis.get("energy_mean", 0.5)
+        valence = music_analysis.get("valence_mean", 0.5)
+        duration = music_analysis.get("duration", 240)
+
+        # Create music analysis dict for choreographer
+        choreo_analysis = {
+            "bpm": bpm,
+            "energy": energy,
+            "valence": valence
+        }
+
+        # Generate choreography patterns
+        choreography = self.choreographer.create_music_reactive_choreography(choreo_analysis)
+
+        if not choreography:
+            logger.warning("No choreography patterns generated")
+            return events
+
+        pattern = choreography[0]  # Use the first (main) pattern
+        logger.info(f"Using choreography pattern: {pattern.name}")
+
+        # Generate timeline events for the pattern
+        current_time = 0.0
+        pattern_duration_sec = pattern.duration_ms / 1000.0
+
+        # Determine how many times to repeat pattern based on song duration
+        repeats = int(duration / pattern_duration_sec) + 1
+
+        for repeat in range(repeats):
+            if current_time >= duration:
+                break
+
+            # Determine which step in the pattern based on music analysis
+            # Use beat synchronization for more precise timing
+            beat_duration = 60.0 / bpm  # seconds per beat
+            beats_per_pattern = pattern_duration_sec / beat_duration
+
+            for step_idx, position in enumerate(pattern.positions):
+                step_start_time = current_time + (step_idx / len(pattern.positions)) * pattern_duration_sec
+
+                if step_start_time >= duration:
+                    break
+
+                # Calculate step duration
+                step_duration = pattern_duration_sec / len(pattern.positions)
+
+                # Adapt to music energy - higher energy = faster changes
+                if energy > 0.7:
+                    step_duration *= 0.6  # 40% faster for high energy
+                elif energy < 0.3:
+                    step_duration *= 1.4  # 40% slower for low energy
+
+                # Create scene path for this choreography step
+                scene_path = f"generated_scenes_advanced/advanced_moving_heads/{pattern.name}/step_{step_idx:02d}.scex"
+
+                # Create DMX event
+                event = DMXEvent(
+                    timeline_index=timeline_index,
+                    start_time=self._format_time(step_start_time),
+                    path=scene_path,
+                    length=self._format_duration(step_duration),
+                    speed=int(80 + energy * 40),  # Speed based on energy (80-120%)
+                    speed_type=SpeedType.PERCENTAGE,
+                    fade_in=int(200 + energy * 300),  # Fade timing based on energy
+                    fade_out=int(100 + energy * 200),
+                )
+
+                events.append(event)
+                logger.debug(f"Added moving heads event at {step_start_time:.2f}s: {scene_path}")
+
+            current_time += pattern_duration_sec
+
+        # Add some variation during high energy sections
+        if energy > 0.8:
+            # Add extra fast pattern variations
+            buildup_pattern = self.choreographer.patterns.get("buildup")
+            if buildup_pattern:
+                # Use buildup pattern at high energy moments
+                high_energy_times = [duration * 0.25, duration * 0.5, duration * 0.75]
+
+                for he_time in high_energy_times:
+                    if he_time < duration - 5:  # Leave some buffer at end
+                        for step_idx, position in enumerate(buildup_pattern.positions):
+                            step_time = he_time + (step_idx / len(buildup_pattern.positions)) * 3.0  # 3 second burst
+
+                            scene_path = f"generated_scenes_advanced/advanced_moving_heads/buildup/step_{step_idx:02d}.scex"
+
+                            event = DMXEvent(
+                                timeline_index=timeline_index + 1,  # Use different timeline
+                                start_time=self._format_time(step_time),
+                                path=scene_path,
+                                length="0:00:00.2",  # Very fast changes
+                                speed=120,
+                                speed_type=SpeedType.PERCENTAGE,
+                                fade_in=50,
+                                fade_out=50,
+                            )
+
+                            events.append(event)
+
+        logger.info(f"Generated {len(events)} advanced moving heads choreography events")
         return events
 
     def _find_energy_peaks(

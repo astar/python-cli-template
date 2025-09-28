@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1753817201" name="LED_pásek_(lavice) #3" model="LED_pásky_(lavice)"/>
+    <Fixture id="1753817207" name="LED_pásek_(lavice) #9" model="LED_pásky_(lavice)"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1753817201">
+        <Channel index="0" name="red" palid="1756489513" value="210"/>
+        <Channel index="1" name="green" palid="1756489513" value="210"/>
+        <Channel index="2" name="blue" palid="1756489513" value="210"/>
+        <Channel index="3" name="white" palid="1756489513" value="0"/>
+      </Fixture>
+      <Fixture id="1753817207">
+        <Channel index="0" name="red" palid="1756489513" value="210"/>
+        <Channel index="1" name="green" palid="1756489513" value="210"/>
+        <Channel index="2" name="blue" palid="1756489513" value="210"/>
+        <Channel index="3" name="white" palid="1756489513" value="0"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

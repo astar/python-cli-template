@@ -1,0 +1,317 @@
+{
+  "audio_file": "test_short.mp3",
+  "story_analysis": {
+    "total_moments": 32,
+    "total_scenes": 32,
+    "story_arc": {
+      "intro_moments": 0,
+      "buildup_moments": 31,
+      "drop_moments": 0,
+      "bridge_moments": 0
+    },
+    "emotional_distribution": {
+      "calm": 0,
+      "energy": 31,
+      "tension": 0,
+      "release": 0,
+      "mystery": 0,
+      "joy": 1
+    }
+  },
+  "scene_usage": {
+    "ceiling_spot_orange_fade_in": 2,
+    "ceiling_spot_orange_pulse": 19,
+    "ceiling_spot_orange_strobe_slow": 10,
+    "ceiling_spot_yellow_strobe_slow": 1
+  },
+  "timeline_events": [
+    {
+      "time": 1.8343764172335602,
+      "duration": 10.27482993197279,
+      "scene": "ceiling_spot_orange_fade_in",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.27272123098373413,
+      "tempo": 120.0
+    },
+    {
+      "time": 12.10920634920635,
+      "duration": 10.611519274376416,
+      "scene": "ceiling_spot_orange_fade_in",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.2914583683013916,
+      "tempo": 120.0
+    },
+    {
+      "time": 22.720725623582766,
+      "duration": 10.031020408163265,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.38243335485458374,
+      "tempo": 120.0
+    },
+    {
+      "time": 32.75174603174603,
+      "duration": 10.425759637188207,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.4114915728569031,
+      "tempo": 120.0
+    },
+    {
+      "time": 43.17750566893424,
+      "duration": 10.379319727891158,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.467887282371521,
+      "tempo": 120.0
+    },
+    {
+      "time": 53.556825396825396,
+      "duration": 10.367709750566895,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.4671326279640198,
+      "tempo": 120.0
+    },
+    {
+      "time": 63.92453514739229,
+      "duration": 10.379319727891158,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.4979258179664612,
+      "tempo": 120.0
+    },
+    {
+      "time": 74.30385487528345,
+      "duration": 10.367709750566888,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.5162389278411865,
+      "tempo": 120.0
+    },
+    {
+      "time": 84.67156462585034,
+      "duration": 10.379319727891158,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.5199959874153137,
+      "tempo": 120.0
+    },
+    {
+      "time": 95.0508843537415,
+      "duration": 10.390929705215427,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.5562993288040161,
+      "tempo": 120.0
+    },
+    {
+      "time": 105.44181405895692,
+      "duration": 10.367709750566888,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.5290790796279907,
+      "tempo": 120.0
+    },
+    {
+      "time": 115.80952380952381,
+      "duration": 10.390929705215413,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.5550650358200073,
+      "tempo": 120.0
+    },
+    {
+      "time": 126.20045351473922,
+      "duration": 10.379319727891158,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.5737294554710388,
+      "tempo": 120.0
+    },
+    {
+      "time": 136.57977324263038,
+      "duration": 10.379319727891158,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.5533849596977234,
+      "tempo": 120.0
+    },
+    {
+      "time": 146.95909297052154,
+      "duration": 10.367709750566888,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.5169298052787781,
+      "tempo": 120.0
+    },
+    {
+      "time": 157.32680272108843,
+      "duration": 10.390929705215427,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.5848236680030823,
+      "tempo": 120.0
+    },
+    {
+      "time": 167.71773242630385,
+      "duration": 10.379319727891158,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.5771203637123108,
+      "tempo": 120.0
+    },
+    {
+      "time": 178.097052154195,
+      "duration": 10.367709750566888,
+      "scene": "ceiling_spot_orange_strobe_slow",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.6061460971832275,
+      "tempo": 120.0
+    },
+    {
+      "time": 188.4647619047619,
+      "duration": 10.367709750566888,
+      "scene": "ceiling_spot_orange_strobe_slow",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.6257442235946655,
+      "tempo": 120.0
+    },
+    {
+      "time": 198.8324716553288,
+      "duration": 10.390929705215427,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.5823541283607483,
+      "tempo": 120.0
+    },
+    {
+      "time": 209.22340136054422,
+      "duration": 10.379319727891158,
+      "scene": "ceiling_spot_orange_strobe_slow",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.6081421375274658,
+      "tempo": 120.0
+    },
+    {
+      "time": 219.60272108843537,
+      "duration": 10.054240362811782,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.5189032554626465,
+      "tempo": 120.0
+    },
+    {
+      "time": 229.65696145124716,
+      "duration": 10.042630385487541,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.5249588489532471,
+      "tempo": 120.0
+    },
+    {
+      "time": 239.6995918367347,
+      "duration": 10.390929705215427,
+      "scene": "ceiling_spot_orange_strobe_slow",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.6009154319763184,
+      "tempo": 120.0
+    },
+    {
+      "time": 250.09052154195012,
+      "duration": 10.37931972789113,
+      "scene": "ceiling_spot_orange_strobe_slow",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.6622279286384583,
+      "tempo": 120.0
+    },
+    {
+      "time": 260.46984126984125,
+      "duration": 10.379319727891186,
+      "scene": "ceiling_spot_orange_strobe_slow",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.670461118221283,
+      "tempo": 120.0
+    },
+    {
+      "time": 270.84916099773244,
+      "duration": 10.37931972789113,
+      "scene": "ceiling_spot_orange_strobe_slow",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.6842050552368164,
+      "tempo": 120.0
+    },
+    {
+      "time": 281.22848072562357,
+      "duration": 10.379319727891186,
+      "scene": "ceiling_spot_orange_strobe_slow",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.6653597950935364,
+      "tempo": 120.0
+    },
+    {
+      "time": 291.60780045351476,
+      "duration": 10.332879818594108,
+      "scene": "ceiling_spot_orange_strobe_slow",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.649549663066864,
+      "tempo": 120.0
+    },
+    {
+      "time": 301.94068027210886,
+      "duration": 10.414149659863938,
+      "scene": "ceiling_spot_orange_strobe_slow",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.6607745885848999,
+      "tempo": 120.0
+    },
+    {
+      "time": 312.3548299319728,
+      "duration": 10.390929705215399,
+      "scene": "ceiling_spot_yellow_strobe_slow",
+      "emotion": "joy",
+      "section": "chorus",
+      "energy": 0.717525839805603,
+      "tempo": 120.0
+    },
+    {
+      "time": 322.7457596371882,
+      "duration": 11.01786848072561,
+      "scene": "ceiling_spot_orange_pulse",
+      "emotion": "energy",
+      "section": "buildup",
+      "energy": 0.4062895178794861,
+      "tempo": 120.0
+    }
+  ]
+}

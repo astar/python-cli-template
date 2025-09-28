@@ -1,0 +1,170 @@
+{
+  "dynamic_movements": {
+    "Water Waves Gentle": {
+      "file": "water_waves_gentle.scex",
+      "description": "Dynamický pohyb: Water Waves Gentle",
+      "parameters": {
+        "wave_frequency": 0.08,
+        "wave_amplitude": 25,
+        "duration": 20000
+      },
+      "recommended_for": [
+        "ambient",
+        "relaxační části",
+        "intro/outro"
+      ]
+    },
+    "Water Waves Energetic": {
+      "file": "water_waves_energetic.scex",
+      "description": "Dynamický pohyb: Water Waves Energetic",
+      "parameters": {
+        "wave_frequency": 0.15,
+        "wave_amplitude": 35,
+        "duration": 15000
+      },
+      "recommended_for": [
+        "buildup",
+        "rytmické části",
+        "dance"
+      ]
+    },
+    "Circular Flow Drift": {
+      "file": "circular_flow_drift.scex",
+      "description": "Dynamický pohyb: Circular Flow Drift",
+      "parameters": {
+        "radius": 30,
+        "rotation_speed": 0.04,
+        "center_drift": true
+      },
+      "recommended_for": [
+        "hypnotické momenty",
+        "dlouhé buildupy"
+      ]
+    },
+    "Circular Flow Fast": {
+      "file": "circular_flow_fast.scex",
+      "description": "Dynamický pohyb: Circular Flow Fast",
+      "parameters": {
+        "radius": 45,
+        "rotation_speed": 0.08,
+        "center_drift": false
+      },
+      "recommended_for": [
+        "vysoká energie",
+        "peak momenty"
+      ]
+    },
+    "Figure 8 Hypnotic": {
+      "file": "figure_8_hypnotic.scex",
+      "description": "Dynamický pohyb: Figure 8 Hypnotic",
+      "parameters": {
+        "size": 30,
+        "speed": 0.06,
+        "vertical_emphasis": 0.9
+      },
+      "recommended_for": [
+        "meditativní části",
+        "psychedelické momenty"
+      ]
+    },
+    "Figure 8 Dynamic": {
+      "file": "figure_8_dynamic.scex",
+      "description": "Dynamický pohyb: Figure 8 Dynamic",
+      "parameters": {
+        "size": 40,
+        "speed": 0.12,
+        "vertical_emphasis": 0.6
+      },
+      "recommended_for": [
+        "komplexní buildupy",
+        "technické části"
+      ]
+    },
+    "Breathing Sync": {
+      "file": "breathing_sync.scex",
+      "description": "Dynamický pohyb: Breathing Sync",
+      "parameters": {
+        "min_radius": 15,
+        "max_radius": 40,
+        "breath_rate": 0.025,
+        "phase_sync": true
+      },
+      "recommended_for": [
+        "emocionální momenty",
+        "synchronní efekty"
+      ]
+    },
+    "Breathing Organic": {
+      "file": "breathing_organic.scex",
+      "description": "Dynamický pohyb: Breathing Organic",
+      "parameters": {
+        "min_radius": 8,
+        "max_radius": 50,
+        "breath_rate": 0.04,
+        "phase_sync": false
+      },
+      "recommended_for": [
+        "organické flow",
+        "progresivní části"
+      ]
+    },
+    "Chase Complex": {
+      "file": "chase_complex.scex",
+      "description": "Dynamický pohyb: Chase Complex",
+      "parameters": {
+        "chase_speed": 0.1,
+        "trail_length": 4,
+        "path_complexity": 6
+      },
+      "recommended_for": [
+        "dramatické momenty",
+        "sledování melodie"
+      ]
+    },
+    "Chase Fast": {
+      "file": "chase_fast.scex",
+      "description": "Dynamický pohyb: Chase Fast",
+      "parameters": {
+        "chase_speed": 0.2,
+        "trail_length": 2,
+        "path_complexity": 8
+      },
+      "recommended_for": [
+        "rychlé části",
+        "chase efekty"
+      ]
+    }
+  },
+  "usage_guide": {
+    "ambient_tracks": [
+      "Water Waves Gentle",
+      "Breathing Sync"
+    ],
+    "energetic_parts": [
+      "Water Waves Energetic",
+      "Circular Flow Fast"
+    ],
+    "hypnotic_moments": [
+      "Figure 8 Hypnotic",
+      "Breathing Organic"
+    ],
+    "buildup_sections": [
+      "Chase Complex",
+      "Figure 8 Dynamic"
+    ],
+    "dance_tracks": [
+      "Circular Flow Drift",
+      "Chase Fast"
+    ]
+  },
+  "technical_info": {
+    "total_movements": 10,
+    "features": [
+      "Kontinuální pohyb po celou dobu",
+      "Matematicky přesné trajektorie",
+      "Organické variace pro každý moving head",
+      "Plynulé přechody mezi pozicemi",
+      "Barevné mapování podle stylu pohybu"
+    ]
+  }
+}

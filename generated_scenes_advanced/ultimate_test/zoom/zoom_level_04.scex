@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1753951490" name="Intimidator Spot 375Z IRC (15CH)" model="Intimidator Spot 375Z IRC (15CH)"/>
+    <Fixture id="1753953036" name="Intimidator Spot 375Z IRC (15CH) #2" model="Intimidator Spot 375Z IRC (15CH)"/>
+    <Fixture id="1753953037" name="Intimidator Spot 375Z IRC (15CH) #3" model="Intimidator Spot 375Z IRC (15CH)"/>
+    <Fixture id="1753953038" name="Intimidator Spot 375Z IRC (15CH) #4" model="Intimidator Spot 375Z IRC (15CH)"/>
+    <Fixture id="1753953039" name="Intimidator Spot 375Z IRC (15CH) #5" model="Intimidator Spot 375Z IRC (15CH)"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1753951490">
+        <Channel index="0" name="pan" value="137"/>
+        <Channel index="1" name="upan" value="137"/>
+        <Channel index="2" name="tilt" value="77"/>
+        <Channel index="3" name="utilt" value="77"/>
+        <Channel index="5" name="color" value="211"/>
+        <Channel index="10" name="dimmer" value="200"/>
+        <Channel index="11" name="shutter" value="4"/>
+        <Channel index="14" name="zoom" value="68"/>
+      </Fixture>
+      <Fixture id="1753953036">
+        <Channel index="0" name="pan" value="137"/>
+        <Channel index="1" name="upan" value="137"/>
+        <Channel index="2" name="tilt" value="77"/>
+        <Channel index="3" name="utilt" value="77"/>
+        <Channel index="5" name="color" value="211"/>
+        <Channel index="10" name="dimmer" value="200"/>
+        <Channel index="11" name="shutter" value="4"/>
+        <Channel index="14" name="zoom" value="68"/>
+      </Fixture>
+      <Fixture id="1753953037">
+        <Channel index="0" name="pan" value="137"/>
+        <Channel index="1" name="upan" value="137"/>
+        <Channel index="2" name="tilt" value="77"/>
+        <Channel index="3" name="utilt" value="77"/>
+        <Channel index="5" name="color" value="211"/>
+        <Channel index="10" name="dimmer" value="200"/>
+        <Channel index="11" name="shutter" value="4"/>
+        <Channel index="14" name="zoom" value="68"/>
+      </Fixture>
+      <Fixture id="1753953038">
+        <Channel index="0" name="pan" value="137"/>
+        <Channel index="1" name="upan" value="137"/>
+        <Channel index="2" name="tilt" value="77"/>
+        <Channel index="3" name="utilt" value="77"/>
+        <Channel index="5" name="color" value="211"/>
+        <Channel index="10" name="dimmer" value="200"/>
+        <Channel index="11" name="shutter" value="4"/>
+        <Channel index="14" name="zoom" value="68"/>
+      </Fixture>
+      <Fixture id="1753953039">
+        <Channel index="0" name="pan" value="137"/>
+        <Channel index="1" name="upan" value="137"/>
+        <Channel index="2" name="tilt" value="77"/>
+        <Channel index="3" name="utilt" value="77"/>
+        <Channel index="5" name="color" value="211"/>
+        <Channel index="10" name="dimmer" value="200"/>
+        <Channel index="11" name="shutter" value="4"/>
+        <Channel index="14" name="zoom" value="68"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

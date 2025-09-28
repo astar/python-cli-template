@@ -1,0 +1,37 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Intimidator-375Z-IRC.png
+
+Channel = pan
+
+Channel = tilt
+
+Channel = color
+ white,0,7 orange,8,15 green,16,23 blue,24,31 red,32,39 green,40,47 purple,48,55 yellow,56,63 white,64,64 index,65,189 right_rotate,190,221 stop,222,223 left_rotate,224,255 
+
+Channel = gobo
+ Miscellaneous/open,0,7 color/GD005,8,15 metal_basic/sh29,16,23 Miscellaneous/gobo3,24,31 metal_complex/RR1SS3,32,39 metal_basic/L330SS8,40,47 metal_complex/RR1SR4,48,55 metal_complex/bio,56,63 metal_complex/bio,64,71 metal_complex/RR1SR4,72,79 metal_basic/L330SS8,80,87 metal_complex/RR1SS3,88,95 Miscellaneous/gobo3,96,103 metal_basic/sh13,104,111 color/GD005,112,119 Miscellaneous/open,120,127 Miscellaneous/right_rotate,128,189 Miscellaneous/stop,190,193 Miscellaneous/left_rotate,194,255 
+
+Channel = gobo_rotate
+ index,1,63 right_rotate,64,145 stop,146,149 left_rotate,150,231 Bounce  slow - fast,232,255 
+
+Channel = prism
+ no_function,0,3 6 facet prism,4,6 6 facet prism rotation,7,65 6 facet reverse rotation,66,123 6 face t prism,124,127 no_function,128,131 prism_5,132,134 5 facet prsim rotation,135,193 5 facet prism reverse rotation,194,251 prism_5,252,255 
+
+Channel = focus
+ dimmer,0,255 
+
+Channel = strobe_effect
+ closed,0,3 open,4,7 strobe,8,76 pulse_strobe,77,145 random_strobe,146,215 open,216,255 
+
+Channel = zoom
+ Zoom,0,255 
+

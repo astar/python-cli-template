@@ -1,0 +1,1527 @@
+﻿
+[Params]
+Version = 0.2
+CommentTimeLine = 0
+LightTimeLines = 10
+MediaTimeLines = 1
+ShowWaveForm = 1
+MaxTime = 0:30:00
+Zoom = 0
+TimeLine_1 = V I D E O   P I C T U R E   T I M E L I N E
+TimeLine_2 = A U D I O   T I M E L I N E
+TimeLine_3 = L I G H T   S C E N E   T I M E L I N E   #   1
+TimeLine_4 = L I G H T   S C E N E   T I M E L I N E   #   2
+TimeLine_5 = L I G H T   S C E N E   T I M E L I N E   #   3
+TimeLine_6 = L I G H T   S C E N E   T I M E L I N E   #   4
+TimeLine_7 = L I G H T   S C E N E   T I M E L I N E   #   5
+TimeLine_8 = L I G H T   S C E N E   T I M E L I N E   #   6
+TimeLine_9 = L I G H T   S C E N E   T I M E L I N E   #   7
+TimeLine_10 = L I G H T   S C E N E   T I M E L I N E   #   8
+TimeLine_11 = L I G H T   S C E N E   T I M E L I N E   #   9
+TimeLine_12 = L I G H T   S C E N E   T I M E L I N E   #   10
+[Event_0]
+TimeLineIndex = 2
+StartTime = 0:00:00.0
+Path = Music/Rammstein.wav
+Length = 0:12:40.5
+[Event_1]
+TimeLineIndex = 3
+StartTime = 0:00:02.7
+Path = LED_walls/Walls_single/Walls_1/Walls_1_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_2]
+TimeLineIndex = 4
+StartTime = 0:00:04.1
+Path = LED_walls/Walls_single/Walls_2/Walls_2_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_3]
+TimeLineIndex = 5
+StartTime = 0:00:05.7
+Path = LED_walls/Walls_single/Walls_3/Walls_3_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_4]
+TimeLineIndex = 6
+StartTime = 0:00:07.2
+Path = LED_walls/Walls_single/Walls_4/Walls_4_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_5]
+TimeLineIndex = 7
+StartTime = 0:00:08.8
+Path = LED_walls/Walls_single/Walls_6/Walls_6_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_6]
+TimeLineIndex = 8
+StartTime = 0:00:10.4
+Path = LED_walls/Walls_single/Walls_8/Walls_8_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_7]
+TimeLineIndex = 9
+StartTime = 0:00:12.0
+Path = LED_walls/Walls_single/Walls_9/Walls_9_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_8]
+TimeLineIndex = 10
+StartTime = 0:00:13.6
+Path = LED_walls/Walls_single/Walls_10/Walls_10_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_9]
+TimeLineIndex = 11
+StartTime = 0:00:15.2
+Path = LED_walls/Walls_single/Walls_11/Walls_11_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_10]
+TimeLineIndex = 3
+StartTime = 0:00:16.8
+Path = OFF
+[Event_11]
+TimeLineIndex = 4
+StartTime = 0:00:16.8
+Path = OFF
+[Event_12]
+TimeLineIndex = 5
+StartTime = 0:00:16.8
+Path = OFF
+[Event_13]
+TimeLineIndex = 6
+StartTime = 0:00:16.8
+Path = OFF
+[Event_14]
+TimeLineIndex = 7
+StartTime = 0:00:16.8
+Path = OFF
+[Event_15]
+TimeLineIndex = 8
+StartTime = 0:00:16.8
+Path = OFF
+[Event_16]
+TimeLineIndex = 9
+StartTime = 0:00:16.8
+Path = OFF
+[Event_17]
+TimeLineIndex = 10
+StartTime = 0:00:16.8
+Path = OFF
+[Event_18]
+TimeLineIndex = 11
+StartTime = 0:00:16.8
+Path = OFF
+[Event_19]
+TimeLineIndex = 12
+StartTime = 0:00:18.5
+Path = UV/UV.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_20]
+TimeLineIndex = 3
+StartTime = 0:00:18.5
+Path = Spots_wall/Spots_pairs/Spots_1&8/Spots_1&8_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_21]
+TimeLineIndex = 4
+StartTime = 0:00:18.5
+Path = Spots_wall/Spots_pairs/Spots_2&7/Spots_2&7_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_22]
+TimeLineIndex = 5
+StartTime = 0:00:18.5
+Path = Gene_fire_oven.gpj
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_23]
+TimeLineIndex = 4
+StartTime = 0:00:31.2
+Path = OFF
+[Event_24]
+TimeLineIndex = 3
+StartTime = 0:00:31.2
+Path = OFF
+[Event_25]
+TimeLineIndex = 6
+StartTime = 0:00:31.2
+Path = LED_walls/Walls_liche/Walls_liche_orange.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_26]
+TimeLineIndex = 3
+StartTime = 0:00:34.4
+Path = Spots_wall/Spots_pairs/Spots_1&8/Spots_1&8_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_27]
+TimeLineIndex = 4
+StartTime = 0:00:34.4
+Path = Spots_wall/Spots_pairs/Spots_2&7/Spots_2&7_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_28]
+TimeLineIndex = 6
+StartTime = 0:00:34.4
+Path = OFF
+[Event_29]
+TimeLineIndex = 4
+StartTime = 0:00:37.6
+Path = OFF
+[Event_30]
+TimeLineIndex = 3
+StartTime = 0:00:37.6
+Path = OFF
+[Event_31]
+TimeLineIndex = 6
+StartTime = 0:00:37.6
+Path = LED_walls/Walls_liche/Walls_liche_orange.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_32]
+TimeLineIndex = 4
+StartTime = 0:00:40.8
+Path = Spots_wall/Spots_pairs/Spots_2&7/Spots_2&7_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_33]
+TimeLineIndex = 3
+StartTime = 0:00:40.8
+Path = Spots_wall/Spots_pairs/Spots_1&8/Spots_1&8_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_34]
+TimeLineIndex = 6
+StartTime = 0:00:40.8
+Path = OFF
+[Event_35]
+TimeLineIndex = 6
+StartTime = 0:00:44.0
+Path = LED_walls/Walls_liche/Walls_liche_orange.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_36]
+TimeLineIndex = 4
+StartTime = 0:00:44.0
+Path = OFF
+[Event_37]
+TimeLineIndex = 3
+StartTime = 0:00:44.0
+Path = OFF
+[Event_38]
+TimeLineIndex = 3
+StartTime = 0:00:47.1
+Path = Spots_wall/Spots_pairs/Spots_1&8/Spots_1&8_yellow.scex
+Length = 0:00:05.0
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_39]
+TimeLineIndex = 4
+StartTime = 0:00:47.1
+Path = Spots_wall/Spots_pairs/Spots_2&7/Spots_2&7_yellow.scex
+Length = 0:00:05.0
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_40]
+TimeLineIndex = 6
+StartTime = 0:00:47.1
+Path = OFF
+[Event_41]
+TimeLineIndex = 3
+StartTime = 0:00:50.5
+Path = OFF
+[Event_42]
+TimeLineIndex = 4
+StartTime = 0:00:50.5
+Path = OFF
+[Event_43]
+TimeLineIndex = 5
+StartTime = 0:00:50.5
+Path = OFF
+[Event_44]
+TimeLineIndex = 4
+StartTime = 0:00:56.8
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_45]
+TimeLineIndex = 3
+StartTime = 0:00:56.8
+Path = LED_walls/Walls_liche/Walls_liche_yellow.scex
+Length = 0:00:05.0
+FadeIn = 300
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_46]
+TimeLineIndex = 4
+StartTime = 0:00:57.1
+Path = OFF
+[Event_47]
+TimeLineIndex = 4
+StartTime = 0:01:03.1
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_48]
+TimeLineIndex = 4
+StartTime = 0:01:03.7
+Path = OFF
+[Event_49]
+TimeLineIndex = 4
+StartTime = 0:01:09.5
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_50]
+TimeLineIndex = 4
+StartTime = 0:01:10.0
+Path = OFF
+[Event_51]
+TimeLineIndex = 4
+StartTime = 0:01:15.7
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_52]
+TimeLineIndex = 4
+StartTime = 0:01:16.2
+Path = OFF
+[Event_53]
+TimeLineIndex = 4
+StartTime = 0:01:22.4
+Path = Spots_wall/Spots_single/Spot_1/Spot_1_orange.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_54]
+TimeLineIndex = 5
+StartTime = 0:01:22.7
+Path = Spots_wall/Spots_single/Spot_5/Spot_5_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_55]
+TimeLineIndex = 6
+StartTime = 0:01:23.1
+Path = Spots_wall/Spots_single/Spot_4/Spot_4_orange.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_56]
+TimeLineIndex = 7
+StartTime = 0:01:23.5
+Path = Spots_wall/Spots_single/Spot_8/Spot_8_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_57]
+TimeLineIndex = 7
+StartTime = 0:01:24.0
+Path = OFF
+[Event_58]
+TimeLineIndex = 6
+StartTime = 0:01:24.0
+Path = OFF
+[Event_59]
+TimeLineIndex = 5
+StartTime = 0:01:24.0
+Path = OFF
+[Event_60]
+TimeLineIndex = 4
+StartTime = 0:01:24.0
+Path = OFF
+[Event_61]
+TimeLineIndex = 4
+StartTime = 0:01:25.6
+Path = Spots_wall/Spots_single/Spot_1/Spot_1_orange.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_62]
+TimeLineIndex = 5
+StartTime = 0:01:25.9
+Path = Spots_wall/Spots_single/Spot_5/Spot_5_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_63]
+TimeLineIndex = 6
+StartTime = 0:01:26.3
+Path = Spots_wall/Spots_single/Spot_4/Spot_4_orange.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_64]
+TimeLineIndex = 7
+StartTime = 0:01:26.7
+Path = Spots_wall/Spots_single/Spot_8/Spot_8_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_65]
+TimeLineIndex = 7
+StartTime = 0:01:27.2
+Path = OFF
+[Event_66]
+TimeLineIndex = 6
+StartTime = 0:01:27.2
+Path = OFF
+[Event_67]
+TimeLineIndex = 5
+StartTime = 0:01:27.2
+Path = OFF
+[Event_68]
+TimeLineIndex = 4
+StartTime = 0:01:27.2
+Path = OFF
+[Event_69]
+TimeLineIndex = 3
+StartTime = 0:01:28.8
+Path = OFF
+[Event_70]
+TimeLineIndex = 4
+StartTime = 0:01:41.6
+Path = Spots_wall/Spots_single/Spot_1/Spot_1_orange.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_71]
+TimeLineIndex = 5
+StartTime = 0:01:41.9
+Path = Spots_wall/Spots_single/Spot_5/Spot_5_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_72]
+TimeLineIndex = 6
+StartTime = 0:01:42.3
+Path = Spots_wall/Spots_single/Spot_4/Spot_4_orange.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_73]
+TimeLineIndex = 7
+StartTime = 0:01:42.7
+Path = Spots_wall/Spots_single/Spot_8/Spot_8_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_74]
+TimeLineIndex = 7
+StartTime = 0:01:43.2
+Path = OFF
+[Event_75]
+TimeLineIndex = 6
+StartTime = 0:01:43.2
+Path = OFF
+[Event_76]
+TimeLineIndex = 5
+StartTime = 0:01:43.2
+Path = OFF
+[Event_77]
+TimeLineIndex = 4
+StartTime = 0:01:43.2
+Path = OFF
+[Event_78]
+TimeLineIndex = 4
+StartTime = 0:01:48.0
+Path = Spots_wall/Spots_single/Spot_1/Spot_1_orange.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_79]
+TimeLineIndex = 5
+StartTime = 0:01:48.3
+Path = Spots_wall/Spots_single/Spot_5/Spot_5_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_80]
+TimeLineIndex = 6
+StartTime = 0:01:48.7
+Path = Spots_wall/Spots_single/Spot_4/Spot_4_orange.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_81]
+TimeLineIndex = 7
+StartTime = 0:01:49.1
+Path = Spots_wall/Spots_single/Spot_8/Spot_8_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_82]
+TimeLineIndex = 7
+StartTime = 0:01:49.6
+Path = OFF
+[Event_83]
+TimeLineIndex = 6
+StartTime = 0:01:49.6
+Path = OFF
+[Event_84]
+TimeLineIndex = 5
+StartTime = 0:01:49.6
+Path = OFF
+[Event_85]
+TimeLineIndex = 4
+StartTime = 0:01:49.6
+Path = OFF
+[Event_86]
+TimeLineIndex = 3
+StartTime = 0:01:54.4
+Path = LED_walls/Walls_sude/Walls_sude_yellow.scex
+Length = 0:00:05.0
+FadeIn = 300
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_87]
+TimeLineIndex = 4
+StartTime = 0:01:54.4
+Path = Gene_fire_oven.gpj
+Length = 0:00:05.0
+FadeIn = 300
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_88]
+TimeLineIndex = 5
+StartTime = 0:01:54.4
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_89]
+TimeLineIndex = 5
+StartTime = 0:01:54.7
+Path = OFF
+[Event_90]
+TimeLineIndex = 5
+StartTime = 0:02:00.7
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_91]
+TimeLineIndex = 5
+StartTime = 0:02:01.3
+Path = OFF
+[Event_92]
+TimeLineIndex = 5
+StartTime = 0:02:07.1
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_93]
+TimeLineIndex = 5
+StartTime = 0:02:07.6
+Path = OFF
+[Event_94]
+TimeLineIndex = 5
+StartTime = 0:02:13.3
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_95]
+TimeLineIndex = 5
+StartTime = 0:02:13.8
+Path = OFF
+[Event_96]
+TimeLineIndex = 5
+StartTime = 0:02:19.6
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_97]
+TimeLineIndex = 5
+StartTime = 0:02:20.0
+Path = OFF
+[Event_98]
+TimeLineIndex = 5
+StartTime = 0:02:26.1
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_99]
+TimeLineIndex = 5
+StartTime = 0:02:26.7
+Path = OFF
+[Event_100]
+TimeLineIndex = 5
+StartTime = 0:02:32.5
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_101]
+TimeLineIndex = 5
+StartTime = 0:02:33.0
+Path = OFF
+[Event_102]
+TimeLineIndex = 5
+StartTime = 0:02:38.7
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_103]
+TimeLineIndex = 5
+StartTime = 0:02:39.2
+Path = OFF
+[Event_104]
+TimeLineIndex = 3
+StartTime = 0:02:45.5
+Path = OFF
+[Event_105]
+TimeLineIndex = 4
+StartTime = 0:02:45.5
+Path = OFF
+[Event_106]
+TimeLineIndex = 4
+StartTime = 0:03:10.4
+Path = Spots_wall/Spots_single/Spot_1/Spot_1_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_107]
+TimeLineIndex = 5
+StartTime = 0:03:10.6
+Path = Spots_wall/Spots_single/Spot_4/Spot_4_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_108]
+TimeLineIndex = 6
+StartTime = 0:03:10.8
+Path = Spots_wall/Spots_single/Spot_5/Spot_5_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_109]
+TimeLineIndex = 7
+StartTime = 0:03:11.0
+Path = Spots_wall/Spots_single/Spot_8/Spot_8_yellow.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_110]
+TimeLineIndex = 3
+StartTime = 0:03:11.1
+Path = LED_walls/Walls_all/Walls_yellow.scex
+Length = 0:00:05.0
+FadeIn = 300
+Speed = 100
+SpeedType = 2
+[Event_111]
+TimeLineIndex = 7
+StartTime = 0:03:11.2
+Path = OFF
+[Event_112]
+TimeLineIndex = 6
+StartTime = 0:03:11.2
+Path = OFF
+[Event_113]
+TimeLineIndex = 5
+StartTime = 0:03:11.2
+Path = OFF
+[Event_114]
+TimeLineIndex = 4
+StartTime = 0:03:11.2
+Path = OFF
+[Event_115]
+TimeLineIndex = 4
+StartTime = 0:03:17.4
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_116]
+TimeLineIndex = 4
+StartTime = 0:03:18.0
+Path = OFF
+[Event_117]
+TimeLineIndex = 4
+StartTime = 0:03:23.8
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_118]
+TimeLineIndex = 4
+StartTime = 0:03:24.3
+Path = OFF
+[Event_119]
+TimeLineIndex = 4
+StartTime = 0:03:30.0
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_120]
+TimeLineIndex = 4
+StartTime = 0:03:30.5
+Path = OFF
+[Event_121]
+TimeLineIndex = 4
+StartTime = 0:03:36.3
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_122]
+TimeLineIndex = 4
+StartTime = 0:03:36.7
+Path = OFF
+[Event_123]
+TimeLineIndex = 4
+StartTime = 0:03:43.0
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_124]
+TimeLineIndex = 4
+StartTime = 0:03:43.6
+Path = OFF
+[Event_125]
+TimeLineIndex = 4
+StartTime = 0:03:49.4
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_126]
+TimeLineIndex = 4
+StartTime = 0:03:49.9
+Path = OFF
+[Event_127]
+TimeLineIndex = 4
+StartTime = 0:03:55.6
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_128]
+TimeLineIndex = 4
+StartTime = 0:03:56.1
+Path = OFF
+[Event_129]
+TimeLineIndex = 4
+StartTime = 0:03:57.3
+Path = Spots_wall/Spots_all/Spots_orange.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_130]
+TimeLineIndex = 4
+StartTime = 0:03:57.7
+Path = OFF
+[Event_131]
+TimeLineIndex = 3
+StartTime = 0:04:02.3
+Path = OFF
+[Event_132]
+TimeLineIndex = 12
+StartTime = 0:04:02.3
+Path = OFF
+[Event_133]
+TimeLineIndex = 3
+StartTime = 0:04:04.7
+Path = Spots_wall/Spots_pairs/Spots_4&5/Spots_4&5_red.scex
+Length = 0:00:05.0
+FadeIn = 500
+FadeOut = 500
+Speed = 100
+SpeedType = 2
+[Event_134]
+TimeLineIndex = 4
+StartTime = 0:04:15.2
+Path = Spots_wall/Spots_pairs/Spots_3&6/Spots_3&6_red.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 500
+Speed = 100
+SpeedType = 2
+[Event_135]
+TimeLineIndex = 5
+StartTime = 0:04:38.1
+Path = LED_walls/Walls_single/Walls_1/Walls_1_red.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_136]
+TimeLineIndex = 6
+StartTime = 0:04:38.1
+Path = LED_oven/Oven_azure.scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 400
+Speed = 100
+SpeedType = 2
+[Event_137]
+TimeLineIndex = 4
+StartTime = 0:04:38.1
+Path = OFF
+[Event_138]
+TimeLineIndex = 3
+StartTime = 0:04:38.1
+Path = OFF
+[Event_139]
+TimeLineIndex = 5
+StartTime = 0:04:38.9
+Path = OFF
+[Event_140]
+TimeLineIndex = 5
+StartTime = 0:04:39.5
+Path = LED_walls/Walls_single/Walls_2/Walls_2_red.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_141]
+TimeLineIndex = 5
+StartTime = 0:04:40.3
+Path = OFF
+[Event_142]
+TimeLineIndex = 5
+StartTime = 0:04:40.9
+Path = LED_walls/Walls_single/Walls_3/Walls_3_red.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_143]
+TimeLineIndex = 5
+StartTime = 0:04:41.7
+Path = OFF
+[Event_144]
+TimeLineIndex = 5
+StartTime = 0:04:42.3
+Path = LED_walls/Walls_single/Walls_4/Walls_4_red.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_145]
+TimeLineIndex = 5
+StartTime = 0:04:43.1
+Path = OFF
+[Event_146]
+TimeLineIndex = 5
+StartTime = 0:04:43.7
+Path = LED_walls/Walls_single/Walls_5/Walls_5_red.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_147]
+TimeLineIndex = 5
+StartTime = 0:04:44.5
+Path = OFF
+[Event_148]
+TimeLineIndex = 5
+StartTime = 0:04:45.1
+Path = LED_walls/Walls_single/Walls_6/Walls_6_red.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_149]
+TimeLineIndex = 5
+StartTime = 0:04:45.9
+Path = OFF
+[Event_150]
+TimeLineIndex = 5
+StartTime = 0:04:46.6
+Path = LED_walls/Walls_single/Walls_7/Walls_7_red.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_151]
+TimeLineIndex = 5
+StartTime = 0:04:47.3
+Path = OFF
+[Event_152]
+TimeLineIndex = 5
+StartTime = 0:04:48.0
+Path = LED_walls/Walls_single/Walls_8/Walls_8_red.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_153]
+TimeLineIndex = 5
+StartTime = 0:04:48.8
+Path = OFF
+[Event_154]
+TimeLineIndex = 5
+StartTime = 0:04:49.5
+Path = LED_walls/Walls_single/Walls_9/Walls_9_red.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_155]
+TimeLineIndex = 5
+StartTime = 0:04:50.3
+Path = OFF
+[Event_156]
+TimeLineIndex = 5
+StartTime = 0:04:51.0
+Path = LED_walls/Walls_single/Walls_10/Walls_10_red.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_157]
+TimeLineIndex = 5
+StartTime = 0:04:51.8
+Path = OFF
+[Event_158]
+TimeLineIndex = 5
+StartTime = 0:04:52.5
+Path = LED_walls/Walls_single/Walls_11/Walls_11_red.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_159]
+TimeLineIndex = 5
+StartTime = 0:04:53.3
+Path = OFF
+[Event_160]
+TimeLineIndex = 6
+StartTime = 0:04:57.9
+Path = OFF
+[Event_161]
+TimeLineIndex = 3
+StartTime = 0:04:59.8
+Path = Spots_wall/Spots_single/Spot_4/Spot_4_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_162]
+TimeLineIndex = 4
+StartTime = 0:05:00.5
+Path = Spots_wall/Spots_single/Spot_5/Spot_5_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_163]
+TimeLineIndex = 12
+StartTime = 0:05:01.3
+Path = UV/UV.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_164]
+TimeLineIndex = 5
+StartTime = 0:05:01.3
+Path = LED_walls/Walls_all/Walls_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_165]
+TimeLineIndex = 6
+StartTime = 0:05:12.2
+Path = BPM
+Volume = 0
+BPM = 83
+[Event_166]
+TimeLineIndex = 5
+StartTime = 0:05:13.0
+Path = OFF
+[Event_167]
+TimeLineIndex = 4
+StartTime = 0:05:13.0
+Path = OFF
+[Event_168]
+TimeLineIndex = 3
+StartTime = 0:05:13.0
+Path = OFF
+[Event_169]
+TimeLineIndex = 6
+StartTime = 0:05:13.0
+Path = Special_efects/Oven_red_snake.scex
+Length = 0:00:10.0
+Speed = 2
+SpeedType = 1
+[Event_170]
+TimeLineIndex = 3
+StartTime = 0:05:57.5
+Path = Spots_wall/Spots_single/Spot_4/Spot_4_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_171]
+TimeLineIndex = 4
+StartTime = 0:05:58.2
+Path = Spots_wall/Spots_single/Spot_5/Spot_5_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_172]
+TimeLineIndex = 5
+StartTime = 0:05:59.0
+Path = LED_walls/Walls_all/Walls_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_173]
+TimeLineIndex = 7
+StartTime = 0:06:03.4
+Path = Spots_wall/Spots_single/Spot_1/Spot_1_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_174]
+TimeLineIndex = 8
+StartTime = 0:06:04.0
+Path = Spots_wall/Spots_single/Spot_8/Spot_8_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_175]
+TimeLineIndex = 5
+StartTime = 0:06:04.8
+Path = OFF
+[Event_176]
+TimeLineIndex = 6
+StartTime = 0:06:04.8
+Path = OFF
+[Event_177]
+TimeLineIndex = 5
+StartTime = 0:06:10.7
+Path = Special_efects/Walls_flashing_snake/Walls_flashing_snake_red.scex
+Length = 0:00:55.0
+Speed = 1
+SpeedType = 1
+[Event_178]
+TimeLineIndex = 7
+StartTime = 0:06:10.8
+Path = OFF
+[Event_179]
+TimeLineIndex = 8
+StartTime = 0:06:10.8
+Path = OFF
+[Event_180]
+TimeLineIndex = 4
+StartTime = 0:06:10.8
+Path = OFF
+[Event_181]
+TimeLineIndex = 3
+StartTime = 0:06:10.8
+Path = OFF
+[Event_182]
+TimeLineIndex = 3
+StartTime = 0:06:33.7
+Path = LED_walls/Walls_liche/Walls_liche_red.scex
+Length = 0:00:05.0
+FadeIn = 200
+Speed = 100
+SpeedType = 2
+[Event_183]
+TimeLineIndex = 5
+StartTime = 0:06:33.8
+Path = OFF
+[Event_184]
+TimeLineIndex = 4
+StartTime = 0:06:55.4
+Path = Spots_wall/Spots_single/Spot_4/Spot_4_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_185]
+TimeLineIndex = 5
+StartTime = 0:06:56.0
+Path = Spots_wall/Spots_single/Spot_5/Spot_5_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_186]
+TimeLineIndex = 3
+StartTime = 0:06:56.9
+Path = OFF
+[Event_187]
+TimeLineIndex = 5
+StartTime = 0:06:56.9
+Path = OFF
+[Event_188]
+TimeLineIndex = 4
+StartTime = 0:06:56.9
+Path = OFF
+[Event_189]
+TimeLineIndex = 3
+StartTime = 0:07:01.2
+Path = Spots_wall/Spots_single/Spot_2/Spot_2_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_190]
+TimeLineIndex = 4
+StartTime = 0:07:01.9
+Path = Spots_wall/Spots_single/Spot_7/Spot_7_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_191]
+TimeLineIndex = 5
+StartTime = 0:07:02.7
+Path = Dots_ceiling/Dost_all/Ceiling_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_192]
+TimeLineIndex = 6
+StartTime = 0:07:06.9
+Path = Spots_wall/Spots_single/Spot_4/Spot_4_red.scex
+Length = 0:00:05.0
+FadeOut = 400
+Speed = 100
+SpeedType = 2
+[Event_193]
+TimeLineIndex = 7
+StartTime = 0:07:07.6
+Path = Spots_wall/Spots_single/Spot_5/Spot_5_red.scex
+Length = 0:00:05.0
+FadeOut = 400
+Speed = 100
+SpeedType = 2
+[Event_194]
+TimeLineIndex = 8
+StartTime = 0:07:08.3
+Path = LED_walls/Walls_sude/Walls_sude_red.scex
+Length = 0:00:05.0
+FadeOut = 400
+Speed = 100
+SpeedType = 2
+[Event_195]
+TimeLineIndex = 3
+StartTime = 0:07:12.8
+Path = OFF
+[Event_196]
+TimeLineIndex = 4
+StartTime = 0:07:13.5
+Path = OFF
+[Event_197]
+TimeLineIndex = 5
+StartTime = 0:07:14.1
+Path = OFF
+[Event_198]
+TimeLineIndex = 6
+StartTime = 0:07:20.0
+Path = OFF
+[Event_199]
+TimeLineIndex = 7
+StartTime = 0:07:20.0
+Path = OFF
+[Event_200]
+TimeLineIndex = 8
+StartTime = 0:07:20.0
+Path = OFF
+[Event_201]
+TimeLineIndex = 3
+StartTime = 0:07:53.2
+Path = LED_oven/Oven_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_202]
+TimeLineIndex = 4
+StartTime = 0:07:53.8
+Path = LED_walls/Walls_all/Walls_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_203]
+TimeLineIndex = 4
+StartTime = 0:07:54.8
+Path = OFF
+[Event_204]
+TimeLineIndex = 3
+StartTime = 0:07:54.8
+Path = OFF
+[Event_205]
+TimeLineIndex = 3
+StartTime = 0:07:59.1
+Path = LED_oven/Oven_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_206]
+TimeLineIndex = 4
+StartTime = 0:07:59.7
+Path = LED_walls/Walls_all/Walls_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_207]
+TimeLineIndex = 3
+StartTime = 0:08:00.6
+Path = OFF
+[Event_208]
+TimeLineIndex = 4
+StartTime = 0:08:00.6
+Path = OFF
+[Event_209]
+TimeLineIndex = 3
+StartTime = 0:08:04.8
+Path = LED_oven/Oven_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_210]
+TimeLineIndex = 4
+StartTime = 0:08:05.4
+Path = LED_walls/Walls_all/Walls_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_211]
+TimeLineIndex = 3
+StartTime = 0:08:06.3
+Path = OFF
+[Event_212]
+TimeLineIndex = 4
+StartTime = 0:08:06.3
+Path = OFF
+[Event_213]
+TimeLineIndex = 3
+StartTime = 0:08:10.6
+Path = LED_oven/Oven_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_214]
+TimeLineIndex = 4
+StartTime = 0:08:11.2
+Path = LED_walls/Walls_all/Walls_red.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_215]
+TimeLineIndex = 3
+StartTime = 0:08:12.1
+Path = OFF
+[Event_216]
+TimeLineIndex = 4
+StartTime = 0:08:12.1
+Path = OFF
+[Event_217]
+TimeLineIndex = 12
+StartTime = 0:08:17.8
+Path = OFF
+[Event_218]
+TimeLineIndex = 3
+StartTime = 0:08:17.9
+Path = LED_oven/Oven_azure.scex
+Length = 0:00:05.0
+FadeIn = 500
+Speed = 100
+SpeedType = 2
+[Event_219]
+TimeLineIndex = 4
+StartTime = 0:08:28.0
+Path = BPM
+Volume = 0
+BPM = 96
+[Event_220]
+TimeLineIndex = 4
+StartTime = 0:08:28.5
+Path = Special_efects/Walls_flashing_snake/Walls_flashing_snake_azure.scex
+Length = 0:00:55.0
+Speed = 1
+SpeedType = 1
+[Event_221]
+TimeLineIndex = 5
+StartTime = 0:08:38.6
+Path = Spots_wall/Spots_pairs/Spots_2&7/Spots_2&7_orange.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_222]
+TimeLineIndex = 4
+StartTime = 0:08:58.4
+Path = OFF
+[Event_223]
+TimeLineIndex = 12
+StartTime = 0:09:18.7
+Path = UV/UV.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_224]
+TimeLineIndex = 5
+StartTime = 0:09:36.4
+Path = OFF
+[Event_225]
+TimeLineIndex = 3
+StartTime = 0:09:36.4
+Path = OFF
+[Event_226]
+TimeLineIndex = 3
+StartTime = 0:09:38.6
+Path = LED_walls/Walls_all/Walls_azure.scex
+Length = 0:00:05.0
+FadeIn = 1
+Speed = 100
+SpeedType = 2
+[Event_227]
+TimeLineIndex = 4
+StartTime = 0:09:38.6
+Path = Special_efects/Spots_ceiling_flashing_snake/spots_ceiling_snake_flashing_orange.scex
+Length = 0:01:00.0
+Speed = 1
+SpeedType = 1
+[Event_228]
+TimeLineIndex = 4
+StartTime = 0:09:58.5
+Path = OFF
+[Event_229]
+TimeLineIndex = 3
+StartTime = 0:09:58.5
+Path = OFF
+[Event_230]
+TimeLineIndex = 3
+StartTime = 0:10:01.1
+Path = Special_efects/Walls_flashing_snake/Walls_flashing_snake_orange.scex
+Length = 0:00:55.0
+Speed = 1
+SpeedType = 1
+[Event_231]
+TimeLineIndex = 4
+StartTime = 0:10:21.2
+Path = LED_oven/Oven_azure.scex
+Length = 0:00:05.0
+FadeIn = 1
+Speed = 100
+SpeedType = 2
+[Event_232]
+TimeLineIndex = 3
+StartTime = 0:10:38.5
+Path = OFF
+[Event_233]
+TimeLineIndex = 4
+StartTime = 0:10:38.5
+Path = OFF
+[Event_234]
+TimeLineIndex = 3
+StartTime = 0:10:41.2
+Path = Special_efects/Walls_flashing_snake/Walls_flashing_snake_azure.scex
+Length = 0:00:55.0
+Speed = 1
+SpeedType = 1
+[Event_235]
+TimeLineIndex = 3
+StartTime = 0:11:21.0
+Path = OFF
+[Event_236]
+TimeLineIndex = 4
+StartTime = 0:11:21.8
+Path = Spots_wall/Spots_single/Spot_2/Spot_2_yellow.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_237]
+TimeLineIndex = 4
+StartTime = 0:11:22.1
+Path = OFF
+[Event_238]
+TimeLineIndex = 5
+StartTime = 0:11:22.5
+Path = Spots_wall/Spots_single/Spot_5/Spot_5_yellow.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_239]
+TimeLineIndex = 5
+StartTime = 0:11:22.8
+Path = OFF
+[Event_240]
+TimeLineIndex = 6
+StartTime = 0:11:23.2
+Path = Spots_wall/Spots_single/Spot_4/Spot_4_yellow.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_241]
+TimeLineIndex = 6
+StartTime = 0:11:23.6
+Path = OFF
+[Event_242]
+TimeLineIndex = 6
+StartTime = 0:11:23.8
+Path = Spots_wall/Spots_single/Spot_8/Spot_8_yellow.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_243]
+TimeLineIndex = 6
+StartTime = 0:11:24.1
+Path = OFF
+[Event_244]
+TimeLineIndex = 7
+StartTime = 0:11:24.5
+Path = Spots_wall/Spots_single/Spot_3/Spot_3_yellow.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_245]
+TimeLineIndex = 7
+StartTime = 0:11:24.8
+Path = OFF
+[Event_246]
+TimeLineIndex = 8
+StartTime = 0:11:25.6
+Path = Spots_wall/Spots_single/Spot_7/Spot_7_yellow.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_247]
+TimeLineIndex = 8
+StartTime = 0:11:25.9
+Path = OFF
+[Event_248]
+TimeLineIndex = 4
+StartTime = 0:11:27.1
+Path = Spots_wall/Spots_single/Spot_2/Spot_2_yellow.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_249]
+TimeLineIndex = 4
+StartTime = 0:11:27.4
+Path = OFF
+[Event_250]
+TimeLineIndex = 5
+StartTime = 0:11:27.8
+Path = Spots_wall/Spots_single/Spot_5/Spot_5_yellow.scex
+Length = 0:00:05.0
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_251]
+TimeLineIndex = 5
+StartTime = 0:11:28.1
+Path = OFF
+[Event_252]
+TimeLineIndex = 3
+StartTime = 0:11:31.1
+Path = LED_oven/Oven_azure.scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_253]
+TimeLineIndex = 4
+StartTime = 0:11:41.4
+Path = Spots_wall/Spots_all/Spots_red.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_254]
+TimeLineIndex = 4
+StartTime = 0:11:41.9
+Path = OFF
+[Event_255]
+TimeLineIndex = 4
+StartTime = 0:11:47.9
+Path = Spots_wall/Spots_all/Spots_red.scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_256]
+TimeLineIndex = 4
+StartTime = 0:11:48.4
+Path = OFF
+[Event_257]
+TimeLineIndex = 2
+StartTime = 0:12:42.8
+Path = PAUSE
