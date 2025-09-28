@@ -1,0 +1,17 @@
+{
+  "song_name": "X_Files_Theme",
+  "duration": 45.0,
+  "tempo": 71.77734375,
+  "created_shows": {
+    "ultimate_action": {
+      "name": "Ultimate Action Show",
+      "file": "Ultimate_Action_Show.tml",
+      "description": "Maximálně akční show s bass vlnami a treble explozemi"
+    },
+    "intelligent": []
+  },
+  "windows_paths": {
+    "music_directory": "C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny\\Music\\X_Files_Theme",
+    "timelines_directory": "C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny\\Timelines\\X_Files_Theme"
+  }
+}

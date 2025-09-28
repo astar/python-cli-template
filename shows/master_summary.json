@@ -1,5 +1,5 @@
 {
-  "total_songs": 13,
+  "total_songs": 23,
   "shows_directory": "shows",
   "windows_base_path": "C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny",
   "encoding": "CP1250",
@@ -22,6 +22,14 @@
     },
     "Also_sprach_Zarathustra_Opening": {
       "audio_file": "Also_sprach_Zarathustra_Opening.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Stranger_Things_Theme": {
+      "audio_file": "Stranger_Things_Theme.wav",
       "show_types": [
         "ultimate_action",
         "intelligent"
@@ -52,6 +60,22 @@
       ],
       "total_timelines": 1
     },
+    "Mission_Impossible_Theme": {
+      "audio_file": "Mission_Impossible_Theme.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Game_of_Thrones_Theme": {
+      "audio_file": "Game_of_Thrones_Theme.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
     "1812_Overture": {
       "audio_file": "1812_Overture.wav",
       "show_types": [
@@ -60,8 +84,32 @@
       ],
       "total_timelines": 1
     },
+    "Terminator_Theme": {
+      "audio_file": "Terminator_Theme.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Star_Wars_Main_Theme": {
+      "audio_file": "Star_Wars_Main_Theme.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
     "Ravel_Bolero": {
       "audio_file": "Ravel_Bolero.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "X_Files_Theme": {
+      "audio_file": "X_Files_Theme.wav",
       "show_types": [
         "ultimate_action",
         "intelligent"
@@ -78,6 +126,38 @@
     },
     "William_Tell_Overture": {
       "audio_file": "William_Tell_Overture.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Breaking_Bad_Theme": {
+      "audio_file": "Breaking_Bad_Theme.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Jaws_Theme": {
+      "audio_file": "Jaws_Theme.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Back_to_the_Future_Theme": {
+      "audio_file": "Back_to_the_Future_Theme.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Indiana_Jones_Theme": {
+      "audio_file": "Indiana_Jones_Theme.wav",
       "show_types": [
         "ultimate_action",
         "intelligent"
