@@ -1,21 +1,20 @@
 #!/usr/bin/env python3
-"""
-Shows Manager
+r"""Shows Manager
 Organizovaný systém pro tvorbu a správu světelných show
 - Windows formát cest (C:\...)
 - CP1250 kódování
 - Organizace do adresářů podle songů
 """
 
-import os
+import json
 import shutil
 from pathlib import Path
-import json
-from typing import Dict, List
+
 import librosa
 
 # Import našich systémů - ADVANCED VERSION
 from ultimate_action_choreographer import AdvancedActionChoreographer
+
 
 class ShowsManager:
     """Manažer pro organizaci a vytváření show"""
@@ -30,13 +29,13 @@ class ShowsManager:
         # Dostupné audio soubory
         self.available_songs = self._find_audio_files()
 
-    def _find_audio_files(self) -> List[str]:
+    def _find_audio_files(self) -> list[str]:
         """Najde všechny audio soubory"""
-        audio_extensions = ['.mp3', '.wav', '.flac', '.m4a']
+        audio_extensions = [".mp3", ".wav", ".flac", ".m4a"]
         audio_files = []
 
         for ext in audio_extensions:
-            audio_files.extend(Path('.').glob(f'*{ext}'))
+            audio_files.extend(Path().glob(f"*{ext}"))
 
         return [str(f) for f in audio_files if f.exists()]
 
@@ -65,12 +64,36 @@ class ShowsManager:
         """Vyčistí název souboru pro Windows kompatibilitu"""
         # České znaky
         replacements = {
-            'ž': 'z', 'š': 's', 'č': 'c', 'ř': 'r', 'ě': 'e',
-            'ý': 'y', 'á': 'a', 'í': 'i', 'é': 'e', 'ó': 'o', 'ú': 'u',
-            'ů': 'u', 'ň': 'n', 'ť': 't', 'ď': 'd',
-            'Ž': 'Z', 'Š': 'S', 'Č': 'C', 'Ř': 'R', 'Ě': 'E',
-            'Ý': 'Y', 'Á': 'A', 'Í': 'I', 'É': 'E', 'Ó': 'O', 'Ú': 'U',
-            'Ů': 'U', 'Ň': 'N', 'Ť': 'T', 'Ď': 'D'
+            "ž": "z",
+            "š": "s",
+            "č": "c",
+            "ř": "r",
+            "ě": "e",
+            "ý": "y",
+            "á": "a",
+            "í": "i",
+            "é": "e",
+            "ó": "o",
+            "ú": "u",
+            "ů": "u",
+            "ň": "n",
+            "ť": "t",
+            "ď": "d",
+            "Ž": "Z",
+            "Š": "S",
+            "Č": "C",
+            "Ř": "R",
+            "Ě": "E",
+            "Ý": "Y",
+            "Á": "A",
+            "Í": "I",
+            "É": "E",
+            "Ó": "O",
+            "Ú": "U",
+            "Ů": "U",
+            "Ň": "N",
+            "Ť": "T",
+            "Ď": "D",
         }
 
         result = filename
@@ -80,31 +103,30 @@ class ShowsManager:
         # Odstraň problematické znaky pro Windows
         invalid_chars = '<>:"/\\|?*'
         for char in invalid_chars:
-            result = result.replace(char, '_')
+            result = result.replace(char, "_")
 
         return result.strip()
 
     def convert_to_windows_format(self, timeline_content: str, song_name: str) -> str:
         """Převede timeline na Windows formát s Windows cestami"""
-
         # Převod cest na Windows formát
         song_name_clean = self._clean_filename(song_name)
 
         # Nahradí Unix cesty za Windows cesty
         windows_content = timeline_content.replace(
             f"Music/{Path(song_name).name}",
-            f"{self.windows_base_path}\\Music\\{song_name_clean}\\{Path(song_name).name}"
+            f"{self.windows_base_path}\\Music\\{song_name_clean}\\{Path(song_name).name}",
         )
 
         # Převod scene cest
         windows_content = windows_content.replace(
             "generated_scenes_systematic/",
-            f"{self.windows_base_path}\\generated_scenes_systematic\\"
+            f"{self.windows_base_path}\\generated_scenes_systematic\\",
         )
 
         windows_content = windows_content.replace(
             "generated_scenes_advanced/",
-            f"{self.windows_base_path}\\generated_scenes_advanced\\"
+            f"{self.windows_base_path}\\generated_scenes_advanced\\",
         )
 
         # Převod lomítek na zpětná lomítka
@@ -115,15 +137,15 @@ class ShowsManager:
     def save_timeline_with_encoding(self, content: str, filepath: str):
         """Uloží timeline s CP1250 kódováním"""
         try:
-            with open(filepath, 'w', encoding='cp1250') as f:
+            with open(filepath, "w", encoding="cp1250") as f:
                 f.write(content)
         except UnicodeEncodeError:
             # Fallback na utf-8 pokud cp1250 selže
             print(f"⚠️  CP1250 encoding failed for {filepath}, using UTF-8")
-            with open(filepath, 'w', encoding='utf-8') as f:
+            with open(filepath, "w", encoding="utf-8") as f:
                 f.write(content)
 
-    def create_ultimate_action_show(self, song_path: str) -> Dict:
+    def create_ultimate_action_show(self, song_path: str) -> dict:
         """Vytvoří Ultimate Action show pro song"""
         song_dir = self.create_song_directory(song_path)
         song_file = Path(song_path)
@@ -139,7 +161,7 @@ class ShowsManager:
         choreographer.create_ultimate_action_show(str(temp_timeline))
 
         # Načti a převeď na Windows formát
-        with open(temp_timeline, 'r', encoding='utf-8') as f:
+        with open(temp_timeline, encoding="utf-8") as f:
             content = f.read()
 
         windows_content = self.convert_to_windows_format(content, song_name)
@@ -154,12 +176,14 @@ class ShowsManager:
         return {
             "type": "Ultimate Action Show",
             "timeline": str(final_timeline),
-            "description": "Maximálně akční show s bass vlnami a treble explozemi"
+            "description": "Maximálně akční show s bass vlnami a treble explozemi",
         }
 
-    def create_intelligent_shows(self, song_path: str) -> List[Dict]:
+    def create_intelligent_shows(self, song_path: str) -> list[dict]:
         """Vytvoří inteligentní storytelling shows - TEMPORARILY DISABLED"""
-        print("🧠 Intelligent Shows temporarily disabled - focus on Advanced Action Show")
+        print(
+            "🧠 Intelligent Shows temporarily disabled - focus on Advanced Action Show"
+        )
         return []
 
         # TODO: Implement advanced storytelling with generated_scenes_advanced
@@ -210,8 +234,9 @@ class ShowsManager:
             })
 
         return shows
+        """
 
-    def create_all_shows_for_song(self, song_path: str) -> Dict:
+    def create_all_shows_for_song(self, song_path: str) -> dict:
         """Vytvoří všechny typy show pro jeden song"""
         song_file = Path(song_path)
         song_name = song_file.stem
@@ -239,9 +264,8 @@ class ShowsManager:
 
         return shows
 
-    def _create_show_summary(self, song_dir: Path, song_name: str, shows: Dict):
+    def _create_show_summary(self, song_dir: Path, song_name: str, shows: dict):
         """Vytvoří summary report pro song"""
-
         # Základní info o songu
         audio_file = list((song_dir / "music").glob("*"))[0]
         y, sr = librosa.load(str(audio_file), sr=22050)
@@ -255,8 +279,8 @@ class ShowsManager:
             "created_shows": {},
             "windows_paths": {
                 "music_directory": f"{self.windows_base_path}\\Music\\{self._clean_filename(song_name)}",
-                "timelines_directory": f"{self.windows_base_path}\\Timelines\\{self._clean_filename(song_name)}"
-            }
+                "timelines_directory": f"{self.windows_base_path}\\Timelines\\{self._clean_filename(song_name)}",
+            },
         }
 
         # Přidej info o shows
@@ -266,7 +290,7 @@ class ShowsManager:
                     {
                         "name": show["type"],
                         "file": Path(show["timeline"]).name,
-                        "description": show["description"]
+                        "description": show["description"],
                     }
                     for show in show_data
                 ]
@@ -274,12 +298,12 @@ class ShowsManager:
                 summary["created_shows"][show_type] = {
                     "name": show_data["type"],
                     "file": Path(show_data["timeline"]).name,
-                    "description": show_data["description"]
+                    "description": show_data["description"],
                 }
 
         # Ulož summary
         summary_file = song_dir / "reports" / "show_summary.json"
-        with open(summary_file, 'w', encoding='utf-8') as f:
+        with open(summary_file, "w", encoding="utf-8") as f:
             json.dump(summary, f, indent=2, ensure_ascii=False)
 
         print(f"📊 Summary saved: {summary_file}")
@@ -318,14 +342,14 @@ class ShowsManager:
         print("   Windows format with CP1250 encoding")
         print("   Ready for deployment to target server")
 
-    def _create_master_summary(self, all_shows: Dict):
+    def _create_master_summary(self, all_shows: dict):
         """Vytvoří master summary všech show"""
         master_summary = {
             "total_songs": len(all_shows),
             "shows_directory": str(self.shows_dir),
             "windows_base_path": self.windows_base_path,
             "encoding": "CP1250",
-            "songs": {}
+            "songs": {},
         }
 
         for song_path, shows in all_shows.items():
@@ -336,20 +360,22 @@ class ShowsManager:
                 "total_timelines": sum(
                     len(show_data) if isinstance(show_data, list) else 1
                     for show_data in shows.values()
-                )
+                ),
             }
 
         # Ulož master summary
         master_file = self.shows_dir / "master_summary.json"
-        with open(master_file, 'w', encoding='utf-8') as f:
+        with open(master_file, "w", encoding="utf-8") as f:
             json.dump(master_summary, f, indent=2, ensure_ascii=False)
 
         print(f"📋 Master summary: {master_file}")
+
 
 def main():
     """Hlavní funkce"""
     manager = ShowsManager()
     manager.create_all_shows()
+
 
 if __name__ == "__main__":
     main()

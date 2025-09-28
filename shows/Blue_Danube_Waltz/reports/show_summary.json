@@ -1,0 +1,17 @@
+{
+  "song_name": "Blue_Danube_Waltz",
+  "duration": 42.0,
+  "tempo": 89.10290948275862,
+  "created_shows": {
+    "ultimate_action": {
+      "name": "Ultimate Action Show",
+      "file": "Ultimate_Action_Show.tml",
+      "description": "Maximálně akční show s bass vlnami a treble explozemi"
+    },
+    "intelligent": []
+  },
+  "windows_paths": {
+    "music_directory": "C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny\\Music\\Blue_Danube_Waltz",
+    "timelines_directory": "C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny\\Timelines\\Blue_Danube_Waltz"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "total_songs": 13,
+  "shows_directory": "shows",
+  "windows_base_path": "C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny",
+  "encoding": "CP1250",
+  "songs": {
+    "test_short": {
+      "audio_file": "test_short.mp3",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "placatá": {
+      "audio_file": "placatá.mp3",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Also_sprach_Zarathustra_Opening": {
+      "audio_file": "Also_sprach_Zarathustra_Opening.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Beethoven_9th_Style": {
+      "audio_file": "Beethoven_9th_Style.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "New_World_Symphony": {
+      "audio_file": "New_World_Symphony.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Fur_Elise_Style": {
+      "audio_file": "Fur_Elise_Style.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "1812_Overture": {
+      "audio_file": "1812_Overture.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Ravel_Bolero": {
+      "audio_file": "Ravel_Bolero.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Carmen_Overture": {
+      "audio_file": "Carmen_Overture.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "William_Tell_Overture": {
+      "audio_file": "William_Tell_Overture.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Moonlight_Sonata": {
+      "audio_file": "Moonlight_Sonata.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    },
+    "Blue_Danube_Waltz": {
+      "audio_file": "Blue_Danube_Waltz.wav",
+      "show_types": [
+        "ultimate_action",
+        "intelligent"
+      ],
+      "total_timelines": 1
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "song_name": "test_short",
+  "song_name": "placatá",
   "duration": 345.92,
   "tempo": 92.28515625,
   "created_shows": {
@@ -11,7 +11,7 @@
     "intelligent": []
   },
   "windows_paths": {
-    "music_directory": "C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny\\Music\\test_short",
-    "timelines_directory": "C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny\\Timelines\\test_short"
+    "music_directory": "C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny\\Music\\placata",
+    "timelines_directory": "C:\\Users\\itbrn\\TheLightingController\\LightShows\\Infinit Maximus - Jarda Vazny\\Timelines\\placata"
   }
 }
